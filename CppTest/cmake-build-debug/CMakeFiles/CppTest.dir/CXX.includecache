@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ckg/secnod/secnod/CppTest/Father.cpp
+iostream
+-
+langinfo.h
+-
+
+/home/ckg/secnod/secnod/CppTest/main.cpp
+iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/test.cpp
+test.h
+/home/ckg/secnod/secnod/CppTest/test.h
+iostream
+-
+test.h
+/home/ckg/secnod/secnod/CppTest/test.h
+
+/home/ckg/secnod/secnod/CppTest/test.h
+
+/home/ckg/secnod/secnod/CppTest/testperson.cpp
+iostream
+-
+test.h
+/home/ckg/secnod/secnod/CppTest/test.h
+
