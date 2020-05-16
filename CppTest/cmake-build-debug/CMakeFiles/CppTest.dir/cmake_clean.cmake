@@ -3,6 +3,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTest.dir/Father.cpp.o"
   "CMakeFiles/CppTest.dir/test.cpp.o"
   "CMakeFiles/CppTest.dir/testperson.cpp.o"
+  "CMakeFiles/CppTest.dir/smalltest.cpp.o"
+  "CMakeFiles/CppTest.dir/enum.cpp.o"
+  "CMakeFiles/CppTest.dir/typedefDataType.cpp.o"
+  "CMakeFiles/CppTest.dir/ref.cpp.o"
+  "CMakeFiles/CppTest.dir/swap.cpp.o"
   "CppTest.pdb"
   "CppTest"
 )

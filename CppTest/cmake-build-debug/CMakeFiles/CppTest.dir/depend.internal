@@ -3,11 +3,21 @@
 
 CMakeFiles/CppTest.dir/Father.cpp.o
  /home/ckg/secnod/secnod/CppTest/Father.cpp
+CMakeFiles/CppTest.dir/enum.cpp.o
+ /home/ckg/secnod/secnod/CppTest/enum.cpp
 CMakeFiles/CppTest.dir/main.cpp.o
  /home/ckg/secnod/secnod/CppTest/main.cpp
+CMakeFiles/CppTest.dir/ref.cpp.o
+ /home/ckg/secnod/secnod/CppTest/ref.cpp
+CMakeFiles/CppTest.dir/smalltest.cpp.o
+ /home/ckg/secnod/secnod/CppTest/smalltest.cpp
+CMakeFiles/CppTest.dir/swap.cpp.o
+ /home/ckg/secnod/secnod/CppTest/swap.cpp
 CMakeFiles/CppTest.dir/test.cpp.o
  /home/ckg/secnod/secnod/CppTest/test.cpp
  /home/ckg/secnod/secnod/CppTest/test.h
 CMakeFiles/CppTest.dir/testperson.cpp.o
  /home/ckg/secnod/secnod/CppTest/test.h
  /home/ckg/secnod/secnod/CppTest/testperson.cpp
+CMakeFiles/CppTest.dir/typedefDataType.cpp.o
+ /home/ckg/secnod/secnod/CppTest/typedefDataType.cpp

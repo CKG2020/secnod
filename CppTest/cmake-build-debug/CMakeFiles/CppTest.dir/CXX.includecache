@@ -12,8 +12,26 @@ iostream
 langinfo.h
 -
 
+/home/ckg/secnod/secnod/CppTest/enum.cpp
+iostream
+-
+
 /home/ckg/secnod/secnod/CppTest/main.cpp
 iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/ref.cpp
+iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/smalltest.cpp
+iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/swap.cpp
+iostream
+-
+stdlib.h
 -
 
 /home/ckg/secnod/secnod/CppTest/test.cpp
@@ -31,4 +49,8 @@ iostream
 -
 test.h
 /home/ckg/secnod/secnod/CppTest/test.h
+
+/home/ckg/secnod/secnod/CppTest/typedefDataType.cpp
+iostream
+-
 

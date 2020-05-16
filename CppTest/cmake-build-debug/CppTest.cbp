@@ -87,7 +87,19 @@
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/Father.cpp">
 			<Option target="CppTest"/>
 		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/enum.cpp">
+			<Option target="CppTest"/>
+		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/main.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ref.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/smalltest.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/swap.cpp">
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/test.cpp">
@@ -97,6 +109,9 @@
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/testperson.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/typedefDataType.cpp">
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/CMakeLists.txt">

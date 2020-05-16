@@ -150,6 +150,33 @@ Father.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/Father.cpp.s
 .PHONY : Father.cpp.s
 
+enum.o: enum.cpp.o
+
+.PHONY : enum.o
+
+# target to build an object file
+enum.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/enum.cpp.o
+.PHONY : enum.cpp.o
+
+enum.i: enum.cpp.i
+
+.PHONY : enum.i
+
+# target to preprocess a source file
+enum.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/enum.cpp.i
+.PHONY : enum.cpp.i
+
+enum.s: enum.cpp.s
+
+.PHONY : enum.s
+
+# target to generate assembly for a file
+enum.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/enum.cpp.s
+.PHONY : enum.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -176,6 +203,87 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+ref.o: ref.cpp.o
+
+.PHONY : ref.o
+
+# target to build an object file
+ref.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ref.cpp.o
+.PHONY : ref.cpp.o
+
+ref.i: ref.cpp.i
+
+.PHONY : ref.i
+
+# target to preprocess a source file
+ref.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ref.cpp.i
+.PHONY : ref.cpp.i
+
+ref.s: ref.cpp.s
+
+.PHONY : ref.s
+
+# target to generate assembly for a file
+ref.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ref.cpp.s
+.PHONY : ref.cpp.s
+
+smalltest.o: smalltest.cpp.o
+
+.PHONY : smalltest.o
+
+# target to build an object file
+smalltest.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/smalltest.cpp.o
+.PHONY : smalltest.cpp.o
+
+smalltest.i: smalltest.cpp.i
+
+.PHONY : smalltest.i
+
+# target to preprocess a source file
+smalltest.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/smalltest.cpp.i
+.PHONY : smalltest.cpp.i
+
+smalltest.s: smalltest.cpp.s
+
+.PHONY : smalltest.s
+
+# target to generate assembly for a file
+smalltest.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/smalltest.cpp.s
+.PHONY : smalltest.cpp.s
+
+swap.o: swap.cpp.o
+
+.PHONY : swap.o
+
+# target to build an object file
+swap.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/swap.cpp.o
+.PHONY : swap.cpp.o
+
+swap.i: swap.cpp.i
+
+.PHONY : swap.i
+
+# target to preprocess a source file
+swap.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/swap.cpp.i
+.PHONY : swap.cpp.i
+
+swap.s: swap.cpp.s
+
+.PHONY : swap.s
+
+# target to generate assembly for a file
+swap.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/swap.cpp.s
+.PHONY : swap.cpp.s
 
 test.o: test.cpp.o
 
@@ -231,6 +339,33 @@ testperson.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/testperson.cpp.s
 .PHONY : testperson.cpp.s
 
+typedefDataType.o: typedefDataType.cpp.o
+
+.PHONY : typedefDataType.o
+
+# target to build an object file
+typedefDataType.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/typedefDataType.cpp.o
+.PHONY : typedefDataType.cpp.o
+
+typedefDataType.i: typedefDataType.cpp.i
+
+.PHONY : typedefDataType.i
+
+# target to preprocess a source file
+typedefDataType.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/typedefDataType.cpp.i
+.PHONY : typedefDataType.cpp.i
+
+typedefDataType.s: typedefDataType.cpp.s
+
+.PHONY : typedefDataType.s
+
+# target to generate assembly for a file
+typedefDataType.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/typedefDataType.cpp.s
+.PHONY : typedefDataType.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,15 +378,30 @@ help:
 	@echo "... Father.o"
 	@echo "... Father.i"
 	@echo "... Father.s"
+	@echo "... enum.o"
+	@echo "... enum.i"
+	@echo "... enum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ref.o"
+	@echo "... ref.i"
+	@echo "... ref.s"
+	@echo "... smalltest.o"
+	@echo "... smalltest.i"
+	@echo "... smalltest.s"
+	@echo "... swap.o"
+	@echo "... swap.i"
+	@echo "... swap.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
 	@echo "... testperson.o"
 	@echo "... testperson.i"
 	@echo "... testperson.s"
+	@echo "... typedefDataType.o"
+	@echo "... typedefDataType.i"
+	@echo "... typedefDataType.s"
 .PHONY : help
 
 
