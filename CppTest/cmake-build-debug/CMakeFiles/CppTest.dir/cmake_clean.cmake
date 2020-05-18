@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTest.dir/typedefDataType.cpp.o"
   "CMakeFiles/CppTest.dir/ref.cpp.o"
   "CMakeFiles/CppTest.dir/swap.cpp.o"
+  "CMakeFiles/CppTest.dir/eryi.cpp.o"
+  "CMakeFiles/CppTest.dir/c516/Person.cpp.o"
   "CppTest.pdb"
   "CppTest"
 )

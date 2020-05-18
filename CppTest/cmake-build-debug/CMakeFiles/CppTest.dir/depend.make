@@ -3,7 +3,11 @@
 
 CMakeFiles/CppTest.dir/Father.cpp.o: ../Father.cpp
 
+CMakeFiles/CppTest.dir/c516/Person.cpp.o: ../c516/Person.cpp
+
 CMakeFiles/CppTest.dir/enum.cpp.o: ../enum.cpp
+
+CMakeFiles/CppTest.dir/eryi.cpp.o: ../eryi.cpp
 
 CMakeFiles/CppTest.dir/main.cpp.o: ../main.cpp
 

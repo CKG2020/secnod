@@ -150,6 +150,33 @@ Father.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/Father.cpp.s
 .PHONY : Father.cpp.s
 
+c516/Person.o: c516/Person.cpp.o
+
+.PHONY : c516/Person.o
+
+# target to build an object file
+c516/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/c516/Person.cpp.o
+.PHONY : c516/Person.cpp.o
+
+c516/Person.i: c516/Person.cpp.i
+
+.PHONY : c516/Person.i
+
+# target to preprocess a source file
+c516/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/c516/Person.cpp.i
+.PHONY : c516/Person.cpp.i
+
+c516/Person.s: c516/Person.cpp.s
+
+.PHONY : c516/Person.s
+
+# target to generate assembly for a file
+c516/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/c516/Person.cpp.s
+.PHONY : c516/Person.cpp.s
+
 enum.o: enum.cpp.o
 
 .PHONY : enum.o
@@ -176,6 +203,33 @@ enum.s: enum.cpp.s
 enum.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/enum.cpp.s
 .PHONY : enum.cpp.s
+
+eryi.o: eryi.cpp.o
+
+.PHONY : eryi.o
+
+# target to build an object file
+eryi.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/eryi.cpp.o
+.PHONY : eryi.cpp.o
+
+eryi.i: eryi.cpp.i
+
+.PHONY : eryi.i
+
+# target to preprocess a source file
+eryi.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/eryi.cpp.i
+.PHONY : eryi.cpp.i
+
+eryi.s: eryi.cpp.s
+
+.PHONY : eryi.s
+
+# target to generate assembly for a file
+eryi.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/eryi.cpp.s
+.PHONY : eryi.cpp.s
 
 main.o: main.cpp.o
 
@@ -378,9 +432,15 @@ help:
 	@echo "... Father.o"
 	@echo "... Father.i"
 	@echo "... Father.s"
+	@echo "... c516/Person.o"
+	@echo "... c516/Person.i"
+	@echo "... c516/Person.s"
 	@echo "... enum.o"
 	@echo "... enum.i"
 	@echo "... enum.s"
+	@echo "... eryi.o"
+	@echo "... eryi.i"
+	@echo "... eryi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -12,8 +12,20 @@ iostream
 langinfo.h
 -
 
+/home/ckg/secnod/secnod/CppTest/c516/Person.cpp
+cstdlib
+-
+iostream
+-
+
 /home/ckg/secnod/secnod/CppTest/enum.cpp
 iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/eryi.cpp
+iostream
+-
+string.h
 -
 
 /home/ckg/secnod/secnod/CppTest/main.cpp

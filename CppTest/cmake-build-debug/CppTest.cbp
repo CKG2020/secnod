@@ -87,7 +87,13 @@
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/Father.cpp">
 			<Option target="CppTest"/>
 		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/c516/Person.cpp">
+			<Option target="CppTest"/>
+		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/enum.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/eryi.cpp">
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/main.cpp">

@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ckg/secnod/secnod/CppTest/Father.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/Father.cpp.o"
+  "/home/ckg/secnod/secnod/CppTest/c516/Person.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/c516/Person.cpp.o"
   "/home/ckg/secnod/secnod/CppTest/enum.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/enum.cpp.o"
+  "/home/ckg/secnod/secnod/CppTest/eryi.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/eryi.cpp.o"
   "/home/ckg/secnod/secnod/CppTest/main.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/main.cpp.o"
   "/home/ckg/secnod/secnod/CppTest/ref.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/ref.cpp.o"
   "/home/ckg/secnod/secnod/CppTest/smalltest.cpp" "/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/smalltest.cpp.o"
