@@ -7,22 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98ba8c8-3703-4eac-8cc7-b476185f0e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyFirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SessionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SessionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jspsession.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Paper_Architecture_by_Dmitri_Popov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/artifacts/vueStudy_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/vueStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/LieBiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/shopping_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/vue1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -215,11 +212,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="886" />
-    <option name="y" value="259" />
-    <option name="width" value="824" />
-    <option name="height" value="832" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="816" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589964216017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589993453072" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -283,6 +279,9 @@
     <property name="project.structure.side.proportion" value="0.26197457" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web" />
     </key>
@@ -384,15 +383,16 @@
       <updated>1589873092469</updated>
       <workItem from="1589873106907" duration="1670000" />
       <workItem from="1589876224892" duration="12965000" />
-      <workItem from="1589964269418" duration="1022000" />
+      <workItem from="1589964269418" duration="2288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15657000" />
+    <option name="totallyTimeSpent" value="16923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -502,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
