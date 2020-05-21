@@ -7,19 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98ba8c8-3703-4eac-8cc7-b476185f0e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/Paper_Architecture_by_Dmitri_Popov.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/artifacts/vueStudy_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/vueStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/LieBiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/vue1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/coverr-mountain-lake-1572171891276.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/first.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/vedio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,9 +27,10 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -112,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="306">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -213,9 +206,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="816" />
-    <option name="height" value="835" />
+    <option name="x" value="934" />
+    <option name="y" value="158" />
+    <option name="width" value="808" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,14 +258,14 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589993453072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589993463779" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -384,17 +378,18 @@
       <workItem from="1589873106907" duration="1670000" />
       <workItem from="1589876224892" duration="12965000" />
       <workItem from="1589964269418" duration="2288000" />
+      <workItem from="1590041098430" duration="2377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16923000" />
+    <option name="totallyTimeSpent" value="19300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,8 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
