@@ -3,5 +3,5 @@ project(CppTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Father.cpp test.cpp test.h testperson.cpp smalltest.cpp enum.cpp typedefDataType.cpp ref.cpp swap.cpp eryi.cpp c516/Person.cpp)
+set(SOURCE_FILES main.cpp Father.cpp test.cpp test.h testperson.cpp smalltest.cpp enum.cpp typedefDataType.cpp ref.cpp swap.cpp eryi.cpp c516/Person.cpp memset.cpp test1.cpp ClassLearn/define1.cpp ClassLearn/ztest.cpp ClassLearn/define2.cpp ClassLearn/define3.cpp ClassLearn/define4.cpp ClassLearn/define8.cpp ClassLearn/test.cpp)
 add_executable(CppTest ${SOURCE_FILES})

@@ -7,11 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98ba8c8-3703-4eac-8cc7-b476185f0e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/coverr-mountain-lake-1572171891276.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/first.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/vedio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueStudy/web/stytle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/eryi.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/eryi.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppTest/eryi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/eryi.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vueStudy/web/coverr-mountain-lake-1572171891276.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vueStudy/web/vedio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/web/vedio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,12 +44,13 @@
     <session id="264689784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="90">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -206,10 +226,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="934" />
-    <option name="y" value="158" />
-    <option name="width" value="808" />
-    <option name="height" value="838" />
+    <option name="x" value="1047" />
+    <option name="y" value="164" />
+    <option name="width" value="800" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,6 +237,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,15 +280,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589993463779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590081843648" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/jvm-master/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -378,18 +399,19 @@
       <workItem from="1589873106907" duration="1670000" />
       <workItem from="1589876224892" duration="12965000" />
       <workItem from="1589964269418" duration="2288000" />
-      <workItem from="1590041098430" duration="2377000" />
+      <workItem from="1590041098430" duration="3411000" />
+      <workItem from="1590141221052" duration="1132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19300000" />
+    <option name="totallyTimeSpent" value="21466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="90">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>

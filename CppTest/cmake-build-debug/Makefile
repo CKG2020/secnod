@@ -123,6 +123,195 @@ CppTest/fast:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/build
 .PHONY : CppTest/fast
 
+ClassLearn/define1.o: ClassLearn/define1.cpp.o
+
+.PHONY : ClassLearn/define1.o
+
+# target to build an object file
+ClassLearn/define1.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define1.cpp.o
+.PHONY : ClassLearn/define1.cpp.o
+
+ClassLearn/define1.i: ClassLearn/define1.cpp.i
+
+.PHONY : ClassLearn/define1.i
+
+# target to preprocess a source file
+ClassLearn/define1.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define1.cpp.i
+.PHONY : ClassLearn/define1.cpp.i
+
+ClassLearn/define1.s: ClassLearn/define1.cpp.s
+
+.PHONY : ClassLearn/define1.s
+
+# target to generate assembly for a file
+ClassLearn/define1.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define1.cpp.s
+.PHONY : ClassLearn/define1.cpp.s
+
+ClassLearn/define2.o: ClassLearn/define2.cpp.o
+
+.PHONY : ClassLearn/define2.o
+
+# target to build an object file
+ClassLearn/define2.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define2.cpp.o
+.PHONY : ClassLearn/define2.cpp.o
+
+ClassLearn/define2.i: ClassLearn/define2.cpp.i
+
+.PHONY : ClassLearn/define2.i
+
+# target to preprocess a source file
+ClassLearn/define2.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define2.cpp.i
+.PHONY : ClassLearn/define2.cpp.i
+
+ClassLearn/define2.s: ClassLearn/define2.cpp.s
+
+.PHONY : ClassLearn/define2.s
+
+# target to generate assembly for a file
+ClassLearn/define2.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define2.cpp.s
+.PHONY : ClassLearn/define2.cpp.s
+
+ClassLearn/define3.o: ClassLearn/define3.cpp.o
+
+.PHONY : ClassLearn/define3.o
+
+# target to build an object file
+ClassLearn/define3.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.o
+.PHONY : ClassLearn/define3.cpp.o
+
+ClassLearn/define3.i: ClassLearn/define3.cpp.i
+
+.PHONY : ClassLearn/define3.i
+
+# target to preprocess a source file
+ClassLearn/define3.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.i
+.PHONY : ClassLearn/define3.cpp.i
+
+ClassLearn/define3.s: ClassLearn/define3.cpp.s
+
+.PHONY : ClassLearn/define3.s
+
+# target to generate assembly for a file
+ClassLearn/define3.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.s
+.PHONY : ClassLearn/define3.cpp.s
+
+ClassLearn/define4.o: ClassLearn/define4.cpp.o
+
+.PHONY : ClassLearn/define4.o
+
+# target to build an object file
+ClassLearn/define4.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o
+.PHONY : ClassLearn/define4.cpp.o
+
+ClassLearn/define4.i: ClassLearn/define4.cpp.i
+
+.PHONY : ClassLearn/define4.i
+
+# target to preprocess a source file
+ClassLearn/define4.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.i
+.PHONY : ClassLearn/define4.cpp.i
+
+ClassLearn/define4.s: ClassLearn/define4.cpp.s
+
+.PHONY : ClassLearn/define4.s
+
+# target to generate assembly for a file
+ClassLearn/define4.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.s
+.PHONY : ClassLearn/define4.cpp.s
+
+ClassLearn/define8.o: ClassLearn/define8.cpp.o
+
+.PHONY : ClassLearn/define8.o
+
+# target to build an object file
+ClassLearn/define8.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o
+.PHONY : ClassLearn/define8.cpp.o
+
+ClassLearn/define8.i: ClassLearn/define8.cpp.i
+
+.PHONY : ClassLearn/define8.i
+
+# target to preprocess a source file
+ClassLearn/define8.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.i
+.PHONY : ClassLearn/define8.cpp.i
+
+ClassLearn/define8.s: ClassLearn/define8.cpp.s
+
+.PHONY : ClassLearn/define8.s
+
+# target to generate assembly for a file
+ClassLearn/define8.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.s
+.PHONY : ClassLearn/define8.cpp.s
+
+ClassLearn/test.o: ClassLearn/test.cpp.o
+
+.PHONY : ClassLearn/test.o
+
+# target to build an object file
+ClassLearn/test.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o
+.PHONY : ClassLearn/test.cpp.o
+
+ClassLearn/test.i: ClassLearn/test.cpp.i
+
+.PHONY : ClassLearn/test.i
+
+# target to preprocess a source file
+ClassLearn/test.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/test.cpp.i
+.PHONY : ClassLearn/test.cpp.i
+
+ClassLearn/test.s: ClassLearn/test.cpp.s
+
+.PHONY : ClassLearn/test.s
+
+# target to generate assembly for a file
+ClassLearn/test.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/test.cpp.s
+.PHONY : ClassLearn/test.cpp.s
+
+ClassLearn/ztest.o: ClassLearn/ztest.cpp.o
+
+.PHONY : ClassLearn/ztest.o
+
+# target to build an object file
+ClassLearn/ztest.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o
+.PHONY : ClassLearn/ztest.cpp.o
+
+ClassLearn/ztest.i: ClassLearn/ztest.cpp.i
+
+.PHONY : ClassLearn/ztest.i
+
+# target to preprocess a source file
+ClassLearn/ztest.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.i
+.PHONY : ClassLearn/ztest.cpp.i
+
+ClassLearn/ztest.s: ClassLearn/ztest.cpp.s
+
+.PHONY : ClassLearn/ztest.s
+
+# target to generate assembly for a file
+ClassLearn/ztest.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.s
+.PHONY : ClassLearn/ztest.cpp.s
+
 Father.o: Father.cpp.o
 
 .PHONY : Father.o
@@ -258,6 +447,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+memset.o: memset.cpp.o
+
+.PHONY : memset.o
+
+# target to build an object file
+memset.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/memset.cpp.o
+.PHONY : memset.cpp.o
+
+memset.i: memset.cpp.i
+
+.PHONY : memset.i
+
+# target to preprocess a source file
+memset.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/memset.cpp.i
+.PHONY : memset.cpp.i
+
+memset.s: memset.cpp.s
+
+.PHONY : memset.s
+
+# target to generate assembly for a file
+memset.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/memset.cpp.s
+.PHONY : memset.cpp.s
+
 ref.o: ref.cpp.o
 
 .PHONY : ref.o
@@ -366,6 +582,33 @@ test.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+test1.o: test1.cpp.o
+
+.PHONY : test1.o
+
+# target to build an object file
+test1.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/test1.cpp.o
+.PHONY : test1.cpp.o
+
+test1.i: test1.cpp.i
+
+.PHONY : test1.i
+
+# target to preprocess a source file
+test1.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/test1.cpp.i
+.PHONY : test1.cpp.i
+
+test1.s: test1.cpp.s
+
+.PHONY : test1.s
+
+# target to generate assembly for a file
+test1.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/test1.cpp.s
+.PHONY : test1.cpp.s
+
 testperson.o: testperson.cpp.o
 
 .PHONY : testperson.o
@@ -429,6 +672,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppTest"
+	@echo "... ClassLearn/define1.o"
+	@echo "... ClassLearn/define1.i"
+	@echo "... ClassLearn/define1.s"
+	@echo "... ClassLearn/define2.o"
+	@echo "... ClassLearn/define2.i"
+	@echo "... ClassLearn/define2.s"
+	@echo "... ClassLearn/define3.o"
+	@echo "... ClassLearn/define3.i"
+	@echo "... ClassLearn/define3.s"
+	@echo "... ClassLearn/define4.o"
+	@echo "... ClassLearn/define4.i"
+	@echo "... ClassLearn/define4.s"
+	@echo "... ClassLearn/define8.o"
+	@echo "... ClassLearn/define8.i"
+	@echo "... ClassLearn/define8.s"
+	@echo "... ClassLearn/test.o"
+	@echo "... ClassLearn/test.i"
+	@echo "... ClassLearn/test.s"
+	@echo "... ClassLearn/ztest.o"
+	@echo "... ClassLearn/ztest.i"
+	@echo "... ClassLearn/ztest.s"
 	@echo "... Father.o"
 	@echo "... Father.i"
 	@echo "... Father.s"
@@ -444,6 +708,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... memset.o"
+	@echo "... memset.i"
+	@echo "... memset.s"
 	@echo "... ref.o"
 	@echo "... ref.i"
 	@echo "... ref.s"
@@ -456,6 +723,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test1.o"
+	@echo "... test1.i"
+	@echo "... test1.s"
 	@echo "... testperson.o"
 	@echo "... testperson.i"
 	@echo "... testperson.s"

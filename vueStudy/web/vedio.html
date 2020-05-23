@@ -1,25 +1,127 @@
-<!DOCTYPE html>
-<html lang="en" xmlns:v-on="">
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" xmlns:v-on="">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<template>-->
+    <!--<div class="homepage-hero-module">-->
+        <!--<div class="video-container">-->
+            <!--<div :style="fixStyle" class="filter"></div>-->
+            <!--<video :style="fixStyle" autoplay loop class="fillWidth" v-on:canplay="canplay">-->
+                <!--<source src="PATH_TO_MP4" type="video/mp4"/>-->
+                <!--浏览器不支持 video 标签，建议升级浏览器。-->
+                <!--<source src="PATH_TO_WEBM" type="video/webm"/>-->
+                <!--浏览器不支持 video 标签，建议升级浏览器。-->
+            <!--</video>-->
+            <!--<div class="poster hidden" v-if="!vedioCanPlay">-->
+                <!--<img :style="fixStyle" src="PATH_TO_JPEG" alt="">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</template>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+
+
+
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vedio Test</title>
+    <link rel="stylesheet"   href="stytle.css">
+    <style type="text/css">
+
+        .head{ width:100%; height:100%; margin:50px auto 0 auto; background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590091693551&di=bc8d0389317b3d83eb0134b771e7692f&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F8%2F55402f5ec10bc.jpg) no-repeat; }
+
+
+    </style>
 </head>
-<body>
-<template>
-    <div class="homepage-hero-module">
-        <div class="video-container">
-            <div :style="fixStyle" class="filter"></div>
-            <video :style="fixStyle" autoplay loop class="fillWidth" v-on:canplay="canplay">
-                <source src="PATH_TO_MP4" type="video/mp4"/>
-                浏览器不支持 video 标签，建议升级浏览器。
-                <source src="PATH_TO_WEBM" type="video/webm"/>
-                浏览器不支持 video 标签，建议升级浏览器。
-            </video>
-            <div class="poster hidden" v-if="!vedioCanPlay">
-                <img :style="fixStyle" src="PATH_TO_JPEG" alt="">
-            </div>
-        </div>
+
+<div class="head"></div>
+<body class="body1">
+<!--<div class="vedio">-->
+
+    <!--&lt;!&ndash;<vedio muted autoplay loop>&ndash;&gt;-->
+        <!--&lt;!&ndash;<source src="/home/ckg/Downloads/coverr-mountain-lake-1572171891276.mp4" >&ndash;&gt;-->
+    <!--&lt;!&ndash;</vedio>&ndash;&gt;-->
+    <!--<video src="/home/ckg/Downloads/coverr-mountain-lake-1572171891276.mp4" loop="loop" autoplay="autoplay"></video>-->
+<!--&lt;!&ndash;跑马灯效果&ndash;&gt;-->
+    <!--&lt;!&ndash;<marquee direction = "up" scrollamount = 10 loop = 1 >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<marquee direction = "up" scrollamount = 10 behavor = "slide" >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+    <!--&lt;!&ndash;<marquee direction = "right" scrollamount = 10 behavor = "alternate" >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+    <!--&lt;!&ndash;<marquee direction = "up" scrollamount = 10 loop = 1 >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<marquee direction = "up" scrollamount = 10 behavor = "slide" >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+    <!--&lt;!&ndash;<marquee direction = "right" scrollamount = 10 behavor = "alternate" >&ndash;&gt;-->
+        <!--&lt;!&ndash;dddddd&ndash;&gt;-->
+    <!--&lt;!&ndash;</marquee>&ndash;&gt;-->
+
+<!--</div>-->
+
+<!--<div class="detail" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590090524453&di=1fac891623279266eb0929410d3ecf59&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F5%2F540556f306f26.jpg)"></div>-->
+
+<div   class="login-form">
+    <h1>MY WORLD</h1>
+    <div class="form-input">
+        <input type="text" name="email" placeholder="your account" >
     </div>
-</template>
+    <div class="form-input" >
+        <input type="password" name="password"  placeholder="Here is your password ">
+    </div>
+    <div class="form-input">
+        <!--<a href="404.html">-->
+            <!--<button type="button" name="login in">LOGIN</button>-->
+        <!--</a>-->
+
+        <button type="button" onclick="check('');">登录
+        </button>
+        <script type="text/javascript">
+            function check(){
+                if(username.value=="123"&&password.value=="123"){
+                    alert("登录成功");
+                }
+                else if(username.value==""&&password==""){
+                    alert("请输入密码和用户名");
+                }
+                else{
+                    alert("请检查用户名和密码是否有误");
+                    password.value="";
+                }
+            }
+        </script>
+    </div>
+
+
+    <a href="404.html"  class="forget">forgetnnb</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
