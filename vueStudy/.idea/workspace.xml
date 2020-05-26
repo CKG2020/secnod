@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60889b8-f79d-4092-824a-080489f3947d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RedisServer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/RedisServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/BaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/RedisServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/TestRedis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/ClassLearn/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/ClassLearn/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/ClassLearn/ztest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/ClassLearn/ztest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,12 +27,15 @@
     <session id="482445532">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -190,11 +196,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1047" />
-    <option name="y" value="164" />
-    <option name="width" value="800" />
-    <option name="height" value="841" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="832" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,6 +206,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,9 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +237,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590165200794" />
+    <property name="last_opened_file_path" value="$USER_HOME$/first/JavaMoudle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -270,16 +275,20 @@
       <workItem from="1590041098639" duration="8361000" />
       <workItem from="1590141222159" duration="3186000" />
       <workItem from="1590304871611" duration="591000" />
+      <workItem from="1590375469662" duration="1723000" />
+      <workItem from="1590453784425" duration="2332000" />
+      <workItem from="1590481458753" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15491000" />
+    <option name="totallyTimeSpent" value="19855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1015" extended-state="7" />
+    <frame x="0" y="0" width="832" height="829" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17837837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46850392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -389,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
