@@ -20,15 +20,15 @@ public class MultiThread implements Runnable{
             try {
                 BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 BufferedWriter bufferedWriter=new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-                AnalysisInputStream analysisInputStream=new AnalysisInputStream(bufferedReader);
-                String line;
-                while((line=bufferedReader.readLine())!=null){
-                    System.out.println(line);
-                    bufferedWriter.write("+OK\r\n");
-                    bufferedWriter.flush();
-                }
+//                AnalysisInputStream analysisInputStream=new AnalysisInputStream(bufferedReader);
+//                String line;
+//                while((line=bufferedReader.readLine())!=null){
+//                    System.out.println(line);
+//                    bufferedWriter.write("+OK\r\n");
+//                    bufferedWriter.flush();
+//                }
         while(true){
-   Command command=new RedisDecode(analysisInputStream,bufferedWriter).command();
+   Command command=new RedisDecode(bufferedReader,bufferedWriter).command();
 if (command!=null){
     command.run(bufferedWriter);
 }

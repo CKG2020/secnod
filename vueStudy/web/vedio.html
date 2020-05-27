@@ -1,29 +1,3 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en" xmlns:v-on="">-->
-<!--<head>-->
-    <!--<meta charset="UTF-8">-->
-    <!--<title>Title</title>-->
-<!--</head>-->
-<!--<body>-->
-<!--<template>-->
-    <!--<div class="homepage-hero-module">-->
-        <!--<div class="video-container">-->
-            <!--<div :style="fixStyle" class="filter"></div>-->
-            <!--<video :style="fixStyle" autoplay loop class="fillWidth" v-on:canplay="canplay">-->
-                <!--<source src="PATH_TO_MP4" type="video/mp4"/>-->
-                <!--浏览器不支持 video 标签，建议升级浏览器。-->
-                <!--<source src="PATH_TO_WEBM" type="video/webm"/>-->
-                <!--浏览器不支持 video 标签，建议升级浏览器。-->
-            <!--</video>-->
-            <!--<div class="poster hidden" v-if="!vedioCanPlay">-->
-                <!--<img :style="fixStyle" src="PATH_TO_JPEG" alt="">-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</template>-->
-<!--</body>-->
-<!--</html>-->
-
 
 
 
@@ -78,12 +52,12 @@
 <!--<div class="detail" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590090524453&di=1fac891623279266eb0929410d3ecf59&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F5%2F540556f306f26.jpg)"></div>-->
 
 <div   class="login-form">
-    <h1>MY WORLD</h1>
+    <h1>考勤管理系统</h1>
     <div class="form-input">
-        <input type="text" name="email" placeholder="your account" >
+        <input type="text" name="email" placeholder="your account"  valus="">
     </div>
     <div class="form-input" >
-        <input type="password" name="password"  placeholder="Here is your password ">
+        <input type="password" name="password"  placeholder="Here is your password " valus="">
     </div>
     <div class="form-input">
         <!--<a href="404.html">-->
@@ -92,26 +66,27 @@
 
         <button type="button" onclick="check('');">登录
         </button>
-        <script type="text/javascript">
-            function check(){
-                if(username.value=="123"&&password.value=="123"){
-                    alert("登录成功");
-                }
-                else if(username.value==""&&password==""){
-                    alert("请输入密码和用户名");
-                }
-                else{
-                    alert("请检查用户名和密码是否有误");
-                    password.value="";
-                }
-            }
-        </script>
+
     </div>
 
 
     <a href="404.html"  class="forget">forgetnnb</a>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script type="text/javascript">
+    function check(){
+        if(email.value=="123"&&password.value=="123"){
+            alert("登录成功");
+        }
+        else if(email.value==""&&password==""){
+            alert("请输入密码和用户名");
+        }
+        else{
+            alert("请检查用户名和密码是否有误");
+            password.value="";
+        }
+    }
+</script>
 </body>
 
 </html>
