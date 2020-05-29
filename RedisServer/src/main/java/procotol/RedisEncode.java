@@ -7,7 +7,7 @@ import java.util.List;
 public class RedisEncode {
     public static void writeInteger(BufferedWriter writer,String len) throws IOException {
         writer.write(':');
-        writer.write(len);
+        writer.write(String.valueOf(len));
         writer.write("\r\n");
         writer.flush();
     }
@@ -44,9 +44,14 @@ public class RedisEncode {
         }
     }
 
+
+
+
+
     public static void writeError(BufferedWriter writer,String message) throws IOException {
         writer.write('-');
-        writer.write(message);
+
         writer.write("\r\n");
+        writer.write(message);
     }
 }
