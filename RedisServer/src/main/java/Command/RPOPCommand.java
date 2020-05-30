@@ -23,9 +23,9 @@ public class RPOPCommand implements Command {
         Map<String, List<String>> map = BaseData.getInstance().list;
         ArrayList<String> list = (ArrayList<String>) map.get(key);
         int size = list.size();
-        String remove = list.remove(size - 1);
+        String remove = list.remove(0);
         if (list!=null){
-            RedisEncode.writeString(os);
+            RedisEncode.writeBulkString(os,remove);
 
         }
 

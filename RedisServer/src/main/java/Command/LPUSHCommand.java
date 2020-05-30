@@ -13,7 +13,6 @@ public class LPUSHCommand implements Command {
     @Override
     public void params(List<String> args) {
         this.params=args;
-
     }
 
     @Override
@@ -23,8 +22,16 @@ public class LPUSHCommand implements Command {
 //           boolean flag = false;
             String key=params.remove(0);
             String value=params.remove(0);
-            Map<String, List<String>> map = BaseData.getInstance().list;
-            List<String> list1 = new ArrayList<String>();
+
+            List<String> list = BaseData.getInstance().getList(key);
+             list.add(value);
+            RedisEncode.writeInteger(os,String.valueOf(list.size()));
+        } else if (3<=params.size()){
+
+            String key = params.remove(0);
+            List<String> list = BaseData.getInstance().getList(key);
+            list.addAll(params);
+            RedisEncode.writeInteger(os,String.valueOf(list.size()));
 
 //            flag=key;
 //            System.out.println(flag);
@@ -46,15 +53,11 @@ public class LPUSHCommand implements Command {
 //
 //            else {
 
-             list1 = map.get(key);
-                list1.add(value);
-                List<String> put = map.put(key, list1);
-                if (null==put){
-                    RedisEncode.writeInteger(os,String.valueOf(list1.size()));
-                }
-
             }
+   else {
 
+       RedisEncode.writeError(os,"(error) ERR wrong number of arguments for 'lpush' command");
+        }
 
 
 

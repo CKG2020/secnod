@@ -258,6 +258,60 @@ ClassLearn/define8.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.s
 .PHONY : ClassLearn/define8.cpp.s
 
+ClassLearn/opt7.o: ClassLearn/opt7.cpp.o
+
+.PHONY : ClassLearn/opt7.o
+
+# target to build an object file
+ClassLearn/opt7.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o
+.PHONY : ClassLearn/opt7.cpp.o
+
+ClassLearn/opt7.i: ClassLearn/opt7.cpp.i
+
+.PHONY : ClassLearn/opt7.i
+
+# target to preprocess a source file
+ClassLearn/opt7.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.i
+.PHONY : ClassLearn/opt7.cpp.i
+
+ClassLearn/opt7.s: ClassLearn/opt7.cpp.s
+
+.PHONY : ClassLearn/opt7.s
+
+# target to generate assembly for a file
+ClassLearn/opt7.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.s
+.PHONY : ClassLearn/opt7.cpp.s
+
+ClassLearn/opt8.o: ClassLearn/opt8.cpp.o
+
+.PHONY : ClassLearn/opt8.o
+
+# target to build an object file
+ClassLearn/opt8.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o
+.PHONY : ClassLearn/opt8.cpp.o
+
+ClassLearn/opt8.i: ClassLearn/opt8.cpp.i
+
+.PHONY : ClassLearn/opt8.i
+
+# target to preprocess a source file
+ClassLearn/opt8.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.i
+.PHONY : ClassLearn/opt8.cpp.i
+
+ClassLearn/opt8.s: ClassLearn/opt8.cpp.s
+
+.PHONY : ClassLearn/opt8.s
+
+# target to generate assembly for a file
+ClassLearn/opt8.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.s
+.PHONY : ClassLearn/opt8.cpp.s
+
 ClassLearn/test.o: ClassLearn/test.cpp.o
 
 .PHONY : ClassLearn/test.o
@@ -687,6 +741,12 @@ help:
 	@echo "... ClassLearn/define8.o"
 	@echo "... ClassLearn/define8.i"
 	@echo "... ClassLearn/define8.s"
+	@echo "... ClassLearn/opt7.o"
+	@echo "... ClassLearn/opt7.i"
+	@echo "... ClassLearn/opt7.s"
+	@echo "... ClassLearn/opt8.o"
+	@echo "... ClassLearn/opt8.i"
+	@echo "... ClassLearn/opt8.s"
 	@echo "... ClassLearn/test.o"
 	@echo "... ClassLearn/test.i"
 	@echo "... ClassLearn/test.s"

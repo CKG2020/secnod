@@ -27,11 +27,13 @@ public class LRANGECommand implements Command {
             int start_index = Integer.parseInt(value1);
             String value2 = params.remove(0);
             int end_index = Integer.parseInt(value2);
-            Map<String, List<String>> map = BaseData.getInstance().list;
-            ArrayList<String> list = (ArrayList<String>) map.get(key);
-            List<String> list1 = list.subList(start_index, end_index);
-           if (list!=null){
-               RedisEncode.writeArray(os,list1);
+
+            List<String> list2 = BaseData.getInstance().getList(key);
+//            Map<String, List<String>> map = BaseData.getInstance().list;
+//            ArrayList<String> list = (ArrayList<String>) map.get(key);
+            List<String> list3 = list2.subList(start_index, end_index);
+           if (list3!=null){
+               RedisEncode.writeArray(os,list3);
 //  RedisEncode.writeInteger(os,"ok");
            }
 

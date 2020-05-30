@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cb7f56-770f-4fe6-9e1f-21470d2f153e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RedisSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SetParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/redis/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/redis/TestRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/redis/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PuTong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LPUSHCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/RPOPCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RedisServer/src/test/java/TestList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/GetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/GETCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/SetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/SETCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/constant/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisDecode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LPUSHCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LPUSHCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/constant/Constant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/web/Anli/showRecordTeacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/web/Anli/showRecordTeacher.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +20,7 @@
     <session id="1300485338">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />
@@ -92,7 +68,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/redis/RedisLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
+            <state relative-caret-position="1429">
               <caret line="161" column="40" lean-forward="true" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -323,7 +299,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590765581136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590768181720" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -433,7 +409,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.4253012" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.102163464" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.102163464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/redis/RedisLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="1429">
           <caret line="161" column="40" lean-forward="true" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />

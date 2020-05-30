@@ -11,6 +11,10 @@ CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o: ../ClassLearn/define4.cpp
 
 CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o: ../ClassLearn/define8.cpp
 
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o: ../ClassLearn/opt7.cpp
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o: ../ClassLearn/opt8.cpp
+
 CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o: ../ClassLearn/test.cpp
 
 CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o: ../ClassLearn/ztest.cpp

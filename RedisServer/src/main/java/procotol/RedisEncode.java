@@ -17,6 +17,15 @@ public class RedisEncode {
         writer.write("\r\n");
         writer.flush();
     }
+//
+//    public static void writeString1(BufferedWriter writer) throws IOException {
+//        writer.write('+');
+//        writer.write("OK");
+//        writer.write("\r\n");
+//        writer.flush();
+//    }
+
+
 
     public static void writeBulkString(BufferedWriter writer,String str) throws IOException {
         writer.write('$');
@@ -41,7 +50,13 @@ public class RedisEncode {
             }else if (item instanceof List<?>){
                 writeArray(writer, (List<?>) item);
             }
+            writer.flush();
         }
+
+
+
+
+
     }
 
 
@@ -50,8 +65,11 @@ public class RedisEncode {
 
     public static void writeError(BufferedWriter writer,String message) throws IOException {
         writer.write('-');
-
-        writer.write("\r\n");
+//        writer.write("(error)");
+//       writer.write("\t");
         writer.write(message);
+//        writer.write("\r\n");
+        writer.flush();
+
     }
 }

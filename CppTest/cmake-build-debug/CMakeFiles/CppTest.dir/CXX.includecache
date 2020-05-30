@@ -26,11 +26,25 @@ iostream
 iostream
 -
 
+/home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp
+iostream
+-
+
+/home/ckg/secnod/secnod/CppTest/ClassLearn/opt8.cpp
+cstdlib
+-
+new
+-
+iostream
+-
+
 /home/ckg/secnod/secnod/CppTest/ClassLearn/test.cpp
 iostream
 -
 
 /home/ckg/secnod/secnod/CppTest/ClassLearn/ztest.cpp
+iostream
+-
 
 /home/ckg/secnod/secnod/CppTest/Father.cpp
 iostream

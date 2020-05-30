@@ -32,14 +32,14 @@ Teacher::Teacher(char *name, int age, int salary): People(name, age), m_salary(s
 void Teacher::display(){
     cout<<m_name<<"今年"<<m_age<<"岁了，是一名教师，每月有"<<m_salary<<"元的收入。"<<endl;
 }
-
-int main(){
-    People *p = new People("王志刚", 23);
-    p -> display();
-
-
-    p = new Teacher("赵宏佳", 45, 8200);
-    p -> display();
-
-    return 0;
-}
+//
+//int main(){
+//    People *p = new People("王志刚", 23);
+//    p -> display();
+//
+//
+//    p = new Teacher("赵宏佳", 45, 8200);
+//    p -> display();
+//
+//    return 0;
+//}

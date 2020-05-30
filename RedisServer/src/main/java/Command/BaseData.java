@@ -1,9 +1,6 @@
 package Command;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BaseData {
 
@@ -22,5 +19,13 @@ public class BaseData {
    public Map<String, List<String>> list=new HashMap<String, List<String>>();
   public Map<String,HashMap<String,String>>  map=new HashMap<String, HashMap<String, String>>();
   public Map<String, Set<String>> set=new HashMap<String, Set<String>>();
+
+
+public List<String> getList(String key){
+    return list.computeIfAbsent(key,k->new ArrayList<String>());
+
+}
+
+
 
 }

@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o"
+  "CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o"
+  "CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o"
   "CppTest.pdb"
   "CppTest"
 )

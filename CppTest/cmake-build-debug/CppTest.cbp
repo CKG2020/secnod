@@ -99,6 +99,12 @@
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/define8.cpp">
 			<Option target="CppTest"/>
 		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/opt8.cpp">
+			<Option target="CppTest"/>
+		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/test.cpp">
 			<Option target="CppTest"/>
 		</Unit>

@@ -537,6 +537,54 @@ CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o.provides: CMakeFiles/CppTest.dir/Cl
 CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o.provides.build: CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o
 
 
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o: CMakeFiles/CppTest.dir/flags.make
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o: ../ClassLearn/opt7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o -c /home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp
+
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp > CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.i
+
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp -o CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.s
+
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.requires
+
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.provides: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.provides.build
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.provides
+
+CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.provides.build: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o
+
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o: CMakeFiles/CppTest.dir/flags.make
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o: ../ClassLearn/opt8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o -c /home/ckg/secnod/secnod/CppTest/ClassLearn/opt8.cpp
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ckg/secnod/secnod/CppTest/ClassLearn/opt8.cpp > CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.i
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ckg/secnod/secnod/CppTest/ClassLearn/opt8.cpp -o CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.s
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.requires
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.provides: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.provides.build
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.provides
+
+CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.provides.build: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o
+
+
 # Object files for target CppTest
 CppTest_OBJECTS = \
 "CMakeFiles/CppTest.dir/main.cpp.o" \
@@ -558,7 +606,9 @@ CppTest_OBJECTS = \
 "CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.o" \
 "CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o" \
 "CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o" \
-"CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o"
+"CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o" \
+"CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o" \
+"CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o"
 
 # External object files for target CppTest
 CppTest_EXTERNAL_OBJECTS =
@@ -583,9 +633,11 @@ CppTest: CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o
+CppTest: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o
+CppTest: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o
 CppTest: CMakeFiles/CppTest.dir/build.make
 CppTest: CMakeFiles/CppTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable CppTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable CppTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -613,6 +665,8 @@ CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/define3.cpp.o
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/define4.cpp.o.requires
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.o.requires
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o.requires
+CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.requires
+CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.requires
 
 .PHONY : CMakeFiles/CppTest.dir/requires
 
