@@ -2,54 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60889b8-f79d-4092-824a-080489f3947d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/ClassLearn/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/ClassLearn/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/ClassLearn/ztest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/ClassLearn/ztest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Progress/20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisLock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisLock/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/ThreadTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadTest/src/main/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/BaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/BaseData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LPUSHCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LPUSHCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/RPOPCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/RPOPCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/BaseData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/BaseData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/COMMANDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/COMMANDCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/GETCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/GETCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LPUSHCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LPUSHCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/RPOPCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/RPOPCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/SETCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/SETCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/RedisServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/RedisServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/constant/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/exception/RedisException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/exception/RedisException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/AnalysisInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/AnalysisInputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisDecode$AnalysisInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisDecode$AnalysisInputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisDecode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/test-classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/test-classes/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/test-classes/TestList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer/target/test-classes/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/test-classes/TestRedis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -240,8 +200,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="866" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="858" />
     <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -364,10 +324,9 @@
     <option name="totallyTimeSpent" value="31075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="866" height="1013" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1015" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10552764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.045405407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
