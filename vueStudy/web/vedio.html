@@ -1,10 +1,4 @@
-
-
-
-
-
-
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Vedio Test</title>
@@ -54,43 +48,66 @@
 <div   class="login-form">
     <h1>考勤管理系统</h1>
     <div class="form-input">
-        <input type="text" name="email" placeholder="your account"  valus="">
+        <input type="text" name="email" placeholder="your account"  v-model="input1">
     </div>
-    <div class="form-input" >
-        <input type="password" name="password"  placeholder="Here is your password " valus="">
+    <div class="form-input"  >
+        <input type="password" name="password"  placeholder="Here is your password " valus="" v-model="input2">
     </div>
-    <div class="form-input">
+    <div class="form-input"   id="clicktest" >
         <!--<a href="404.html">-->
             <!--<button type="button" name="login in">LOGIN</button>-->
         <!--</a>-->
 
-        <button type="button" onclick="check('');">登录
+        <button   type="button" v-on:click="login">LOGIN
         </button>
+
 
     </div>
 
 
-    <a href="404.html"  class="forget">forgetnnb</a>
+    <!--<a href="404.html"  class="forget">forgetnnb</a>-->
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-<script type="text/javascript">
-    function check(){
-        if(email.value=="123"&&password.value=="123"){
-            alert("登录成功");
-        }
-        else if(email.value==""&&password==""){
-            alert("请输入密码和用户名");
-        }
-        else{
-            alert("请检查用户名和密码是否有误");
-            password.value="";
-        }
-    }
-</script>
 </body>
 
+<script>
+    var xxx = new Vue({
+            el: '#clicktest',
+            data: {
+                result1: null,
+                result2: null,
+                input2: "" ,
+                input1:""
+            },
+// 在 `methods` 对象中定义方法
+            methods: {
+                login: function (event) {
+
+// `this` 在方法里指向当前 Vue 实例
+                    alert('Hello ' + this.input1+ '!')
+// `event` 是原生 DOM 事件
+//                     if (event) {
+//                         alert(event.target.tagName)
+//                     }
+                }
+            }
+        })
+</script>
 </html>
 
+<!--<script type="text/javascript">-->
+    <!--function check(){-->
+        <!--if(email.value=="123"&&password.value=="123"){-->
+            <!--alert("登录成功");-->
+        <!--}-->
+        <!--else if(email.value==""&&password==""){-->
+            <!--alert("请输入密码和用户名");-->
+        <!--}-->
+        <!--else{-->
+            <!--alert("请检查用户名和密码是否有误");-->
+            <!--password.value="";-->
+        <!--}-->
+    <!--}-->
 
 
 

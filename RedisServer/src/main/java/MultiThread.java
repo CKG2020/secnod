@@ -32,9 +32,6 @@ public class MultiThread implements Runnable{
 if (command!=null){
     command.run(bufferedWriter);
 }
-
-
-
                   }
             } catch (IOException e) {
                 e.printStackTrace();

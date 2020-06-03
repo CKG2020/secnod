@@ -7,30 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98ba8c8-3703-4eac-8cc7-b476185f0e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vueStudy/web/stytle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/eryi.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/eryi.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CppTest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/eryi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/eryi.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/web/coverr-mountain-lake-1572171891276.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/web/vedio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/web/vedio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/MultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,13 +29,14 @@
     <session id="264689784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SessionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="450">
               <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,20 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TokenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="216">
+              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="198">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -237,9 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,13 +265,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590081843648" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Videos/jvm-master/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueStudy/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -401,17 +387,17 @@
       <workItem from="1589964269418" duration="2288000" />
       <workItem from="1590041098430" duration="3411000" />
       <workItem from="1590141221052" duration="1132000" />
+      <workItem from="1591167313677" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21466000" />
+    <option name="totallyTimeSpent" value="22331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26432434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,47 +441,10 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SessionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SessionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jspsession.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TokenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,7 +468,44 @@
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SessionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TokenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

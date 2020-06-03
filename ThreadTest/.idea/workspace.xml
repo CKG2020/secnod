@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036ed153-7cc4-47cc-8628-922e45d06bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedisServer.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vueStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/Command/LRANGECommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/MultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/src/main/java/procotol/RedisEncode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/Command/LRANGECommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/MultiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RedisServer/target/classes/procotol/RedisEncode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,9 +24,11 @@
     <session id="-1145649707">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,9 +101,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="850" />
-    <option name="height" value="1016" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1047" />
+    <option name="y" value="164" />
+    <option name="width" value="800" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,9 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,16 +133,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThreadTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590846494785" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWeb/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -183,17 +193,18 @@
       <updated>1590818292800</updated>
       <workItem from="1590818296688" duration="1813000" />
       <workItem from="1591105308974" duration="597000" />
+      <workItem from="1591151855836" duration="843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2410000" />
+    <option name="totallyTimeSpent" value="3253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="850" height="1016" extended-state="1" />
+    <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25351351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

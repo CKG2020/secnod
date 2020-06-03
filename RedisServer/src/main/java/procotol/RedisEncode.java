@@ -38,8 +38,9 @@ public class RedisEncode {
 
     public static void writeArray(BufferedWriter writer, List<?> list) throws IOException {
         writer.write('*');
-        writer.write(list.size());
+        writer.write(String.valueOf(list.size()));
         writer.write("\r\n");
+        writer.flush();
         for (Object item: list) {
             if (item instanceof Integer){
                 writeInteger(writer, (String) item);
@@ -49,12 +50,10 @@ public class RedisEncode {
                 writeBulkString(writer, (String) item);
             }else if (item instanceof List<?>){
                 writeArray(writer, (List<?>) item);
+
             }
-            writer.flush();
+
         }
-
-
-
 
 
     }
@@ -68,7 +67,7 @@ public class RedisEncode {
 //        writer.write("(error)");
 //       writer.write("\t");
         writer.write(message);
-//        writer.write("\r\n");
+        writer.write("\r\n");
         writer.flush();
 
     }
