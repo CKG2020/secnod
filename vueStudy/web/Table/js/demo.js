@@ -22,8 +22,8 @@ new Vue({
             this.result1 = this.$refs.input1.value + " 成功!";
         },
 
-        test2: function () {
-            this.result2 = this.input2 + " 成功!";
-        }
+        // test2: function () {
+        //     this.result2 = this.input2 + " 成功!";
+        // }
     }
 })
