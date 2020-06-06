@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="content">.........</h1>
+<button id="btn">点我读取文件</button>
+<script src="js/myajax.js"></script>
+<script>
+    // 找到相关元素
+    var btn = document.getElementById("btn");
+    var content = document.getElementById("content");
+    // 事件监听
+    btn.onclick = function() {
+        // Ajax
+        // 1 创建一个xhr对象
+        var xhr = new XMLHttpRequest();
+        // 2 指定接受回来的内容 就绪状态改变时候触发
+        xhr.onreadystatechange = function() {
+            if(xhr.readyState == 4) {
+                // 接收完文件
+                content.innerHTML = xhr.responseText;
+            }
+        }
+        // 3 创建一个请求 配置 第一个参数 请求类型 get/post 第二个参数 请求路径 第三个参数 是否使用异步
+        xhr.open("post","wenben/do2.php",true);
+        // 假如是post请求 必须写一句话 模拟成form表单提交
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        // 4 发送请求
+        xhr.send("xingming=along&age=30");//"k=v&k=v"
+    }
+</script>
+</body>
+</html>

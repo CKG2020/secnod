@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button id="btn">点我读取文件</button>
+<script>
+    // 找到相关元素
+    var btn = document.getElementById("btn");
+    var content = document.getElementById("content");
+    // 事件监听
+    btn.onclick = function() {
+        // Ajax兼容低版本IE浏览器的写法
+        // 创建一个xhr对象
+        var xhr;
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        //创建一个请求 配置 第一个参数 请求类型 get/post 第二个参数 请求路径 第三个参数 是否使用异步
+        xhr.open("get","wenben.txt",true);
+        //发送请求
+        xhr.send(null);
+        //指定接受回来的内容 就绪状态改变时候触发
+        xhr.onreadystatechange = function() {
+            if(xhr.readyState == 4) {
+                // 接收完文件
+                console.log(xhr.responseText);
+            }
+        }
+        console.log("HAHA1");
+        console.log("HAHA2");
+        console.log("Haha3");
+    }
+    //根据打印的顺序可以明确的知道，ajax请求是异步程序
+</script>
+</body>
+</html>

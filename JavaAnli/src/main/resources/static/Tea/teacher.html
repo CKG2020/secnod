@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
     <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
     <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
-    <link rel="stylesheet" href="../../static/img/regist.css">
+    <link rel="stylesheet" href="../regist.css">
 </head>
 <body>
 <script src="//unpkg.com/vue/dist/vue.js"></script>
 <script src="//unpkg.com/iview/dist/iview.min.js"></script>
 <div class="reg_user">
     <div id="header">
-        <h2>考勤管理系统</h2>
+        <h2>考勤管理系统教师端</h2>
         <div id="app" style="margin-top:35px">
             <i-form ref="formInline" :model="formInline" :rules="ruleInline" style="width: 250px"
                     method="post">
@@ -67,8 +67,8 @@
                         this.save()
                     } else {
                         this.$Message.error('Fail!');
-                    }
-                })
+            }
+            })
             },
             handleReset (name) {
                 this.$refs[name].resetFields();
