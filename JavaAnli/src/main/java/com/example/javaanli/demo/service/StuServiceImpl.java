@@ -29,6 +29,7 @@ public class StuServiceImpl implements StuMapper{
     }
 
     public int  addUser(String sno1, String s, String sno, String spwd) {
+
         return  stuMapper.addUser(sno1,s,sno,spwd);
     }
 }

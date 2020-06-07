@@ -78,14 +78,16 @@
                 let Spwd=this.formInline.password;
                 $.ajax({
                     type: "post",
-                    url: "/admin",
+                    url: "/tea",
                     data: {
                         "Sno":Sno,
                         "Spwd":Spwd
                     },
                     success(res){
+                        let  msg = JSON.stringify(res);
+                        localStorage.setItem("localName", msg);
                         if(res==="ok"){
-                            window.location.href = 'findall';
+                            window.location.href = '/Tea/ShowRecord.html';
                         }else{
                             alert("wrong!")
                         }

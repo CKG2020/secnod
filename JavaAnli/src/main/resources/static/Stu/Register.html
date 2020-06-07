@@ -150,17 +150,17 @@
 
                         },
                         success(res) {
-                            // if (res===true){
-                            window.location.href="/Stu/RegisterSuccess";
-                            // window.alert("注册成功!!!")
-                            // }
+                            if (res===true){
+                            // window.location.href="/Stu/RegisterSuccess.html";
+                              alert("注册成功!!!")
+                            }
                         }
                     });
             }
         }
     });
-    // var Component = Vue.extend(Main);
-    // new Component().$mount('#app');
+    var Component = Vue.extend(Main);
+    new Component().$mount('#app');
 
 </script>
 </body>

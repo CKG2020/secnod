@@ -1,8 +1,13 @@
 package com.example.javaanli.demo.controller;
+
 import com.example.javaanli.demo.Model.Student;
+import com.example.javaanli.demo.Model.Teacher;
 import com.example.javaanli.demo.service.StuServiceImpl;
 
+import com.example.javaanli.demo.service.TeaServiceImpl;
+import javafx.beans.binding.ObjectBinding;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,50 +23,74 @@ import javax.xml.ws.Action;
 public class LoginController {
     @Autowired
     private StuServiceImpl stuService;
+
     @Autowired
     HttpServletRequest request;
 
-//
+    @Autowired
+    private TeaServiceImpl teaService;
+
+    //
 //    @RequestMapping("welcome")
 //    public  String success(){
 //        return  "welcome";
 //
 //    }
-    @RequestMapping(value = "student_login" ,method = RequestMethod.POST)
+    @RequestMapping(value = "student_login", method = RequestMethod.POST)
     @ResponseBody
-    public Object student_login(@RequestParam String Sno, String Spwd){
-        Student student;
+    public String student_login(@RequestParam String Sno, String Spwd) {
+//        Student student;
 
 
-        Object obj = stuService.findByNumAndPassword(Sno,Spwd);
-        if (obj.equals(1)||obj.equals(0)){
-            return obj.toString();
+        Student student = stuService.findByNumAndPassword(Sno, Spwd);
+        if (null != student && !"".equals(student)) {
+
+            return "1";
         }
-        HttpSession session = request.getSession();
-        student=(Student)obj;
-        session.setAttribute("student",student);
-        return student;
+
+        return "0";
+
     }//用户登录
 
 
-    @RequestMapping("isused")
+    @RequestMapping(value = "tea", method = RequestMethod.POST)
     @ResponseBody
-    public String used(@RequestParam String Sno){
+    public String tea(@RequestParam String tea_number, String tea_password) {
+        System.out.println("xxxx");
+        Object obj = teaService.findByNumAndPassword(tea_number, tea_password);
+
+        if (obj != null) {
+            return "ok";
+        } else {
+            return "此教师不存在";
+        }
+
+    }
+
+
+    @RequestMapping("Stu/isused")
+    @ResponseBody
+    public String used(@RequestParam String Sno) {
         System.out.println(Sno);
         Object obj = stuService.findStuBySno(Sno);
-        if(obj!=null){
+        if (obj != null) {
             return "此用户已存在!";
-        }
-        else{
+        } else {
             return "ok";
         }
 
     }
 
-    @RequestMapping(value = "addUser" )
+
+    @RequestMapping(value = "addUser")
     @ResponseBody
-    public String submit(@RequestParam String Sno, String Spwd,String Class,String Name) {
-        int a = stuService.addUser(Sno, Spwd, Class, Name);
+    public String submit(@RequestParam String Sno, String Spwd, String Name, String Class) {
+//        System.out.println(Sno);
+//        System.out.println(Spwd);
+//        System.out.println(Name);
+//        System.out.println(Class);
+
+        int a = stuService.addUser(Sno, Spwd, Name, Class);
         if (0 != a) {
             Student student = stuService.findStuBySno(Sno);
             System.out.println(Sno);
@@ -70,11 +99,11 @@ public class LoginController {
             session.setAttribute("student", student);
             System.out.println("student" + student);
 
-            return "Stu/RegisterSuccess";
-        }
-
-        else{
-            return  "添加用户失败";
+            return "true";
+        } else {
+            return "添加用户失败";
         }
     }
+
+
 }

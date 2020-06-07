@@ -2,30 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60889b8-f79d-4092-824a-080489f3947d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/FirstModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/regist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/stytle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Stu/AskForLeave.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Stu/QingJia_Request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Stu/QuerryStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Stu/Register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Stu/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/Tea/teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/templates/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/JsonTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/PostAjax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/YuanSheng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/ajaxTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/ajaxtest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/AJAX/phptest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/SuJia/static/regist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/RecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/TeaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/RecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/TeaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/util/Mybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/ShowRecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/SuJia/first/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/SuJia/first/demodel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/SuJia/first/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/StuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/StuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/StuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/StuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/AskForLeave.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/AskForLeave.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/test/java/com/example/javaanli/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/test/java/com/example/javaanli/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/SuJia/LoginAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/SuJia/LoginAdmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/SuJia/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/SuJia/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/vedio.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/vedio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,9 +43,12 @@
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -56,13 +60,13 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="html" value="44" />
+          <entry key="html" value="49" />
           <entry key="js" value="6" />
           <entry key="jsp" value="1" />
           <entry key="mp4" value="2" />
@@ -74,7 +78,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="48" />
+          <entry key="HTML" value="53" />
           <entry key="Image" value="3" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="6" />
@@ -83,14 +87,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1431" />
+          <entry key="html" value="1450" />
           <entry key="js" value="30" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1441" />
+          <entry key="HTML" value="1460" />
           <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
@@ -100,60 +104,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/vedio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxtest1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/SuJia/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="101" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Table/css/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/SuJia/static/regist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
+            <state relative-caret-position="3852">
               <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/SuJia/Register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -165,10 +128,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Anli/showRecordTeacher.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/SuJia/first/test1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4230">
+              <caret line="235" column="7" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-circle#1;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-circle#2;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-circle#3;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/SuJia/first/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14166">
+              <caret line="787" column="21" selection-start-line="787" selection-start-column="21" selection-end-line="787" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#0;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#1;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#2;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#3;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#4;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6414#6420#0" expanded="true" />
+                <element signature="e#6420#6426#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-button#0;n#template#1;n#i-table#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#0;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#1;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#2;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#3;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-input#4;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#21651#21657#0" expanded="true" />
+                <element signature="e#21657#21663#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i-button#0;n#template#1;n#i-table#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/SuJia/first/demodel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/v-for1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="63" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/first.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -186,7 +227,7 @@
         <entry file="file://$PROJECT_DIR$/web/SuJia/LoginAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" selection-end-line="101" selection-end-column="7" />
+              <caret selection-end-line="101" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -205,8 +246,8 @@
       <list>
         <option value="Jsp File" />
         <option value="vue file" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -248,6 +289,9 @@
         <option value="$PROJECT_DIR$/web/SuJia/LoginAdmin.html" />
         <option value="$PROJECT_DIR$/web/SuJia/login.html" />
         <option value="$PROJECT_DIR$/web/vedio.html" />
+        <option value="$PROJECT_DIR$/web/SuJia/first/test1.html" />
+        <option value="$PROJECT_DIR$/web/SuJia/first/test2.html" />
+        <option value="$PROJECT_DIR$/web/SuJia/first/demodel.html" />
       </list>
     </option>
   </component>
@@ -261,8 +305,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="748" />
-    <option name="width" value="882" />
+    <option name="x" value="-87" />
+    <option name="y" value="118" />
+    <option name="width" value="1012" />
     <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -272,7 +317,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +359,13 @@
               <item name="vueStudy" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="SuJia" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="SuJia" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,14 +385,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591377409999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591523993038" />
     <property name="last_opened_file_path" value="$USER_HOME$/first/HibernateTest1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -398,16 +450,21 @@
       <workItem from="1591231634907" duration="5270000" />
       <workItem from="1591323781175" duration="5128000" />
       <workItem from="1591338870036" duration="12973000" />
+      <workItem from="1591445062551" duration="518000" />
+      <workItem from="1591450479807" duration="1585000" />
+      <workItem from="1591499914879" duration="2771000" />
+      <workItem from="1591525281262" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61689000" />
+    <option name="totallyTimeSpent" value="67065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24108107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +484,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.14302884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -523,13 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
           <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/v-for1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="63" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -645,79 +695,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="312" selection-start-line="312" selection-end-line="312" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2579#2585#0" expanded="true" />
-            <element signature="e#2585#2591#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-input#0;n#form-item#0;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-input#0;n#form-item#1;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-input#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form-item#3;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form-item#4;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form-item#5;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-button#1;n#form-item#8;n#i-form#0;n#div#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Anli/showRecordTeacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/first.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxtest1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/vedio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SuJia/LoginAdmin.html">
+    <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="101" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-button#0;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-button#1;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/AJAX/ajaxtest1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -733,21 +731,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/SuJia/static/regist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
+        <state relative-caret-position="3852">
           <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/SuJia/Register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i-button#0;n#form-item#3;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i-button#1;n#form-item#3;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Anli/showRecordTeacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuJia/first/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="235" column="7" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-circle#1;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-circle#2;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-circle#3;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuJia/first/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14166">
+          <caret line="787" column="21" selection-start-line="787" selection-start-column="21" selection-end-line="787" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#0;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#1;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#2;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#3;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#4;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6414#6420#0" expanded="true" />
+            <element signature="e#6420#6426#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-button#0;n#template#1;n#i-table#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#i-header#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#0;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#1;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#2;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#3;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-input#4;n#breadcrumb#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#21651#21657#0" expanded="true" />
+            <element signature="e#21657#21663#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-button#0;n#template#1;n#i-table#0;n#div#1;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#card#0;n#i-content#0;n#layout#0;n#layout#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/v-for1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="63" selection-start-line="6" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuJia/LoginAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="101" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-button#0;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-button#1;n#div#0;n#form-item#2;n#i-form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuJia/first/demodel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
