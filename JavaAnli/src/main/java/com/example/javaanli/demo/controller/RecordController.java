@@ -26,6 +26,7 @@ public class RecordController {
 
     public String addRecord(@RequestParam String stu_number, String stu_class, String stu_name, String qingjia_time,
                             String start_time, String end_time, String qingjia_reason) {
+        System.out.println("xxxxx");
 
         int a = (int) recordService.addRecord(stu_number, stu_class, stu_name, qingjia_time, start_time, end_time,qingjia_reason);
         if (0 != a) {

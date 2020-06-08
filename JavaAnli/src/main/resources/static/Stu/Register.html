@@ -20,15 +20,15 @@
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
-                <from-item prop="stu_name">姓名
-                    <i-input type="text"   v-model="formCustom.stu_name"  placeholder=" Your name"  size="large">
+                <from-item prop="stuname">姓名
+                    <i-input type="text"   v-model="formCustom.stuname"  placeholder=" Your name"  size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </from-item>
 
 
-                <from-item prop="stu_class">班级
-                    <i-input type="text"   v-model="formCustom.stu_class" placeholder=" Your class"  size="large">
+                <from-item prop="stuclass">班级
+                    <i-input type="text"   v-model="formCustom.stuclass" placeholder=" Your class"  size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </from-item>
@@ -53,8 +53,8 @@
     </div>
 </div>
 <script>
-    var Main = new Vue({
-        el:'#app',
+    var Main ={
+
         data () {
             const validatePass = (rule, value, callback) => {
                 if (value === '') {
@@ -93,8 +93,8 @@
                     sno:'',
                     passwd: '',
                     passwdCheck: '',
-                    stu_name:'',
-                    stu_class:''
+                    stuname:'',
+                    stuclass:''
                 },
                 ruleCustom: {
                     sno: [
@@ -104,8 +104,18 @@
                         { validator: validatePass, trigger: 'blur' }
                     ],
                     passwdCheck: [
-                        { validator: validatePassCheck, trigger: 'blur' }
+                        { validator: validatePassCheck, trigger:  'blur' }
+                    ],
+
+                    stuname: [
+                        {trigger:'blur'}
+
+                    ],
+                    stuclass: [
+                        {trigger:'blur'}
+
                     ]
+
                 }
             }
         },
@@ -115,9 +125,11 @@
             },
             f() {
                 let Sno = this.formCustom.sno;
+                console.log(Sno);
                 if(Sno!=null){
+
                     $.ajax({
-                        url:'isused',
+                        url:'/Stu/isused',
                         type:'post',
                         data:{
                             "Sno":Sno
@@ -145,12 +157,11 @@
                         data:{
                             "Sno":this.formCustom.sno,
                             "Spwd":pp1,
-                            "Name":this.formCustom.stu_name,
-                            "Class":this.formCustom.stu_class
-
+                            "Name":this.formCustom.stuname,
+                            "Class":this.formCustom.stuclass
                         },
                         success(res) {
-                            if (res===true){
+                            if (res==='true'){
                             // window.location.href="/Stu/RegisterSuccess.html";
                               alert("注册成功!!!")
                             }
@@ -158,7 +169,7 @@
                     });
             }
         }
-    });
+    };
     var Component = Vue.extend(Main);
     new Component().$mount('#app');
 

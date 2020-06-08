@@ -12,52 +12,53 @@
 <body>
 <div class="reg_user">
     <div id="header">
-        <h2>请假信息</h2>
+        <h2>请假信息记录</h2>
         <div id="app" style="margin-top:35px">
-            <i-form ref="formCustom" :model="formCustom" :rules="ruleCustom" style="width: 250px">
+            <i-form ref="formInline" :model="formInline" :rules="ruleInline"
+                    style="width: 250px"   action="/Record/addRecord" method="post">
                 <form-item prop="stu_number">学号
-                    <i-input type="text" v-model="formCustom.sno" number placeholder="Number" size="large">
+                    <i-input type="text" v-model="formInline.stu_number" number placeholder="Number" size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
                 <from-item prop="stu_name">姓名
-                    <i-input type="text"   v-model="formCustom.stu_name"  placeholder=" Your name"  size="large">
+                    <i-input type="text" v-model="formInline.stu_name" placeholder=" Your name"  size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </from-item>
 
 
                 <from-item prop="stu_class">班级
-                    <i-input type="text"   v-model="formCustom.stu_class" placeholder=" Your class"  size="large">
+                    <i-input type="text" v-model="formInline.stu_class" placeholder=" Your class"  size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
                     </i-input>
                 </from-item>
 
 
                 <form-item prop="qingjia_time">申请请假时间
-                    <i-input type="text"  v-model="formCustom.qingjia_time" placeholder="ApplyTime" size="large">
+                    <i-input type="text" v-model="formInline.qingjia_time" placeholder="ApplyTime" size="large">
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
                 <form-item prop="start_time">开始时间
-                    <i-input type="text" v-model="formCustom.start_time" placeholder="StartTime" size="large">
+                    <i-input type="text" v-model="formInline.start_time" placeholder="StartTime" size="large">
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
                 <form-item prop="end_time">结束时间
-                    <i-input type="text" v-model="formCustom.end_time" placeholder="EndTime" size="large">
+                    <i-input type="text" v-model="formInline.end_time" placeholder="EndTime" size="large">
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
                 <form-item prop="qingjia_reason">请假原因
-                    <i-input type="text" v-model="formCustom.start_time" placeholder="StartTime" size="large">
+                    <i-input type="text" v-model="formInline.qingjia_reason" placeholder="QingjiaReason" size="large">
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
 
 
                 <form-item>
-                    <i-button type="primary" @click="handleReset('formCustom')" style="margin-left: 30px">Reset</i-button>
+                    <i-button type="primary" @click="handleReset('formInline')" style="margin-left: 30px">Reset</i-button>
                     <i-button type="primary" @click="f()" style="margin-left: 50px">Submit</i-button>
                 </form-item>
             </i-form>
@@ -65,55 +66,23 @@
     </div>
 </div>
 <script>
-    var Main = new Vue({
-        el:'#app',
+    var Main = {
+
         data () {
-            const validatePass = (rule, value, callback) => {
-                if (value === '') {
-                    callback(new Error('Please enter your password'));
-                } else {
-                    if (this.formCustom.passwdCheck !== '') {
-                        // 对第二个密码框单独验证
-                        this.$refs.formCustom.validateField('passwdCheck');
-                    }
-                    callback();
-                }
-            };
-            const validatePassCheck = (rule, value, callback) => {
-                if (value === '') {
-                    callback(new Error('Please enter your password again'));
-                } else if (value !== this.formCustom.passwd) {
-                    callback(new Error('The two input passwords do not match!'));
-                } else {
-                    callback();
-                }
-            };
-            const validateSno = (rule, value, callback) => {
-                if (!value) {
-                    return callback(new Error('Sno cannot be empty'));
-                }else{
-                    setTimeout(() => {
-                        if (!Number.isInteger(value)) {
-                            callback(new Error('Please enter a numeric value'));
-                        }
-                        callback();
-                    });
-                }
-            };
             return {
-                formCustom: {
+                formInline: {
                     stu_number:'',
-                    stu_class:'',
                     stu_name:'',
+                    stu_class:'',
                     qingjia_time:'',
-                    start_time: '',
-                    end_time: '',
-                    qingjia_reason: ''
+                    start_time:'',
+                    end_time:'',
+                    qingjia_reason:''
                 },
-                ruleCustom: {
-                    sno: [
-                        { validator: validateSno, trigger: 'blur' }
-                    ],
+                ruleInline: {
+                    // stu_number: [
+                    //     { validator: validateS, trigger: 'blur' }
+                    // ],
                     // passwd: [
                     //     { validator: validatePass, trigger: 'blur' }
                     // ],
@@ -128,7 +97,7 @@
                 this.$refs[name].resetFields();
             },
             f() {
-                // let Sno = this.formCustom.sno;
+                // let Sno = this.formInline.sno;
                 // if(Sno!=null){
                 //     $.ajax({
                 //         url:'isused',
@@ -140,7 +109,33 @@
                 //             if(res==="ok"){
                 //                 alert("此账号可以使用");
                                 console.log("ok");
-                                Main.subm();
+                                // Main.subm();
+
+                $.ajax({
+                    url:'/Record/addRecord',
+                    type: 'post',
+                    data:{
+                        // "Sno":this.formInline.sno,
+                        // "Spwd":pp1,
+                        // "Name":this.formInline.stu_name,
+                        // "Class":this.formInline.stu_class
+                        stu_number: this.formInline.stu_number,
+                        stu_class: this.formInline.stu_class,
+                        stu_name: this.formInline.stu_name,
+                        qingjia_time: this.formInline.qingjia_time,
+                        start_time: this.formInline.start_time,
+                        end_time: this.formInline.end_time,
+                        qingjia_reason: this.formInline.qingjia_reason
+
+                    },
+                    success(res) {
+                        if (res==='ok'){
+                            // window.location.href="/Stu/RegisterSuccess.html";
+                            alert("请假成功!!!");
+                        }
+
+                    }
+                });
                 //             }else{
                 //                 alert("此账号已注册过")
                 //             }
@@ -148,39 +143,39 @@
                 //     });
                 // }
             },
-            subm(){
-                // pp1=this.formCustom.passwd;
-                // pp2=this.formCustom.passwdCheck;
-
-                // if(pp1===pp2)
-                    $.ajax({
-                        url:'/Record/addRecord',
-                        type: 'post',
-                        data:{
-                            // "Sno":this.formCustom.sno,
-                            // "Spwd":pp1,
-                            // "Name":this.formCustom.stu_name,
-                            // "Class":this.formCustom.stu_class
-                            stu_number: this.formCustom.stu_number,
-                            stu_class: this.formCustom.stu_class,
-                            stu_name: this.formCustom.stu_name,
-                            qingjia_time: this.formCustom.qingjia_time,
-                            start_time: this.formCustom.start_time,
-                            end_time: this.formCustom.end_time,
-                            qingjia_reason: this.formCustom.qingjia_reason
-
-                        },
-                        success(res) {
-                            if (res===ok){
-                                // window.location.href="/Stu/RegisterSuccess.html";
-                                alert("请假成功!!!");
-                            }
-
-                        }
-                    });
-            }
+            // subm(){
+            //     // pp1=this.formInline.passwd;
+            //     // pp2=this.formInline.passwdCheck;
+            //
+            //     // if(pp1===pp2)
+            //         $.ajax({
+            //             url:'/Record/addRecord',
+            //             type: 'post',
+            //             data:{
+            //                 // "Sno":this.formInline.sno,
+            //                 // "Spwd":pp1,
+            //                 // "Name":this.formInline.stu_name,
+            //                 // "Class":this.formInline.stu_class
+            //                 stu_number: this.formInline.stu_number,
+            //                 stu_class: this.formInline.stu_class,
+            //                 stu_name: this.formInline.stu_name,
+            //                 qingjia_time: this.formInline.qingjia_time,
+            //                 start_time: this.formInline.start_time,
+            //                 end_time: this.formInline.end_time,
+            //                 qingjia_reason: this.formInline.qingjia_reason
+            //
+            //             },
+            //             success(res) {
+            //                 if (res===ok){
+            //                     // window.location.href="/Stu/RegisterSuccess.html";
+            //                     alert("请假成功!!!");
+            //                 }
+            //
+            //             }
+            //         });
+            // }
         }
-    });
+    };
     var Component = Vue.extend(Main);
     new Component().$mount('#app');
 

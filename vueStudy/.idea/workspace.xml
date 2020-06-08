@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60889b8-f79d-4092-824a-080489f3947d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/RecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/RecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/TeaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/RecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/TeaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/util/Mybatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/ShowRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/SuJia/first/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/SuJia/first/demodel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/SuJia/first/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/Model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/StuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/mapper/StuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/StuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service/StuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller/RecordController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/AskForLeave.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/AskForLeave.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Stu/student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/ShowRecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/ShowRecord.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/static/Tea/teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/test/java/com/example/javaanli/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/test/java/com/example/javaanli/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +23,12 @@
     <session id="482445532">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -60,7 +44,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -190,7 +174,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/SuJia/first/demodel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="73">
               <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
@@ -305,10 +289,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-87" />
-    <option name="y" value="118" />
-    <option name="width" value="1012" />
-    <option name="height" value="1013" />
+    <option name="x" value="512" />
+    <option name="y" value="264" />
+    <option name="width" value="935" />
+    <option name="height" value="749" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -316,7 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -385,7 +369,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,18 +437,18 @@
       <workItem from="1591445062551" duration="518000" />
       <workItem from="1591450479807" duration="1585000" />
       <workItem from="1591499914879" duration="2771000" />
-      <workItem from="1591525281262" duration="502000" />
+      <workItem from="1591525281262" duration="3092000" />
+      <workItem from="1591594437004" duration="1004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67065000" />
+    <option name="totallyTimeSpent" value="70659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13621622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,7 +468,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.14302884" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.234375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -840,7 +824,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/SuJia/first/demodel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="73">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>

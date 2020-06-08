@@ -63,7 +63,8 @@
             handleSubmit(name) {
                 this.$refs[name].validate((valid) => {
                     if (valid) {
-                        this.$Message.success('Success!');
+                        // this.$Message.success('Success!');
+                        console.log("ok");
                         this.save()
                     } else {
                         this.$Message.error('Fail!');
@@ -86,7 +87,7 @@
                     success(res){
                         let  msg = JSON.stringify(res);
                         localStorage.setItem("localName", msg);
-                        if(res==="ok"){
+                        if(res==='ok'){
                             window.location.href = '/Tea/ShowRecord.html';
                         }else{
                             alert("wrong!")

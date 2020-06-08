@@ -55,9 +55,9 @@ public class LoginController {
 
     @RequestMapping(value = "tea", method = RequestMethod.POST)
     @ResponseBody
-    public String tea(@RequestParam String tea_number, String tea_password) {
+    public String tea(@RequestParam String Sno, String Spwd) {
         System.out.println("xxxx");
-        Object obj = teaService.findByNumAndPassword(tea_number, tea_password);
+        Object obj = teaService.findByNumAndPassword(Sno, Spwd);
 
         if (obj != null) {
             return "ok";
@@ -89,7 +89,7 @@ public class LoginController {
 //        System.out.println(Spwd);
 //        System.out.println(Name);
 //        System.out.println(Class);
-
+        System.out.println("yyyuyu");
         int a = stuService.addUser(Sno, Spwd, Name, Class);
         if (0 != a) {
             Student student = stuService.findStuBySno(Sno);
