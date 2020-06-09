@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <link rel="stylesheet" type="text/css" href="../regist.css"/>
-    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
-    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
-    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/regist.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/iview.css">
+    <script type="text/javascript" src="../static/js/vue.min.js"></script>
+    <script type="text/javascript" src="../static/js/iview.min.js"></script>
+    <script src="../static/js/jquery-latest.js"></script>
 </head>
 <body>
 <div class="reg_user">
@@ -27,6 +27,7 @@
                 </from-item>
 
 
+
                 <from-item prop="stuclass">班级
                     <i-input type="text"   v-model="formCustom.stuclass" placeholder=" Your class"  size="large">
                         <icon type="ios-person-outline" slot="prepend"></icon>
@@ -39,11 +40,14 @@
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
+
                 <form-item prop="passwdCheck">确认
                     <i-input type="password" v-model="formCustom.passwdCheck" placeholder="Password" size="large">
                         <icon type="ios-lock-outline" slot="prepend"></icon>
                     </i-input>
                 </form-item>
+
+
                 <form-item>
                     <i-button type="primary" @click="handleReset('formCustom')" style="margin-left: 30px">Reset</i-button>
                     <i-button type="primary" @click="f()" style="margin-left: 50px">Submit</i-button>
@@ -53,6 +57,7 @@
     </div>
 </div>
 <script>
+
     var Main ={
 
         data () {
@@ -162,7 +167,7 @@
                         },
                         success(res) {
                             if (res==='true'){
-                            // window.location.href="/Stu/RegisterSuccess.html";
+                            // window.location.href="/Stu/registersuccess.html";
                               alert("注册成功!!!")
                             }
                         }

@@ -11,14 +11,14 @@ import java.util.List;
 @Repository
 public interface RecordMapper {
     @Select("SELECT * FROM record_info  WHERE stu_name=#{stu_name,jdbcType=VARCHAR}")
-    public List<Record> findBySname(@Param("stu_name") String stu_name);
+    public Record findBySname(@Param("stu_name") String stu_name);
 
     @Select("SELECT * FROM record_info  WHERE stu_class=#{stu_class,jdbcType=VARCHAR}")
     public List<Record> findByClass(@Param("stu_class") String stu_class);
 
 
     @Select("SELECT * FROM record_info  WHERE stu_number=#{stu_number,jdbcType=VARCHAR}")
-    public List<Record> findBySno(@Param("stu_number") String stu_number);
+    public Record findBySno(@Param("stu_number") String stu_number);
 
 
     @Select("SELECT * FROM record_info  ")
@@ -30,4 +30,11 @@ public interface RecordMapper {
     int addRecord(@Param("stu_number") String stu_number,@Param("stu_class") String stu_class, @Param("stu_name") String stu_name,
                    @Param("qingjia_time") String qingjia_time, @Param("start_time") String start_time,@Param("end_time") String end_time,
                   @Param("qingjia_reason") String qingjia_reason);
+
+
+    @Select("SELECT class_tea_status  FROM record_info  where stu_number=#{stu_number,jdbcType=VARCHAR}")
+       String  querrystatus(@Param("stu_number") String stu_number);
+
+
+
 }

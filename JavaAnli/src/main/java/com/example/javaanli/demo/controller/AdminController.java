@@ -40,7 +40,7 @@ public class AdminController {
 
     @RequestMapping("/findbySno")
     @ResponseBody
-    public List<Record> findbySno(@RequestParam String Sno){
+    public Record findbySno(@RequestParam String Sno){
         return recordService.findBySno(Sno);
     }
 
@@ -54,7 +54,7 @@ public class AdminController {
 
     @RequestMapping("/findbyName")
     @ResponseBody
-    public List<Record> findbyName(@RequestParam String Sname){
+    public  Record  findbyName(@RequestParam String Sname){
         return recordService.findBySname(Sname);
     }
 

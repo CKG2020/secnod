@@ -2,11 +2,11 @@
 <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
-    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
-    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
-    <link rel="stylesheet" href="../regist.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/regist.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/iview.css">
+    <script type="text/javascript" src="../static/js/vue.min.js"></script>
+    <script type="text/javascript" src="../static/js/iview.min.js"></script>
+    <script src="../static/js/jquery-latest.js"></script>
 </head>
 <body>
 <div class="reg_user">
@@ -86,7 +86,7 @@
                         if(res==="0"){
                             alert('此用户或密码不存在!');
                         } else{
-                            window.location.href = '/Stu/QingJia_Request.html';
+                            window.location.href = '/qingjiarequest.html';
                         }
                     }
                 })

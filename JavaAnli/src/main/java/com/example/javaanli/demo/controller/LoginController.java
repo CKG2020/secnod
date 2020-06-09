@@ -20,6 +20,7 @@ import javax.xml.ws.Action;
 
 @Controller
 @RequestMapping("/")
+
 public class LoginController {
     @Autowired
     private StuServiceImpl stuService;
@@ -30,6 +31,8 @@ public class LoginController {
     @Autowired
     private TeaServiceImpl teaService;
 
+    @Autowired
+    private HttpSession session;
     //
 //    @RequestMapping("welcome")
 //    public  String success(){
@@ -40,7 +43,11 @@ public class LoginController {
     @ResponseBody
     public String student_login(@RequestParam String Sno, String Spwd) {
 //        Student student;
+        System.out.println(Sno);
 
+        //将数据存储到session中
+        session.setAttribute("sno", Sno);
+//        session.setAttribute();
 
         Student student = stuService.findByNumAndPassword(Sno, Spwd);
         if (null != student && !"".equals(student)) {
@@ -106,4 +113,34 @@ public class LoginController {
     }
 
 
-}
+
+
+    @RequestMapping("welcome")
+
+    public String welcome() {
+
+            return "welcome";
+        }
+
+
+    @RequestMapping("student")
+
+    public String student() {
+
+        return "student";
+    }
+
+
+
+    @RequestMapping("teacher")
+
+    public String teacher() {
+
+        return "teacher";
+    }
+
+
+
+    }
+
+

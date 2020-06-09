@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping("/Record")
 public class RecordController {
@@ -19,6 +21,8 @@ public class RecordController {
     @Autowired
     private RecordServiceImpl recordService;
 
+    @Autowired
+    private HttpSession session;
 
     @RequestMapping(value = "/addRecord", method = RequestMethod.POST)
     @ResponseBody
@@ -39,5 +43,32 @@ public class RecordController {
         }
 
     }
+
+
+
+
+    @RequestMapping(value = "/QuerryStatus")
+    @ResponseBody
+    public String querrystatus(){
+   String stu_number=session.getAttribute("sno").toString();
+
+        String  querrystatus = recordService.querrystatus(stu_number);
+
+        if (querrystatus=="null"){
+            return "null";
+        }
+        else if (querrystatus=="-1"){
+            return "-1";
+        }else {
+
+            return "1";
+        }
+
+
+
+
+    }
+
+
 }
 

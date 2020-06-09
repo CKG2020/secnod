@@ -11,7 +11,7 @@ public class RecordServiceImpl implements RecordMapper {
 @Autowired
 private RecordMapper recordMapper;
     @Override
-    public List<Record> findBySname(String stu_name) {
+    public Record findBySname(String stu_name) {
         return  recordMapper.findBySname(stu_name);
     }
 
@@ -21,7 +21,7 @@ private RecordMapper recordMapper;
     }
 
     @Override
-    public List<Record> findBySno(String stu_number) {
+    public Record findBySno(String stu_number) {
         return recordMapper.findBySno(stu_number);
     }
 
@@ -32,6 +32,11 @@ private RecordMapper recordMapper;
 
     public int addRecord(String stu_number, String stu_class, String stu_name, String qingjia_time, String start_time, String end_time,String qingjia_reason) {
         return recordMapper.addRecord(stu_number,stu_class,stu_name,qingjia_time,start_time,end_time,qingjia_reason);
+    }
+
+    @Override
+    public String querrystatus(String stu_number) {
+        return recordMapper.querrystatus(stu_number);
     }
 
 //    public List<Record> findpage(Integer valueOf, Integer valueOf1) {
