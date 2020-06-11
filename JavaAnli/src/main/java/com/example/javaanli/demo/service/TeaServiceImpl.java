@@ -14,7 +14,6 @@ public class TeaServiceImpl implements TeaMapper {
     public Teacher findByNumAndPassword(String tea_number,String tea_password){
         return  teaMapper.findByNumAndPassword(tea_number,tea_password);
 
-
     }
 
 

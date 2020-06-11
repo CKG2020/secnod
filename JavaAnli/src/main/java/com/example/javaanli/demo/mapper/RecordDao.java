@@ -1,6 +1,7 @@
 package com.example.javaanli.demo.mapper;
 
 import com.example.javaanli.demo.Model.Record;
+import com.github.pagehelper.Page;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public interface RecordDao {
     List<Record> findUsersByName(String name);
 
     List<Record> findUsersByClass(String sclass);
+
 
 
 

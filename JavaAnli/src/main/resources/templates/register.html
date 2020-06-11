@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../static/css/regist.css"/>
-    <link rel="stylesheet" type="text/css" href="../static/css/iview.css">
-    <script type="text/javascript" src="../static/js/vue.min.js"></script>
-    <script type="text/javascript" src="../static/js/iview.min.js"></script>
-    <script src="../static/js/jquery-latest.js"></script>
+
+
 </head>
 <body>
 <div class="reg_user">
@@ -143,7 +146,8 @@
                             if(res==="ok"){
                                 alert("此账号可以使用");
                                 console.log("ok");
-                                Main.subm();
+                                Main.yyy();
+
                             }else{
                                 alert("此账号已注册过")
                             }
@@ -151,7 +155,7 @@
                     });
                 }
             },
-            subm(){
+            yyy(){
                 pp1=this.formCustom.passwd;
                 pp2=this.formCustom.passwdCheck;
 
@@ -162,7 +166,7 @@
                         data:{
                             "Sno":this.formCustom.sno,
                             "Spwd":pp1,
-                            "Name":this.formCustom.stuname,
+                           "Name":this.formCustom.stuname,
                             "Class":this.formCustom.stuclass
                         },
                         success(res) {

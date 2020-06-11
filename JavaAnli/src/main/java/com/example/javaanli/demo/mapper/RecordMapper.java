@@ -1,6 +1,7 @@
 package com.example.javaanli.demo.mapper;
 
 import com.example.javaanli.demo.Model.Record;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -35,6 +36,9 @@ public interface RecordMapper {
     @Select("SELECT class_tea_status  FROM record_info  where stu_number=#{stu_number,jdbcType=VARCHAR}")
        String  querrystatus(@Param("stu_number") String stu_number);
 
+    @Delete("DELETE FROM record_info WHERE stu_number=#{stu_number,jdbcType=VARCHAR}")
+     int  deleteRecord(@Param("stu_number") String stu_number);
 
-
+    @Select("SELECT * FROM record_info  ")
+    List<Record> findpage(Integer valueOf, Integer valueOf1);
 }

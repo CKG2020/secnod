@@ -1,45 +1,79 @@
-<html lang="en" dir="ltr" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vedio Test</title>
-    <link rel="stylesheet"   src="../static/css/stytle.css"> </link>
-    <style type="text/css">
-
-        .head{ width:100%; height:100%; margin:50px auto 0 auto; background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590091693551&di=bc8d0389317b3d83eb0134b771e7692f&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F8%2F55402f5ec10bc.jpg) no-repeat; }
-
-    </style>
-
+    <title>首页</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
+    <!--<link rel="stylesheet" href="../static/css/regist.css">-->
 </head>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-
-<body class="body1">
-
-<div class="head"></div>
-
-<div   class="login-form">
-    <h1>考勤管理系统</h1>
-    <div class="form-input">
-
-        <form-item>
-            <i-button type="primary" @click="handleReset('formCustom')" style="margin-left: 30px">Reset</i-button>
-            <i-button type="primary" @click="f()" style="margin-left: 50px">Submit</i-button>
-        </form-item>
-        <!--<a href="student.html" class="forget">我是学生</a>-->
-    <!--</div>-->
-
-    <!--<div class="form-input"  >-->
-
-
-        <!--<a href="teacher.html" class="forget">我是老师</a>-->
+<body>
+<div  class="reg_user">
+    <div id="header">
+        <h2>TUTE考勤管理系统</h2>
+        <div id="app" style="margin-top:60px">
+            <i-form style="...">
+                <form-item>
+                    <i-button type="primary"  @click="func1()" style="...">我是学生</i-button>
+                </form-item>
+                <form-item>
+                    <i-button type="primary"  @click="func2()"  style="...">我是老师</i-button>
+                </form-item>
+            </i-form>
+        </div>
     </div>
-
 </div>
+<script>
+    var  Main ={
+        methods: {
+            func1(){
+                $.ajax({
+                    url:'/student',
+                    type:'post',
+                    success(res){
+                        if (res==='student') {
+                            window.location.href = "students";
+                        }
 
+                        else{
+                            alert("登录失败!!!")
+                        }
+                    }
+
+                });
+            },
+            func2(){
+                $.ajax({
+                    url:'/teacher',
+                    type:'post',
+                    success(res){
+                        if (res==='teacher') {
+                            window.location.href = "teachers";
+                        }
+
+                        else{
+                            alert("登录失败!!!")
+                        }
+                    }
+                });
+
+                // window.location.href="teacher.html";
+
+            }
+        }
+    };
+    var Component = Vue.extend(Main);
+    new Component().$mount('#app');
+
+</script>
+
+
+<!--<a href="askforleave.html" class="forget">我要请假</a>-->
+<!--<br>-->
+<!--<a href="querrystatus.html" class="forget">查询请假状态</a>-->
 </body>
-
-</html>
-
-
 
 
 

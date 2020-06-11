@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>LoginAdmin</title>
+    <title>教师登录</title>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
     <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
@@ -88,7 +88,9 @@
                         let  msg = JSON.stringify(res);
                         localStorage.setItem("localName", msg);
                         if(res==='ok'){
-                            window.location.href = '/Tea/ShowRecord.html';
+                            window.location.href = '/Record/showrecord';
+
+                            
                         }else{
                             alert("wrong!")
                         }

@@ -39,6 +39,18 @@ private RecordMapper recordMapper;
         return recordMapper.querrystatus(stu_number);
     }
 
+    @Override
+    public int deleteRecord(String stu_number) {
+        return recordMapper.deleteRecord(stu_number);
+    }
+
+    public List<Record> findpage(Integer valueOf, Integer valueOf1) {
+
+        return recordMapper.findpage(valueOf,valueOf1);
+
+    }
+
+
 //    public List<Record> findpage(Integer valueOf, Integer valueOf1) {
 //
 //

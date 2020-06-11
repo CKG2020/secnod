@@ -3,10 +3,10 @@
     <meta charset="utf-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="../static/css/regist.css"/>
-    <link rel="stylesheet" type="text/css" href="../static/css/iview.css">
-    <script type="text/javascript" src="../static/js/vue.min.js"></script>
-    <script type="text/javascript" src="../static/js/iview.min.js"></script>
-    <script src="../static/js/jquery-latest.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
 </head>
 <body>
 <div class="reg_user">
@@ -28,9 +28,9 @@
                 </form-item>
                 <form-item>
                     <div style="margin-top: 20px">
-                        <a href="/Stu/Register.html">
-                            <i-button type="primary" style="margin-left: 20px">Register</i-button>
-                        </a>
+                        <!--<a href="/register">-->
+                            <i-button type="primary"  @click="func1()"   style="margin-left: 20px">Register</i-button>
+                        <!--</a>-->
                         <i-button type="primary" @click="handleSubmit('formInline')" style="margin-left: 50px">Signin</i-button>
                     </div>
                 </form-item>
@@ -86,10 +86,29 @@
                         if(res==="0"){
                             alert('此用户或密码不存在!');
                         } else{
-                            window.location.href = '/qingjiarequest.html';
+                            window.location.href = 'qingjiarequest';
                         }
                     }
                 })
+            },
+
+
+            func1(){
+
+                $.ajax({
+                    url:'/register',
+                    type:'post',
+                    success(res){
+                        if (res==='register') {
+                            window.location.href = "registers";
+                        }
+
+                        else{
+                            alert("无法注册!!!")
+                        }
+                    }
+                });
+
             }
         }
     };
