@@ -50,6 +50,16 @@ private RecordMapper recordMapper;
 
     }
 
+    @Override
+    public int tongyi(String stu_number) {
+        return  recordMapper.tongyi(stu_number);
+    }
+
+    @Override
+    public int fangdui(String stu_number) {
+        return  recordMapper.fangdui(stu_number);
+    }
+
 
 //    public List<Record> findpage(Integer valueOf, Integer valueOf1) {
 //

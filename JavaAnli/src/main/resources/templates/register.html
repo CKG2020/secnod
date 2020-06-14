@@ -159,23 +159,24 @@
                 pp1=this.formCustom.passwd;
                 pp2=this.formCustom.passwdCheck;
 
-                if(pp1===pp2)
+                if(pp1===pp2) {
                     $.ajax({
-                        url:'/addUser',
+                        url: '/addUser',
                         type: 'post',
-                        data:{
-                            "Sno":this.formCustom.sno,
-                            "Spwd":pp1,
-                           "Name":this.formCustom.stuname,
-                            "Class":this.formCustom.stuclass
+                        data: {
+                            "Sno": this.formCustom.sno,
+                            "Spwd": pp1,
+                            "Name": this.formCustom.stuname,
+                            "Class": this.formCustom.stuclass
                         },
                         success(res) {
-                            if (res==='true'){
-                            // window.location.href="/Stu/registersuccess.html";
-                              alert("注册成功!!!")
+                            if (res === 'true') {
+                                // window.location.href="/Stu/registersuccess.html";
+                                alert("注册成功!!!")
                             }
                         }
                     });
+                }
             }
         }
     };

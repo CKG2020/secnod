@@ -4,10 +4,10 @@ public class Record {
 
     private int id;
     private String stu_number;
-    private String stu_name;
     private String stu_class;
+    private String stu_name;
     private String qingjia_time;
-    private String satrt_time;
+    private String start_time;
     private String end_time;
     private String qingjia_reason;
     private String class_tea_status;
@@ -24,6 +24,23 @@ public class Record {
 
     public String getStu_number() {
         return stu_number;
+    }
+
+    @Override
+    public String toString() {
+        return "Record{" +
+                "id=" + id +
+                ", stu_number='" + stu_number + '\'' +
+                ", stu_class='" + stu_class + '\'' +
+                ", stu_name='" + stu_name + '\'' +
+                ", qingjia_time='" + qingjia_time + '\'' +
+                ", start_time='" + start_time + '\'' +
+                ", end_time='" + end_time + '\'' +
+                ", qingjia_reason='" + qingjia_reason + '\'' +
+                ", class_tea_status='" + class_tea_status + '\'' +
+                ", tea_sp_time='" + tea_sp_time + '\'' +
+                ", tea_restore='" + tea_restore + '\'' +
+                '}';
     }
 
     public void setStu_number(String stu_number) {
@@ -54,13 +71,13 @@ public class Record {
         this.qingjia_time = qingjia_time;
     }
 
-    public String getSatrt_time() {
-        return satrt_time;
-    }
-
-    public void setSatrt_time(String satrt_time) {
-        this.satrt_time = satrt_time;
-    }
+//    public String getSatrt_time() {
+//        return satrt_time;
+//    }
+//
+//    public void setSatrt_time(String satrt_time) {
+//        this.satrt_time = satrt_time;
+//    }
 
     public String getEnd_time() {
         return end_time;

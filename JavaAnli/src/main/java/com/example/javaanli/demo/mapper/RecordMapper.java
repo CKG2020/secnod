@@ -1,10 +1,7 @@
 package com.example.javaanli.demo.mapper;
 
 import com.example.javaanli.demo.Model.Record;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -41,4 +38,14 @@ public interface RecordMapper {
 
     @Select("SELECT * FROM record_info  ")
     List<Record> findpage(Integer valueOf, Integer valueOf1);
+
+
+
+    @Update("UPDATE  record_info  set  class_tea_status=1 where stu_number=#{stu_number,jdbcType=VARCHAR}")
+    int tongyi(@Param("stu_number") String stu_number);
+
+
+    @Update("UPDATE  record_info  set  class_tea_status=-1 where stu_number=#{stu_number,jdbcType=VARCHAR}")
+    int fangdui(@Param("stu_number") String stu_number);
+
 }

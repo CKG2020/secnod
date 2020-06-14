@@ -39,13 +39,14 @@ public class LoginController {
 //        return  "welcome";
 //
 //    }
-    @RequestMapping(value = "student_login", method = RequestMethod.POST)
+    @RequestMapping(value = "/student_login", method = RequestMethod.POST)
     @ResponseBody
     public String student_login(@RequestParam String Sno, String Spwd) {
 //        Student student;
 //        System.out.println(Sno);
 
         //将数据存储到session中
+        System.out.println("================");
         session.setAttribute("sno", Sno);
 //        session.setAttribute();
         System.out.println(session.getAttribute("sno"));
@@ -151,9 +152,9 @@ public class LoginController {
     }
 
 
-    @RequestMapping(value = "addUser")
+    @RequestMapping(value = "addUser",method = RequestMethod.POST)
     @ResponseBody
-    public String submit(@RequestParam String Sno, String Spwd, String Name, String Class) {
+    public String addUser(@RequestParam String Sno, String Spwd, String Name, String Class) {
         System.out.println(Sno);
         System.out.println(Spwd);
         System.out.println(Name);

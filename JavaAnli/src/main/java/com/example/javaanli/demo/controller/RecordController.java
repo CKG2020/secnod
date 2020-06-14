@@ -2,12 +2,9 @@ package com.example.javaanli.demo.controller;
 
 
 import com.example.javaanli.demo.Model.Record;
-import com.example.javaanli.demo.Model.Student;
-import com.example.javaanli.demo.mapper.RecordMapper;
 import com.example.javaanli.demo.service.RecordServiceImpl;
-import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import org.omg.PortableInterceptor.ServerRequestInfo;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -51,11 +48,12 @@ public class RecordController {
 
     @RequestMapping(value = "/QuerryStatus" , method = RequestMethod.POST)
     @ResponseBody
-    public String querrystatus(){
+    public String QuerryStatus(){
    String stu_number=session.getAttribute("sno").toString();
         System.out.println("--------------------");
         System.out.println(stu_number);
         System.out.println("--------------------");
+        System.out.println("cccccccccccccccccccccc");
         String  querrystatus = recordService.querrystatus(stu_number);
 
 
@@ -63,13 +61,13 @@ public class RecordController {
 
 
         if (querrystatus=="null"){
-            return "null";
+            return "wu";
         }
         else if (querrystatus=="-1"){
-            return "-1";
+            return "bu";
         }else {
 
-            return "1";
+            return "hao";
         }
 
 
@@ -85,6 +83,12 @@ public class RecordController {
 
     }
 
+    @RequestMapping("showrecords")
+    @ResponseBody
+    public   String register2(){
+        return "demo";
+
+    }
 
 
 //
@@ -179,7 +183,7 @@ public class RecordController {
 
 
 
-    @RequestMapping("deleteRecord")
+    @RequestMapping(value="/deleteRecord",method=RequestMethod.POST)
     @ResponseBody
     public   String deleteRecord(){
         String stu_number=session.getAttribute("sno").toString();
@@ -202,6 +206,7 @@ public class RecordController {
     @ResponseBody
     public int findallcount(){
         List<Record> all = recordService.findAll();
+        System.out.println("-------------------");
         System.out.println(all.size());
         return all.size();
     }
@@ -210,16 +215,86 @@ public class RecordController {
     @RequestMapping("findpage")
     @ResponseBody
     public List<Record> findpage(@RequestParam String curr, String pageSize){
+        System.out.println("ssssssssssssssss");
+
         System.out.println(curr);
+        System.out.println("xxxxxxxxxxxxxxxxx");
         System.out.println(pageSize);
 
         List<Record> userList =recordService.findAll();
         System.out.println("分页数据："+userList);
         //3.使用PageInfo包装查询后的结果,5是连续显示的条数,结果list类型是Page<E>
-        PageInfo<Record> pageInfo = new PageInfo<>(userList,Integer.valueOf(pageSize));
 
-        return (List<Record>) pageInfo;
+
+
+        PageInfo<Record> pageInfo = new PageInfo<>(userList,Integer.valueOf(pageSize));
+        System.out.println("==================");
+        System.out.println(pageInfo.toString());
+
+        return  pageInfo.getList();
     }
+
+
+
+    @RequestMapping("/teacherRequest")
+    public String teacherRequest() {
+
+        return "teacherRequest";
+    }
+
+
+
+    @RequestMapping("/pijia")
+    public String teacherRequest1() {
+
+        return "pijia";
+    }
+
+    @RequestMapping("/pijias")
+    @ResponseBody
+    public String teacherRequest2() {
+
+        return "pijia";
+    }
+
+
+    @RequestMapping(value = "/tongyi",method = RequestMethod.POST)
+    @ResponseBody
+    public String tongyi(@RequestParam String Sno) {
+
+        System.out.println(recordService.tongyi(Sno));
+
+        int a = recordService.tongyi(Sno);
+        if (a!=0){
+            return "1";
+
+        }
+
+
+        return "0";
+    }
+
+
+
+    @RequestMapping(value = "/fandui",method = RequestMethod.POST)
+    @ResponseBody
+    public  String  fandui (@RequestParam String Sno) {
+
+        int a = recordService.fangdui(Sno);
+        if (a!=0){
+            return "1";
+
+        }
+
+        return "0";
+    }
+
+
+
+
+
+
+
 
 
 
