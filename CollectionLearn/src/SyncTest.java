@@ -42,10 +42,12 @@ public class SyncTest  implements  Runnable {
     SyncTest syncTest=new SyncTest();
 
     A a;
-
+    B b;
 
     @Override
     public void run() {
+
+
 
     }
 

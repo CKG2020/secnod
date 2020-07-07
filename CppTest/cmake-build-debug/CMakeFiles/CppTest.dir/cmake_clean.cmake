@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o"
+  "CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o"
   "CppTest.pdb"
   "CppTest"
 )

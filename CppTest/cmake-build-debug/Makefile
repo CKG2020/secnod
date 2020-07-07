@@ -339,6 +339,33 @@ ClassLearn/test.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/test.cpp.s
 .PHONY : ClassLearn/test.cpp.s
 
+ClassLearn/yyy.o: ClassLearn/yyy.cpp.o
+
+.PHONY : ClassLearn/yyy.o
+
+# target to build an object file
+ClassLearn/yyy.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o
+.PHONY : ClassLearn/yyy.cpp.o
+
+ClassLearn/yyy.i: ClassLearn/yyy.cpp.i
+
+.PHONY : ClassLearn/yyy.i
+
+# target to preprocess a source file
+ClassLearn/yyy.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.i
+.PHONY : ClassLearn/yyy.cpp.i
+
+ClassLearn/yyy.s: ClassLearn/yyy.cpp.s
+
+.PHONY : ClassLearn/yyy.s
+
+# target to generate assembly for a file
+ClassLearn/yyy.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.s
+.PHONY : ClassLearn/yyy.cpp.s
+
 ClassLearn/ztest.o: ClassLearn/ztest.cpp.o
 
 .PHONY : ClassLearn/ztest.o
@@ -750,6 +777,9 @@ help:
 	@echo "... ClassLearn/test.o"
 	@echo "... ClassLearn/test.i"
 	@echo "... ClassLearn/test.s"
+	@echo "... ClassLearn/yyy.o"
+	@echo "... ClassLearn/yyy.i"
+	@echo "... ClassLearn/yyy.s"
 	@echo "... ClassLearn/ztest.o"
 	@echo "... ClassLearn/ztest.i"
 	@echo "... ClassLearn/ztest.s"

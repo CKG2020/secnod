@@ -108,6 +108,12 @@
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/test.cpp">
 			<Option target="CppTest"/>
 		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/yyy.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/yyy.h">
+			<Option target="CppTest"/>
+		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/ztest.cpp">
 			<Option target="CppTest"/>
 		</Unit>

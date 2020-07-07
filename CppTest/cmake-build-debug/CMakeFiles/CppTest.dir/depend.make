@@ -17,6 +17,9 @@ CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o: ../ClassLearn/opt8.cpp
 
 CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o: ../ClassLearn/test.cpp
 
+CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o: ../ClassLearn/yyy.cpp
+CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o: ../ClassLearn/yyy.h
+
 CMakeFiles/CppTest.dir/ClassLearn/ztest.cpp.o: ../ClassLearn/ztest.cpp
 
 CMakeFiles/CppTest.dir/Father.cpp.o: ../Father.cpp
