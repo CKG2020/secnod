@@ -14,19 +14,19 @@ public class Test1 {
         Test1 test1 = new Test1();
         new Thread(test1.new Producer()).start();
         new Thread(test1.new Consumer()).start();
-        new Thread(test1.new Producer()).start();
-        new Thread(test1.new Consumer()).start();
-        new Thread(test1.new Producer()).start();
-        new Thread(test1.new Consumer()).start();
-        new Thread(test1.new Producer()).start();
-        new Thread(test1.new Consumer()).start();
+//        new Thread(test1.new Producer()).start();
+//        new Thread(test1.new Consumer()).start();
+//        new Thread(test1.new Producer()).start();
+//        new Thread(test1.new Consumer()).start();
+//        new Thread(test1.new Producer()).start();
+//        new Thread(test1.new Consumer()).start();
     }
     class Producer implements Runnable {
         @Override
         public void run() {
             for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(2000);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -40,7 +40,7 @@ public class Test1 {
                     }
                     count++;
                     System.out.println(Thread.currentThread().getName() + "生产者生产，目前总共有" + count);
-                    LOCK.notifyAll();
+                    LOCK.notifyAll(); //不是只唤醒  wait的线程
                 }
             }
         }
@@ -50,7 +50,7 @@ public class Test1 {
         public void run() {
             for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(6000);
+                    Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

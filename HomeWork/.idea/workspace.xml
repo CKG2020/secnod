@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d3f5bfd-fcbe-49cf-a621-c5eaf097ff4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/ArrayBlockQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/PCSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/ProComTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CollectionLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/SyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/SyncTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/ProComTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/ProComTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1$Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1$Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync$Consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync$Consumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync$Produce1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync$Produce1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/out/production/CollectionLearn/com/ckg/lock/pcSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/PCSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/PCSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/ProComTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/ProComTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionLearn/src/com/ckg/lock/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,9 +30,11 @@
     <session id="1164354549">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -137,6 +144,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,17 +242,17 @@
       <updated>1594124609757</updated>
       <workItem from="1594124612416" duration="2223000" />
       <workItem from="1594177594837" duration="597000" />
+      <workItem from="1594260194760" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2820000" />
+    <option name="totallyTimeSpent" value="3423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16378379" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30972973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

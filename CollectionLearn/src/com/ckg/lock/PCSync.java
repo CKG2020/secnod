@@ -1,9 +1,7 @@
 package com.ckg.lock;
 
 class pcSync {
-
     private static int count = 0;
-
     public static void main(String[] args) {
         pcSync pcSync = new pcSync();
 
@@ -29,6 +27,11 @@ class pcSync {
         @Override
         public void run() {
             for (int i = 0; i <= 10; i++) {
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 synchronized (pcSync) {
                     while (count == 10) {
 
@@ -58,9 +61,9 @@ class pcSync {
 
         @Override
         public void run() {
-            for (int i = count; i >= 0; i--) {
+            for (int i = 0; i <=10; i++) {
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
