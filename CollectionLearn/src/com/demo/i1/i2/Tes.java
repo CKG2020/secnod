@@ -19,9 +19,9 @@ public class Tes extends Thread {
             }
         }
     }
- public  int dis(){
+    public  int dis(){
         return sum;
- }
+    }
 
     public static void main(String[] args) throws InterruptedException {
         A a = new A();

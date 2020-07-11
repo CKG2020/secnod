@@ -15,13 +15,15 @@ public class Test3 {
         Test3 test3 = new Test3();
         new Thread(test3.new Producer()).start();
         new Thread(test3.new Consumer()).start();
-//        new Thread(test3.new Producer()).start();
-//        new Thread(test3.new Consumer()).start();
-//        new Thread(test3.new Producer()).start();
-//        new Thread(test3.new Consumer()).start();
-//        new Thread(test3.new Producer()).start();
-//        new Thread(test3.new Consumer()).start();
+        new Thread(test3.new Producer()).start();
+        new Thread(test3.new Consumer()).start();
+        new Thread(test3.new Producer()).start();
+        new Thread(test3.new Consumer()).start();
+        new Thread(test3.new Producer()).start();
+        new Thread(test3.new Consumer()).start();
     }
+
+
     class Producer implements Runnable {
         @Override
         public void run() {
@@ -47,7 +49,7 @@ public class Test3 {
         public void run() {
             for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(6000);
                 } catch (InterruptedException e1) {
                     e1.printStackTrace();
                 }
