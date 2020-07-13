@@ -51,7 +51,7 @@ class pcSync {
 
         }
     }
-
+//缺点  一把锁的局限性  消费者只能等生产者生产到容量最大值才有可能获取到锁进行消费
     class Consumer1 implements Runnable {
         private pcSync pcSync;
 
