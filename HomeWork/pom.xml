@@ -6,6 +6,7 @@
 
     <groupId>com.ckg</groupId>
     <artifactId>HomeWork</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,6 +20,21 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>MyBatisDIY</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
