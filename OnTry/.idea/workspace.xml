@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2bf525-40eb-44a7-97e3-b11d7b0d730e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/out/production/JavaFxTest/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/out/production/JavaFxTest/UseFxml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/out/production/JavaFxTest/test1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxTest/src/together/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/src/UseFxml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxTest/src/together/UseFxml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFxTest/src/test1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxTest/src/together/test1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringTest/out/production/SpringTest/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest/out/production/SpringTest/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringTest/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTest/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FourDataFormat/MySqe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FourDataFormat/MySqs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FourDataFormat/xxxx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/ClassLoader/BootstrapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/serializable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/serializable/ReadObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnTry.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileUtils/FileUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileUtils/FileUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tray" beforeDir="false" afterPath="$PROJECT_DIR$/../Tray" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +35,11 @@
     <session id="558780812">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,29 +65,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FileUtils/FileUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,10 +101,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="90" />
-    <option name="width" value="948" />
-    <option name="height" value="923" />
+    <option name="x" value="769" />
+    <option name="width" value="912" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,9 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +154,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,6 +237,7 @@
       <updated>1593009072046</updated>
       <workItem from="1593009074998" duration="2527000" />
       <workItem from="1593769469623" duration="68000" />
+      <workItem from="1595082814910" duration="31000" />
     </task>
     <servers />
   </component>
@@ -261,12 +250,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2595000" />
+    <option name="totallyTimeSpent" value="2626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23567568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
