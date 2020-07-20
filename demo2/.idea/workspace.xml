@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48050c4b-e16d-4980-8159-eb179e435208" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FourDataFormat/MySqe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FourDataFormat/MySqs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/ClassLoader/BootstrapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/serializable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/serializable/ReadObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OnTry/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/OnTry.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/src/main/java/FileUtils/FileUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/target/classes/FileUtils/FileUtilsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tray" beforeDir="false" afterPath="$PROJECT_DIR$/../Tray" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -38,7 +22,7 @@
     <session id="-1915957735">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -183,10 +167,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="28" />
-    <option name="width" value="928" />
-    <option name="height" value="1013" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,10 +311,10 @@
     <option name="totallyTimeSpent" value="9439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="0" width="928" height="1013" extended-state="1" />
+    <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3974359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18432432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
