@@ -1,15 +1,19 @@
 package com.FourDataFormat.xml;
 
+//import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.io.Resources;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
+import javax.annotation.Resource;
 import java.io.File;
 import java.io.FileReader;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.sql.Connection;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
@@ -23,19 +27,56 @@ public class XmlTest {
         User user = new User();
         // 获得User的class对象，后续要使用反射
         Class clazz = user.getClass();
-//
+//Resources.getResourceAsStream("config/mybatis.xml")
 //        File file = new File(XmlTest.class.getClassLoader()
 //                .getResource("admin.xml").getPath());
-        InputStream resourceAsStream = ClassLoader.getSystemClassLoader().getResourceAsStream("/home/ckg/secnod/secnod/HomeWork/src/main/resources/admin.xml");
+
+
+
+//        private static ClassLoader loder=ClassLoader.getSystemClassLoader();
+//        public Connection build(String resource) {
+//            try {
+//                InputStream stream = loder.getResourceAsStream(resource);
+
+
+        InputStream resourceAsStream1 =Thread.currentThread().getContextClassLoader().getResourceAsStream("admin.xml");
+//        InputStream resourceAsStream = Resources.getResourceAsStream("admin.xml");
 
 
 
 
 //        System.out.println(XmlTest.class.getClassLoader()
 //                .getResource("admin.xml").getPath());
+
+
+
+
+
+
+
+
+//
+//            String strResult = null;
+//            if (System.getProperty("os.name").toLowerCase().indexOf("window") > -1) {
+//                System.out.println("xxxxxxxxxxxxxxx");
+//                strResult = XmlTest.class.getResource("/").toString().replace("file:/", "")
+//                        .replace("%20", " ");
+//            } else {
+//                System.out.println("yyyyyyyyyyyyyyyyy");
+//                strResult = XmlTest.class.getResource("/").toString().replace("file:", "")
+//                        .replace("%20", " ");
+//            }
+//
+//           String filePath=strResult + "admin.xml";
+//
+//
+//        File file = new File(filePath);
+
+
+
         SAXReader reader = new SAXReader();
         // 读取xml文件到Document中
-        Document doc = reader.read(resourceAsStream);
+        Document doc = reader.read(resourceAsStream1);
         // 获取xml文件的根节点
         Element rootElement = doc.getRootElement();
         System.out.println("根节点:" + rootElement.getName());
