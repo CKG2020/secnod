@@ -1,11 +1,11 @@
 package main.scala
 
-//object HelloWorld {
-//
-//  def main(args: Array[String]) {
-//    println("Hello World")
-//  }
-//}
+object HelloWorld {
+
+  def main(args: Array[String]) {
+    println("Hello World")
+  }
+}
 
 
 
@@ -36,3 +36,37 @@ package main.scala
 //}
 
 //在 Scala 中，字符串的类型实际上是 Java String，它本身没有 String 类。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
