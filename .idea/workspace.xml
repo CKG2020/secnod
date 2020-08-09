@@ -1,41 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
-    <generated />
-  </component>
-  <component name="CMakeSettings">
-    <configurations>
-      <configuration CONFIG_NAME="Debug" />
-    </configurations>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="12df3fcb-6f04-4d60-98b3-080584aa71f9" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <list default="true" id="dca181fc-72d1-49b4-92b6-21f12c7f9aef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/MySpringNetty/MySpringNetty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/ByteBufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/MyNetty/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/SubReqClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/SubReqServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/MyNetty/xx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/ChannelPipelineInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/HeartBeatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/handler/HeartBeatReqHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/ChannelPipelineInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/HeartBeatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/handler/HeartBeatRespHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/ExportPrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/HttpServerInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/https握手.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/luke" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/luke1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/luke2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/https/ssltest.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloClientIntHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/InboundHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/InboundHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/OutboundHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/inoutbound/OutboundHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/YY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/BadTimeClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/ConnectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/HttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/PushHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/PushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimerClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/udp/UDPClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/udp/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/udp/UDPSeverHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/websocket/ChildChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/websocket/Global.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/websocket/MyWebSocketServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/websocket/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/IO/websocket/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/SpringNetty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/src/com/ckg/nyspringnetty/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/src/com/ckg/nyspringnetty/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty/src/com/ckg/nyspringnetty/JavaConfigTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/SpringNetty1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/XXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/MySNetty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/JavaConfigTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/java/com/nyspringnetty/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringNetty1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/main/img/80-80shine-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/main/img/seach/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/main/xml/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/register/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/register/xml/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/test/java/com/test/KeyBoardLIstener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/test/java/com/test/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/test/java/com/test/TestPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/test/java/com/test/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/TrayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/entry/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/file/FileListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/file/GetPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/file/Keyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/file/Peizhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/handler/HandlerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/handler/LoginHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/handler/RegistryHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/handler/SendHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/ControllerStage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/LayoutUi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/Tray$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/Tray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/UiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/container/IdContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/container/ResourceContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/controller/LoginViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/controller/MainViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/ui/controller/RegistryViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/util/I18n.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/com/easyArch/client/util/NumberUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/i18n/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/i18n/message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/close_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/loginErorr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/img/min_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/login/xml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/main/img/80-80shine-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/main/img/seach/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/main/xml/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/register/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/classes/register/xml/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/test-classes/com/test/KeyBoardLIstener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/client/target/test-classes/com/test/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/entry/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/enums/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/handler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/netty/INettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/req/TrayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/res/TrayResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/serialization/ProtostuffSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/src/main/java/com/easeArch/common/service/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/entry/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/enums/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/handler/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/netty/INettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/req/TrayRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/res/TrayResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/service/API.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/util/IpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/util/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/common/target/classes/com/easeArch/common/util/TrayException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/TrayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/config/DataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/config/info/JdbcInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/netty/TRayNettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/netty/TrayNettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/server/UserServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/java/com/easyArch/server/util/PropUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/resources/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/resources/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/test/java/com/test/TestNettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secnod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringNetty/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/secnod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/src/main/java/com/FengSpring/achievement/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/FengSpring/achievement/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/Bio/hello/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/src/main/java/com/Verfiy/Bio/hello/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/src/main/resources/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/src/main/resources/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/FileChannelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/FileChannelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/Replace.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/Replace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/MapperProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/MapperProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/TestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/TestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/field.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/mytable.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/AutoDB/mytable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/ChannelSocketTest$HttpServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/ChannelSocketTest$HttpServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/ChannelSocketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/ChannelSocketTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/achievement/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/achievement/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/achievement/ClassPathXmlApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/achievement/ClassPathXmlApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/test/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/using/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FengSpring/using/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/MySqe.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/MySqe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/MySqs.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/MySqs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/PersonGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/PersonGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/TestJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/json/TestJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/PathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/PathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/XmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/FourDataFormat/xml/XmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/InetAddress01.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/InetAddress01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Pool$PooledConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Pool$PooledConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Pool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyTomcat.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/MyTomcat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/ServletMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/ServletMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/ServletMappingConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/ServletMappingConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/YouWillFindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/YouWillFindServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/YouWillSuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Tomcat/YouWillSuccessServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/ApplyMyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/ApplyMyAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Inheritable.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Inheritable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/InheritableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/InheritableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/MyTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Testable.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/Testable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/xxx.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Annotation/xxx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOClient_S3.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOClient_S3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/BIOServer3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$ChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/ClassLoader/BootstrapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/ClassLoader/BootstrapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/GetPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/GetPostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/SimpleHttpGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/SimpleHttpGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/URLDecoderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/URLDecoderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/httpclient/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/IO/httpclient/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Split.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/Split.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/NClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/NClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/NServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/NServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/serializable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/serializable/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/serializable/ReadObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/serializable/ReadObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/yyy.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/target/classes/com/Verfiy/yyy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tray" beforeDir="false" afterPath="$PROJECT_DIR$/Tray" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tray/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tray/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tray/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/TrayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/TrayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/handler/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/handler/LoginHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/ControllerStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/ControllerStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/LayoutUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/LayoutUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/Tray.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/Tray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/UiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/UiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/container/IdContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/container/IdContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/LoginViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/RegistryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/RegistryViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/login/xml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/login/xml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrayBefore/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/common/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2026088955">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xxx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xxx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yyy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yyy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -52,23 +307,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="685" />
-    <option name="y" value="48" />
-    <option name="width" value="866" />
-    <option name="height" value="929" />
+    <option name="x" value="996" />
+    <option name="width" value="884" />
+    <option name="height" value="1013" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -76,17 +321,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="secnod" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="SpringNetty2" type="b2602c69:ProjectViewProjectNode" />
               <item name="secnod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,45 +352,55 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="12df3fcb-6f04-4d60-98b3-080584aa71f9" name="Default" comment="" />
-      <created>1589558852913</created>
+      <changelist id="dca181fc-72d1-49b4-92b6-21f12c7f9aef" name="Default Changelist" comment="" />
+      <created>1596974686311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589558852913</updated>
-      <workItem from="1589558854120" duration="102000" />
+      <updated>1596974686311</updated>
+      <workItem from="1596974689948" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102000" />
+    <option name="totallyTimeSpent" value="95000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17518248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45194507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" weight="0.32972974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972972" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,26 +409,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xxx">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yyy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

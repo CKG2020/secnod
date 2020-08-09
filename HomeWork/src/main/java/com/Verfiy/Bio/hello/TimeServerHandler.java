@@ -13,6 +13,7 @@ public class TimeServerHandler extends ChannelHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg)
             throws Exception {
         String body = (String) msg;
+        System.out.println("2-------------------");
         System.out.println("The time server receive order : " + body
                 + " ; the counter is : " + ++counter);
         String currentTime = "QUERY TIME ORDER".equalsIgnoreCase(body) ? new java.util.Date(

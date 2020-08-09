@@ -15,7 +15,8 @@ import java.util.Map;
 public class ClassPathXmlApplicationContext implements  BeanFactory {
  private Map<String,Object> beans=new HashMap<>();
 
-public ClassPathXmlApplicationContext() throws JDOMException, IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+public ClassPathXmlApplicationContext() throws JDOMException, IOException, ClassNotFoundException,
+        IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 //   使用JDOM首先要指定使用什么解析器
     SAXBuilder saxBuilder = new SAXBuilder();
     Document document = saxBuilder.build(this.getClass().getClassLoader().getResourceAsStream("user.xml"));
@@ -28,10 +29,7 @@ public ClassPathXmlApplicationContext() throws JDOMException, IOException, Class
 
             Object sbean = Class.forName(clazz).newInstance();
             beans.put(id,sbean);
-
-
 for (Element propertyElement:(List<Element>)element.getChildren("property")){
-
     String name = propertyElement.getAttributeValue("name");
     String bean = propertyElement.getAttributeValue("bean");
     Object mbean = beans.get(bean);
@@ -39,16 +37,7 @@ for (Element propertyElement:(List<Element>)element.getChildren("property")){
     System.out.println("method name="+methodName);
     Method method = mbean.getClass().getMethod(methodName, mbean.getClass().getInterfaces()[0]);
     method.invoke(sbean,mbean);
-
-
-
-
-
 }
-
-
-
-
     }
 
 }
