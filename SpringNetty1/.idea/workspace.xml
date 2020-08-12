@@ -2,166 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18fac4d-b6ff-429b-a672-fb129315bd7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/MySpringNetty/MySpringNetty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/ByteBufTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/MyNetty/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/SubReqClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/SubReqServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/MyNetty/client/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/MyNetty/xx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/ChannelPipelineInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/HeartBeatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/client/handler/HeartBeatReqHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/ChannelPipelineInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/HeartBeatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/heartbeatretry/server/handler/HeartBeatRespHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/ExportPrivateKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/HttpServerInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/https握手.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/luke" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/luke1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/luke2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/https/ssltest.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloClientIntHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/InboundHandler1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/InboundHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/OutboundHandler1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/inoutbound/OutboundHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/YY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/BadTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/ConnectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/HttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/PushHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/PushTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/time/handler/TimerClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/udp/UDPClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/udp/UDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/udp/UDPSeverHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/websocket/ChildChannelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/websocket/Global.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/websocket/MyWebSocketServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/websocket/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/IO/websocket/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringNetty1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XXX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MySNetty/client/SubReqClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MySNetty/client/SubReqServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MySNetty/client/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/JavaConfigClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nyspringnetty/JavaConfigServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../secnod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/secnod.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FengSpring/achievement/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/FengSpring/achievement/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/Bio/hello/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/src/main/java/com/Verfiy/Bio/hello/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/src/main/resources/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/src/main/resources/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/FileChannelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/FileChannelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/Replace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/Replace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/MapperProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/MapperProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/TestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/TestMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/field.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/mytable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/AutoDB/mytable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/ChannelSocketTest$HttpServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/ChannelSocketTest$HttpServerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/ChannelSocketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/ChannelSocketTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/achievement/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/achievement/BeanFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/achievement/ClassPathXmlApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/achievement/ClassPathXmlApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/test/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/using/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FengSpring/using/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/MySqe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/MySqe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/MySqs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/MySqs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/PersonGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/PersonGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/TestJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/json/TestJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/PathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/PathTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/XmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/FourDataFormat/xml/XmlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/InetAddress01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/InetAddress01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Pool$PooledConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Pool$PooledConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Pool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyTomcat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/MyTomcat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/ServletMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/ServletMapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/ServletMappingConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/ServletMappingConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/YouWillFindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/YouWillFindServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/YouWillSuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Tomcat/YouWillSuccessServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/ApplyMyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/ApplyMyAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Inheritable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Inheritable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/InheritableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/InheritableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/MyTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Testable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/Testable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/xxx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Annotation/xxx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOClient_S3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOClient_S3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/BIOServer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/delimiter/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer$ChildChannelHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Bio/hello/TimeServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/ClassLoader/BootstrapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/ClassLoader/BootstrapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/GetPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/GetPostTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/SimpleHttpGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/SimpleHttpGet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/URLDecoderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/URLDecoderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/httpclient/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/IO/httpclient/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Split.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/Split.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/NClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/NClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/NServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/NServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/nio/netty/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/serializable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/serializable/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/serializable/ReadObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/serializable/ReadObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/yyy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/target/classes/com/Verfiy/yyy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tray" beforeDir="false" afterPath="$PROJECT_DIR$/../Tray" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XXX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -175,15 +19,19 @@
     <session id="970767942">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -192,7 +40,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -200,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="833" />
+          <entry key="java" value="854" />
           <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="833" />
+          <entry key="JAVA" value="854" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="3" />
         </counts>
@@ -214,34 +62,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2187#3341#0" expanded="true" />
-                <element signature="e#2615#2693#0" />
-                <element signature="e#3340#3341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/JavaConfigServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -283,14 +104,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MySNetty/client/SubReqClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="72">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/XXX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/可用安装包/jdk1.8.0_201/src.zip!/java/awt/event/KeyEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="637" column="53" lean-forward="true" selection-start-line="637" selection-start-column="53" selection-end-line="637" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -307,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="72">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -349,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XXX.java" />
       </list>
     </option>
   </component>
@@ -361,9 +201,8 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="920" />
-    <option name="width" value="884" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="876" />
     <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -373,8 +212,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,12 +269,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596979306676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597056391929" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tray/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -542,30 +382,26 @@
       <option name="presentableId" value="Default" />
       <updated>1596964831766</updated>
       <workItem from="1596964835213" duration="12663000" />
+      <workItem from="1596979919600" duration="2910000" />
+      <workItem from="1597018302870" duration="517000" />
+      <workItem from="1597020328881" duration="10015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12663000" />
+    <option name="totallyTimeSpent" value="26105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="876" height="1013" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" weight="0.32972974" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25675675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.55334985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010811" side_tool="true" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.0" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49891892" weight="0.60503143" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.070440255" />
@@ -573,15 +409,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49945945" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054055" side_tool="true" weight="0.32955974" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.0" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,20 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/XXX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MySNetty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MySNetty.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MySNetty/client/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -623,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,68 +473,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-start-column="2" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/Client.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1521#1781#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="288">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2187#3341#0" expanded="true" />
-            <element signature="e#2615#2693#0" />
-            <element signature="e#3340#3341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/JavaConfigClientMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
+        <state relative-caret-position="54">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -752,11 +532,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MySNetty/client/SubReqClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="72">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/JavaConfigClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyspringnetty/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/可用安装包/jdk1.8.0_201/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="637" column="53" lean-forward="true" selection-start-line="637" selection-start-column="53" selection-end-line="637" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XXX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
