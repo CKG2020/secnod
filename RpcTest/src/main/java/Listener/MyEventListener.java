@@ -1,4 +1,10 @@
 package Listener;
 
-public class MyEventListener {
+import java.util.EventListener;
+
+public interface MyEventListener extends EventListener
+{
+
+    public void handleEvent (MyEvent me);
+
 }

@@ -100,9 +100,11 @@ public class EchoServer
 
         catch (Exception e)
         {
-            e.printStackTrace(); } finally
+            e.printStackTrace();
+        }
+        finally
         {
             // 关闭EventLoopGroup，释放掉所有资源包括创建的线程
             work.shutdownGracefully();
 //            boss.shutdownGracefully(); }​}}
-        boss.shutdownGracefully();}}}
+            boss.shutdownGracefully();}}}
