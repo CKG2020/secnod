@@ -39,5 +39,9 @@ public class MemberServiceImpl {
         return  memberMapper.updateDiscountlevel(discountlevel,phone);
     }
 
+    public  int addMember(String mname,String phone,String email,String adress){
+        return    memberMapper.addMember(mname,phone,email,adress);
+
+    }
 
 }

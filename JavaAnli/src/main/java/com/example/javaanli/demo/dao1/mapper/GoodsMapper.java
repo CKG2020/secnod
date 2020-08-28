@@ -7,13 +7,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface  GoodsMapper {
 
-    @Select("SELECT  price FROM  goods   WHERE   productID=#{id,jdbcType=INTEGER }")
+    @Select("SELECT  price FROM  goods   WHERE   productID=#{productID,jdbcType=INTEGER }")
     int findPrice(@Param("productID") int productID);
 
-    @Select("SELECT  amount  FROM  storage   WHERE   productID=#{id,jdbcType=INTEGER}   ")
+    @Select("SELECT  amount  FROM  storage   WHERE   productID=#{productID,jdbcType=INTEGER}   ")
     int findQuantity(@Param("productID") int productID);
 
-    @Select("SELECT   SUM(quantity)  FROM  sales   WHERE   productID=#{id,jdbcType=INTEGER}")
+    @Select("SELECT   SUM(quantity)  FROM  sales   WHERE   productID=#{productID,jdbcType=INTEGER}")
     int findMoney(@Param("productID") int productID);
 
 }

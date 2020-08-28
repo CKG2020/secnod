@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 跳转网页例子 -->
+<div class="commonsignInfo_row" onclick="tohref(1)">
+    <a href="javascript:tohref(0)" class="looksign">查看报名</a>
+</div>
+<!--<script type="text/javascript">-->
+    <!--//跳转页面方法-->
+    <!--function tohref(type){-->
+
+        <!--// 条件少（<=2）if-->
+        <!--if(type){-->
+            <!--location.href="forms.html"-->
+        <!--}else{-->
+            <!--location.href="banner.html"-->
+        <!--}-->
+
+        <!--// 条件多（>2）switch-->
+        <!--switch (type) {-->
+            <!--case 0:-->
+                <!--location.href="forms.html";-->
+                <!--break;-->
+            <!--case 1:-->
+                <!--location.href="banner.html";-->
+                <!--break;-->
+        <!--}-->
+
+    <!--}-->
+<!--</script>-->
+<!--&lt;!&ndash; 跳转到一个网页页面时 &ndash;&gt;-->
+<!--<div class="moreSubmitBtn" onclick="tohref()">-->
+    <!--<a href="javascript:tohref()">保存</a>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+    <!--//跳转页面方法-->
+    <!--function tohref(){-->
+        <!--location.href="commonsign.html"-->
+    <!--}-->
+<!--</script>-->
+
+<div class="area ">
+    <p>
+    <h3 align="center">
+        <font color="#2372CF">|</font>今日推荐<font color="#2372CF">|</font>
+    </h3>
+    </p>
+    <div class="title" align="center">
+        <h2 hidden="hidden">推荐车源</h2>
+        <div class="tab">
+            <a href="#" onmouseover="todayzuixinshangjia()">最新上架</a><a href="#"
+                                                                       onmouseover="todayzhunxinche()">准新车</a><a href="#"
+                                                                                                                 onmouseover="todaydijiasuv()">低价SUV</a><a href="#"
+                                                                                                                                                           onmouseover="todaylianshouche()">练手车</a><a href="#">个人车源</a>
+        </div>
+        <div class="morebox"></div>
+    </div>
+    <div class="cura1"></div>
+    <ul class="tabcon caritem" id="ul_list"></ul>
+    <ul class="tabcon caritem" id="geren()"></ul>
+    <!-- 个人车源结束 -->
+    <div class='btn-center'>
+        <!-- href='/china/a0_0ms7dgscncgpi1ltocspexx0/#pvareaid=106289' -->
+        <a href='/ms-mcms/templets/1/default/list/list.html' target='_blank'
+           class='btn btn-cancel'>查看更多&nbsp;></a>
+    </div>
+</div>
+<div class="area ">
+    <p>
+    <h3 align="center">
+        <font color="#2372CF">|</font>认证车源<font color="#2372CF">|</font>
+    </h3>
+    </p>
+    <div class="title">
+        <h2 hidden="hidden">认证车源</h2>
+        <div class="tab">
+            <a href="#" onmouseover="CJRZ()">厂家认证</a><a href="#"
+                                                        onmouseover="SJRZ()">商家认证</a><a href="#" onmouseover="XCJX()">信车精选</a>
+        </div>
+        <div class="morebox"></div>
+    </div>
+    <ul class="tabcon caritem cur" id="CJRZ">
+
+    </ul>
+</div>
+
+</body>
+</html>

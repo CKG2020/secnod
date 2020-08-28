@@ -2,10 +2,7 @@ package com.example.javaanli.demo.dao1.mapper;
 
 
 import com.example.javaanli.demo.entity1.Member;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -13,10 +10,10 @@ import java.util.List;
 @Repository
 public interface MemberMapper {
     @Select("SELECT * FROM  member   }")
-    Member findAllMember();
+    List  <Member>  findAllMember();
 
-    @Select("SELECT * FROM  member   WHERE   id=#{id,jdbcType=INTEGER")
-      List  <Member> findById(@Param("id") int id);
+    @Select("SELECT * FROM  member   WHERE   id=#{id,jdbcType=INTEGER}")
+    Member findById(@Param("id") int id);
 
 
     @Delete("DELETE FROM member WHERE phone=#{phone,jdbcType=VARCHAR}")
@@ -30,6 +27,14 @@ public interface MemberMapper {
 
     @Update("UPDATE  member  set  discountlevel=#{discountlevel,jdbcType=DOUBLE} where phone=#{phone,jdbcType=VARCHAR}")
     int updateDiscountlevel(@Param("discountlevel") String discountlevel, @Param("phone") String phone);
+
+
+
+    @Insert("INSERT INTO member  (mname,phone,email,adress) VALUES (#{mname},#{phone},#{email},#{adress})")
+    public int addMember(@Param("mname") String mname,@Param("phone") String phone, @Param("email") String email,@Param("adress") String adress);
+
+
+
 
 }
 

@@ -1,6 +1,6 @@
 package com.example.javaanli.demo.controller1;
 
-
+//import javax.servlet.http.HttpSession;
 import com.example.javaanli.demo.entity1.Casher;
 import com.example.javaanli.demo.service1.CasherServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,19 +23,20 @@ public class CasherLoginController {
         return "casherlogin";
     }
 
-    @RequestMapping(value = "cahser_check", method = RequestMethod.POST)
-    @ResponseBody
-    public String student_login(@RequestParam String name, String pwd) {
+    @RequestMapping(value = "casher_check", method = RequestMethod.POST)
 
-        Casher casher = casherService.findUserByNameAndPassword(name,pwd);
+    public String casher_login(@RequestParam String name1,@RequestParam String password1) {
 
-        if (null != casher && !"".equals(casher)) {
-
-            return "success";
-        }
-
-        return "0";
+        if(name1==null)
+            return "casher_login";
+        Casher casher = casherService.findUserByNameAndPassword(name1, password1);
+        if(casher!=null)
+        {
+            return "bindexcash";
+        }else
+            return "fail";
 
     }
+
 
 }
