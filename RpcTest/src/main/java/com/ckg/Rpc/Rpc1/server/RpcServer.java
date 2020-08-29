@@ -45,14 +45,8 @@ public class RpcServer {
     public static void main(String[] args) {
 
         RpcHello rpcHello = new RpcHelloImpl();
-
-
-
-
-
-
-
-
+        RpcServer rpcServer = new RpcServer();
+        rpcServer.publisher(rpcHello,8080);
 
 
     }

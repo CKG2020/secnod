@@ -18,24 +18,24 @@ public class TCPTransport {
     }
 
 
-    private Socket newSocket(){
-        System.out.println("创建一个新的连接");
-        Socket socket=null;
-        try{
-            socket = new Socket(host, port);
-            return  socket;
-
-        } catch (Exception e) {
-           throw new  RuntimeException("连接建立失败");
-        }
-
-    }
+//    private Socket newSocket(){
+//        System.out.println("创建一个新的连接");
+//        Socket socket=null;
+//        try{
+//            socket = new Socket(host, port);
+//            return  socket;
+//
+//        } catch (Exception e) {
+//           throw new  RuntimeException("连接建立失败");
+//        }
+//
+//    }
 
 
     public Object send(RpcRequest request){
         Socket socket=null;
         try{
-            socket=newSocket();
+            socket = new Socket(host, port);
             ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
             outputStream.writeObject(request);
             outputStream.flush();
@@ -45,7 +45,7 @@ public class TCPTransport {
             Object result = inputStream.readObject();
             inputStream.close();
             outputStream.close();
-             return  socket;
+             return result;
 
         } catch (Exception e) {
 

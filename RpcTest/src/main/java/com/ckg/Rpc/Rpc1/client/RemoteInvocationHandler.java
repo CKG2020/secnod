@@ -1,5 +1,7 @@
 package com.ckg.Rpc.Rpc1.client;
 
+import com.ckg.Rpc.Rpc1.RpcHello;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
@@ -13,6 +15,16 @@ public class RemoteInvocationHandler implements InvocationHandler {
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return null;
+
+        RpcRequest rpcRequest = new RpcRequest();
+        rpcRequest.setClassName(method.getDeclaringClass().getName());
+        rpcRequest.setMethodName(method.getName());
+        rpcRequest.setParameters(args);
+        TCPTransport tcpTransport = new TCPTransport(this.host, this.port);
+        return tcpTransport.send(rpcRequest);
+
+
     }
+
+
 }
