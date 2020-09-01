@@ -19,15 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../Keshe/web/xxxx.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnTry/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/RpcClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/TCPTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/TCPTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/server/ProcessorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/server/ProcessorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/server/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Listener/MyEventSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Listener/MyEventSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/server/ProcessorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/server/ProcessorHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/server/RpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckg/Rpc/Rpc1/server/RpcServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -49,7 +40,7 @@
     <session id="-1691380379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -134,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/TCPTransport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="169">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,8 +339,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598669967967" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/easyarch/src/iotest/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598681273611" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/cxl/rpc/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -442,12 +433,12 @@
       <workItem from="1598171699653" duration="2356000" />
       <workItem from="1598190592989" duration="95000" />
       <workItem from="1598623387330" duration="8534000" />
-      <workItem from="1598668915770" duration="1054000" />
+      <workItem from="1598668915770" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19263000" />
+    <option name="totallyTimeSpent" value="20035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +452,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32594594" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32594594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +469,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32951653" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.0" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5470738" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24905661" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32912987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -684,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/Rpc/Rpc1/client/TCPTransport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="169">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
