@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de23227e-a7bb-4427-b607-26efc4614f68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/timer/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/DelayQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/TaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer_springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer_springboot/src/main/java/com/ckg/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer_springboot/src/main/java/com/ckg/TaskUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer_springboot/timer_springboot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/.idea/artifacts/Keshe_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/Keshe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/out/artifacts/Keshe_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/out/artifacts/Keshe_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/out/artifacts/Keshe_Web_exploded/test/yyy.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/out/artifacts/Keshe_Web_exploded/xxxx.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/web/test/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/web/test/yyy.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Keshe/web/xxxx.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnTry/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RpcTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VueLearning/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VueLearning/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VueLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VueLearning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VueLearning/VueLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../VueLearning/VueLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VueLearning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VueLearning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VueLearning/src/main/resources/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/../VueLearning/src/main/resources/HelloWorld.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/javaAnli1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaAnli1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ckg/timer/MyScheduleExcutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ckg/timer/MyScheduleExcutorService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,13 +18,14 @@
     <session id="-475156126">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,13 +46,14 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="java" value="1638" />
+          <entry key="txt" value="5" />
           <entry key="xml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1638" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="38" />
         </counts>
       </usages-collector>
@@ -126,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/DelayQueueExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="348">
               <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,15 +94,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/TaskExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="378">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#384#595#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="576">
               <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -272,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,14 +279,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598970304491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598973072210" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaAnli/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,18 +409,26 @@
       <workItem from="1598836902618" duration="86000" />
       <workItem from="1598844129768" duration="3365000" />
       <workItem from="1598960955799" duration="5292000" />
-      <workItem from="1598968631057" duration="1169000" />
+      <workItem from="1598968631057" duration="2691000" />
+      <workItem from="1598973416291" duration="15000" />
     </task>
+    <task id="LOCAL-00001" summary="timer">
+      <created>1598970493622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598970493623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12539000" />
+    <option name="totallyTimeSpent" value="14076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22540541" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26540542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,7 +446,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4754717" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36981133" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32955974" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -505,6 +467,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="timer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/Desktop/可用安装包/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
@@ -559,10 +525,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/TaskExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -590,41 +583,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/JedisUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/DelayQueueExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="348">
           <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ckg/timer/redis/TaskExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#384#595#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
