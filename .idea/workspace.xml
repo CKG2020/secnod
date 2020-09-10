@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c185bad-49ce-4b83-b3a6-cdf6cdf940aa" name="Default Changelist" comment="">
+    <list default="true" id="16eebadc-a33a-4809-a3e7-2560c0b94921" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/util/UTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/main/img/80-80shine-white.png" afterDir="false" />
@@ -85,36 +85,9 @@
       <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/resources/mysql.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/main/resources/user.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TrayBefore/server/src/test/java/com/test/TestNettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/VueLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VueLearning/src/main/resources/HelloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timerTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timerTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timerTest/src/main/java/com/ckg/timer/MyTimerTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/.idea/artifacts/Keshe_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/Keshe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/out/artifacts/Keshe_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/out/artifacts/Keshe_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/out/artifacts/Keshe_Web_exploded/test/yyy.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/out/artifacts/Keshe_Web_exploded/xxxx.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/web/test/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/web/test/yyy.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keshe/web/xxxx.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnTry/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RpcTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RpcTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FxTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FxTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrayBefore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrayBefore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/.idea/workspace.xml" afterDir="false" />
@@ -130,13 +103,6 @@
       <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/RegistryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/java/com/easyArch/client/ui/controller/RegistryViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/login/xml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/client/src/main/resources/login/xml/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrayBefore/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrayBefore/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/javaAnli1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAnli1/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,10 +115,9 @@
     <session id="-2026088955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -169,7 +134,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="localRepository" value="$USER_HOME$/localMaven" />
         <option name="mavenHome" value="$USER_HOME$/source/maven" />
         <option name="userSettingsFile" value="$USER_HOME$/source/maven/conf/settings.xml" />
       </MavenGeneralSettings>
@@ -200,10 +165,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="433" />
-    <option name="y" value="62" />
-    <option name="width" value="1117" />
-    <option name="height" value="1013" />
+    <option name="width" value="800" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,27 +174,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TimerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="secnod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/timerTest/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -256,30 +218,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c185bad-49ce-4b83-b3a6-cdf6cdf940aa" name="Default Changelist" comment="" />
-      <created>1598685779450</created>
+      <changelist id="16eebadc-a33a-4809-a3e7-2560c0b94921" name="Default Changelist" comment="" />
+      <created>1599484279867</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598685779450</updated>
-      <workItem from="1598685797982" duration="190000" />
-      <workItem from="1598844053854" duration="74000" />
+      <updated>1599484279867</updated>
+      <workItem from="1599484285511" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264000" />
+    <option name="totallyTimeSpent" value="227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972972" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34216216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -287,19 +252,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
