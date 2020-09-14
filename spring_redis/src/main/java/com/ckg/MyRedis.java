@@ -9,33 +9,33 @@ import javax.annotation.Resource;
 
 
 
-//public class MyRedis {
-//
-//    @Resource
-//    private RedisTemplate redisTemplate;
-//
-//    @Resource
-//    private StringRedisTemplate stringRedisTemplate;
-//
-//
-//    public  void  redisTest(){
-//
-//        redisTemplate.opsForValue().set("name","ckg");
-//        String  name = (String) redisTemplate.opsForValue().get("name");
-//        System.out.println(name);
-//
-//
-//
-//
-//        redisTemplate.delete("name");
-//
-//
-//       redisTemplate.opsForValue().set("name","cgr");
-//
-//        name = (String) redisTemplate.opsForValue().get("name");
-//
-//        System.out.println(name);
-//    }
-//
-//
-//}
+public class MyRedis {
+
+    @Resource
+    private RedisTemplate redisTemplate;
+
+    @Resource
+    private StringRedisTemplate stringRedisTemplate;
+
+
+    public  void  redisTest(){
+
+        redisTemplate.opsForValue().set("name","ckg");
+        String  name = (String) redisTemplate.opsForValue().get("name");
+        System.out.println(name);
+
+
+
+
+        redisTemplate.delete("name");
+
+
+       redisTemplate.opsForValue().set("name","cgr");
+
+        name = (String) redisTemplate.opsForValue().get("name");
+
+        System.out.println(name);
+    }
+
+
+}
