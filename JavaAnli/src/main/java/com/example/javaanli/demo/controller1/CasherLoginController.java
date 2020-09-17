@@ -20,6 +20,7 @@ public class CasherLoginController {
 
     @RequestMapping(value = "casher_login", method = RequestMethod.GET)
     public String login(){
+
         return "casherlogin";
     }
 

@@ -1,143 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a48b985-e833-48ba-b4bd-04de3b5ad045" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/artifacts/CourseDesign1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/libraries/jsp_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/CourseDesign1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/src/main/java/com/ckg/xx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/goods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/library/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/library/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/main-img-show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/buy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/library/font/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/ad/ad-login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/ad/ad-register.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/arrow-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/ffbird-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/ffbird.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/hot.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/user-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/user-head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/icon/voice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/menu/016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/register/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/register/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/register/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/eat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/lottery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/miusc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/move.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/common/service/user-num.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/resource/static/style/image/goods/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CourseDesign1/web/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2bf57c9d-7ca3-4d1c-bf6d-4dc1ab87e3ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RpcTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEventSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/MyEventSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/src/main/java/Listener/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringNetty1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/src/main/java/XXX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringNetty1/src/main/java/XXX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/src/main/java/com/nyspringnetty/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringNetty1/src/main/java/com/nyspringnetty/EchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/target/classes/XXX.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringNetty1/target/classes/XXX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/target/classes/com/nyspringnetty/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/target/classes/com/nyspringnetty/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringNetty1/target/classes/com/nyspringnetty/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringNetty1/target/classes/com/nyspringnetty/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/client/RemoteInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/client/RpcClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/client/RpcClientProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/server/ProcessorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RpcTest/target/classes/com/ckg/Rpc/Rpc1/server/ProcessorHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../secnod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,51 +36,14 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="998" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="998" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ChangFangXing.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -206,19 +54,17 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/localMaven" />
         <option name="mavenHome" value="$USER_HOME$/source/maven" />
         <option name="userSettingsFile" value="$USER_HOME$/source/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="6" />
-    <option name="width" value="1667" />
-    <option name="height" value="1007" />
+    <option name="x" value="579" />
+    <option name="y" value="56" />
+    <option name="width" value="792" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,7 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,24 +83,23 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598278631205" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -271,48 +116,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChangFangXing">
-    <configuration name="ChangFangXing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChangFangXing" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ChangFangXing" />
-      <item itemvalue="Application.Test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ChangFangXing" />
-        <item itemvalue="Application.Test" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a48b985-e833-48ba-b4bd-04de3b5ad045" name="Default Changelist" comment="" />
-      <created>1598274487253</created>
+      <changelist id="2bf57c9d-7ca3-4d1c-bf6d-4dc1ab87e3ee" name="Default Changelist" comment="" />
+      <created>1600149713065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598274487253</updated>
-      <workItem from="1598274491047" duration="4247000" />
+      <updated>1600149713065</updated>
+      <workItem from="1600149718109" duration="184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4247000" />
+    <option name="totallyTimeSpent" value="184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
@@ -323,16 +142,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29675674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.094339624" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,26 +173,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ChangFangXing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -390,7 +189,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -451,6 +250,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Spring-5.2.3.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
