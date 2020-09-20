@@ -54,6 +54,7 @@ public class UserClazzRefDao {
 
 
     public int updateUserClazzRef(UserClazzRef userClazzRef) {
+        //从连接池里面但一个连接操作数据库
         String sql = "UPDATE t_clazz_user_ref SET clazz_id=? WHERE user_id=?";
         return jdbcTemplate.update(sql, userClazzRef.getClazzId(), userClazzRef.getUserId());
     }

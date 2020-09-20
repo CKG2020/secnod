@@ -5,6 +5,8 @@ import com.example.demo.cache9_14.dao.UserClazzRefDao;
 import com.example.demo.cache9_14.dao.UserDao;
 import com.example.demo.cache9_14.entity.User;
 import com.example.demo.cache9_14.entity.UserClazzRef;
+import com.sun.xml.internal.bind.v2.TODO;
+import org.omg.CORBA.TRANSACTION_MODE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -55,10 +57,26 @@ public class UserServiceImpl {
         return userDao.updateUser(user);
     }
 
+
+
     @Caching(evict = {@CacheEvict(cacheNames = "user", key = "#user.id"),
             @CacheEvict(cacheNames = "ClazzUserIds", key = "#oldClazzId")})
+    //事务  就是 需要同时操作多个表格
+//    TODO:TRANSACTION  类似备忘录  逻辑有错误 需要以后加上的东西   右面会有蓝色的小标
+// FIXME  有bug要改
+//    public int updateUserAndChangeUserClazz(User user, int clazzId, int oldClazzId) {
+//        //TODO:TRANSACTION 同时成功和同时失败     下面必须在同一个连接里面操作
+//        /*一个请求进来了  达到tomcat'里面了 对其进行解析   */
+//        int updateUser = userDao.updateUser(user);
+//        int updateUserClazzRef = userClazzRefDao.updateUserClazzRef(new UserClazzRef(user.getId(), clazzId));
+//        return updateUser + updateUserClazzRef;
+//    }
+
+//事务    begin    rollback      commit之后才会提交到数据库
+
     public int updateUserAndChangeUserClazz(User user, int clazzId, int oldClazzId) {
-        //TODO:TRANSACTION
+        //TODO:TRANSACTION 同时成功和同时失败     下面必须在同一个连接里面操作
+        /*一个请求进来了  达到tomcat'里面了 对其进行解析   */
         int updateUser = userDao.updateUser(user);
         int updateUserClazzRef = userClazzRefDao.updateUserClazzRef(new UserClazzRef(user.getId(), clazzId));
         return updateUser + updateUserClazzRef;

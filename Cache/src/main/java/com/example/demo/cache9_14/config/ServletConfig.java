@@ -50,8 +50,12 @@ public class ServletConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LocaleChangeInterceptor())
+//排除连接url
                 .excludePathPatterns("classpath:/static/css/fonts/*.ttf")
                 .excludePathPatterns("classpath:/static/css/fonts/*.woff");
+
+
+//添加地址
     }
 
     @Override
