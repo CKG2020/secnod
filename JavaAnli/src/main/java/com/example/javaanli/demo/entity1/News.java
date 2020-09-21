@@ -5,6 +5,15 @@ public class News {
     private  String  subject;
     private  String name;
     private   String   message;
+    private   String time;
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
 
     public int getId() {
         return id;
@@ -46,6 +55,7 @@ public class News {
                 ", subject='" + subject + '\'' +
                 ", name='" + name + '\'' +
                 ", message='" + message + '\'' +
+                ", time='" + time + '\'' +
                 '}';
     }
 }

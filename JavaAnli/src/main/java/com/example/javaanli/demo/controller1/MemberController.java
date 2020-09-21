@@ -15,7 +15,7 @@ public class MemberController {
     @Autowired
     private MemberServiceImpl memberService;
 
-    @RequestMapping(value = "/Addmember", method = RequestMethod.POST)
+    @RequestMapping(value = "/addmember", method = RequestMethod.POST)
     @ResponseBody
     public String addRecord(@RequestParam String mname, String phone, String email, String adress
                             ) {

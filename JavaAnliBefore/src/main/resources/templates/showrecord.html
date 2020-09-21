@@ -21,73 +21,73 @@
 <br/>
 <h1>学生请假记录</h1>
 <br/><br/>
-<!--<div class="with:80%">-->
-    <!--<table class="table table-hover">-->
-        <!--<thead>-->
-        <!--<tr>-->
-            <!--<th>#</th>-->
-            <!--<th>stu_number</th>-->
-            <!--<th>stu_class</th>-->
-            <!--<th>stu_name</th>-->
-            <!--<th>qingjia_time</th>-->
-            <!--<th>start_time</th>-->
-            <!--<th>end_time</th>-->
-            <!--<th>qingjia_reason</th>-->
-            <!--<th>class_tea_status</th>-->
-        <!--</tr>-->
-        <!--</thead>-->
-        <!--<tbody>-->
-        <!--<tr th:each="user : ${userList}">-->
-            <!--<th scope="row" th:text="${userListtat.index + 1}">1</th>-->
-            <!--<td th:text="${user.userName}">neo</td>-->
-            <!--<td th:text="${user.passWord}">Otto</td>-->
-            <!--<td th:text="${user.email}">6</td>-->
-            <!--<td th:text="${user.nickName}">6</td>-->
-            <!--<td th:text="${user.regTime}">6</td>-->
-            <!--<td><a th:href="@{/toEdit(id=${user.id})}">edit</a></td>-->
-            <!--<td><a th:href="@{/delete(id=${user.id})}">delete</a></td>-->
-        <!--</tr>-->
-        <!--</tbody>-->
-    <!--</table>-->
+<div class="with:80%">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>stu_number</th>
+            <th>stu_class</th>
+            <th>stu_name</th>
+            <th>qingjia_time</th>
+            <th>start_time</th>
+            <th>end_time</th>
+            <th>qingjia_reason</th>
+            <th>class_tea_status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${userList}">
+            <th scope="row" th:text="${userListtat.index + 1}">1</th>
+            <td th:text="${user.userName}">neo</td>
+            <td th:text="${user.passWord}">Otto</td>
+            <td th:text="${user.email}">6</td>
+            <td th:text="${user.nickName}">6</td>
+            <td th:text="${user.regTime}">6</td>
+            <td><a th:href="@{/toEdit(id=${user.id})}">edit</a></td>
+            <td><a th:href="@{/delete(id=${user.id})}">delete</a></td>
+        </tr>
+        </tbody>
+    </table>
 
-<!--</div>-->
-<!--<div class="form-group">-->
-    <!--<div class="col-sm-2 control-label">-->
-        <!--<a href="/toAdd" th:href="@{/toAdd}" class="btn btn-info">add</a>-->
-    <!--</div>-->
-<!--</div>-->
+</div>
+<div class="form-group">
+    <div class="col-sm-2 control-label">
+        <a href="/toAdd" th:href="@{/toAdd}" class="btn btn-info">add</a>
+    </div>
+</div>
 
-<!--<div class="modal-footer no-margin-top">-->
-    <!--<ul class="pagination pull-right no-margin">-->
+<div class="modal-footer no-margin-top">
+    <ul class="pagination pull-right no-margin">
 
-        <!--&lt;!&ndash; 首页 &ndash;&gt;-->
-        <!--<li>-->
-            <!--<a th:href="'/list?pageNum=0'">首页</a>-->
-        <!--</li>-->
+        <!-- 首页 -->
+        <li>
+            <a th:href="'/list?pageNum=0'">首页</a>
+        </li>
 
-        <!--&lt;!&ndash; 上一页 &ndash;&gt;-->
-        <!--<li th:if="${userList.hasPrevious()}">-->
-            <!--<a th:href="'/list?pageNum=' + ${userList.previousPageable().getPageNumber()}" th:text="上一页"></a>-->
-        <!--</li>-->
+        <!-- 上一页 -->
+        <li th:if="${userList.hasPrevious()}">
+            <a th:href="'/list?pageNum=' + ${userList.previousPageable().getPageNumber()}" th:text="上一页"></a>
+        </li>
 
-        <!--&lt;!&ndash; 中间页 &ndash;&gt;-->
-        <!--<li th:each="pageNum:${#numbers.sequence(0, userList.getTotalPages() - 1)}">-->
-            <!--<a th:href="'/list?pageNum=' + ${pageNum}" th:text="${pageNum + 1}" th:if="${pageNum ne userList.pageable.getPageNumber()}"></a>-->
-            <!--<a th:href="'/list?pageNum=' + ${pageNum}" th:text="${pageNum + 1}" th:if="${pageNum eq userList.pageable.getPageNumber()}" th:style="'font-weight:bold;background: #6faed9;'"></a>-->
-        <!--</li>-->
+        <!-- 中间页 -->
+        <li th:each="pageNum:${#numbers.sequence(0, userList.getTotalPages() - 1)}">
+            <a th:href="'/list?pageNum=' + ${pageNum}" th:text="${pageNum + 1}" th:if="${pageNum ne userList.pageable.getPageNumber()}"></a>
+            <a th:href="'/list?pageNum=' + ${pageNum}" th:text="${pageNum + 1}" th:if="${pageNum eq userList.pageable.getPageNumber()}" th:style="'font-weight:bold;background: #6faed9;'"></a>
+        </li>
 
-        <!--&lt;!&ndash; 下一页 &ndash;&gt;-->
-        <!--<li th:if="${userList.hasNext()}">-->
-            <!--<a th:href="'/list?pageNum=' + ${userList.nextPageable().getPageNumber()}" th:text="下一页"></a>-->
-        <!--</li>-->
+        <!-- 下一页 -->
+        <li th:if="${userList.hasNext()}">
+            <a th:href="'/list?pageNum=' + ${userList.nextPageable().getPageNumber()}" th:text="下一页"></a>
+        </li>
 
-        <!--&lt;!&ndash; 尾页 &ndash;&gt;-->
-        <!--<li>-->
-            <!--<a th:href="'/list?pageNum=' + ${userList.getTotalPages() - 1}">尾页</a>-->
-        <!--</li>-->
+        <!-- 尾页 -->
+        <li>
+            <a th:href="'/list?pageNum=' + ${userList.getTotalPages() - 1}">尾页</a>
+        </li>
 
-    <!--</ul>-->
-<!--</div>-->
+    </ul>
+</div>
 
 
 <!--显示分页信息-->
@@ -171,6 +171,8 @@
 <div>是否为最后一页：<span th:text="${pageInfo.isLastPage}"></span></div>
 <div>是否有前一页：<span th:text="${pageInfo.hasPreviousPage}"></span></div>
 <div>是否有下一页：<span th:text="${pageInfo.hasNextPage}"></span></div>
+
+
 
 
 </body>

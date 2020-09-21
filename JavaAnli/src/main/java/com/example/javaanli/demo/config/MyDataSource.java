@@ -1,4 +1,4 @@
-package boot.spring.config;
+package com.example.javaanli.demo.config;
 
 
 import com.alibaba.druid.pool.DruidDataSource;
@@ -18,19 +18,19 @@ import javax.sql.DataSource;
  * 配置数据源，指定mapper包的扫描路径和SessionFactory对象
  */
 @Configuration
-@MapperScan(value = "boot.boot.spring.mapper",sqlSessionFactoryRef = "sqlSessionFactory")
+@MapperScan(value = "com.example.javaanli.demo.dao1.mapper",sqlSessionFactoryRef = "sqlSessionFactory")
 public class MyDataSource {
 
-    @Value("${spring.datasource.ssm.url}")
+    @Value("${spring.datasource.url}")
     private String url;
 
-    @Value("${spring.datasource.ssm.username}")
+    @Value("${spring.datasource.username}")
     private String username;
 
-    @Value("${spring.datasource.ssm.password}")
+    @Value("${spring.datasource.password}")
     private String password;
 
-    @Value("${spring.datasource.ssm.driver-class-name}")
+    @Value("${spring.datasource.driver-class-name}")
     private String driverClassName;
 
     @Bean
@@ -41,16 +41,18 @@ public class MyDataSource {
         datasource.setPassword(password);
         datasource.setDriverClassName(driverClassName);
         return datasource;
+        //所数据源配置的时候使用
+//        return  DruidDataSourceBuilder.create().build();
     }
 
     @Bean
     public SqlSessionFactory sqlSessionFactory( ) throws Exception {
     	// 设置mapper的xml文件路径
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
-        factoryBean.setDataSource(dataSource());
-        Resource[] resources = new PathMatchingResourcePatternResolver()
-                .getResources("classpath:mapper/*.xml");
-        factoryBean.setMapperLocations(resources);
+//        factoryBean.setDataSource(dataSource());
+//        Resource[] resources = new PathMatchingResourcePatternResolver()
+//                .getResources("classpath:mapper/*.xml");
+//        factoryBean.setMapperLocations(resources);
         // 设置mybatis-config.xml的路径
         Resource config = new PathMatchingResourcePatternResolver()
                 .getResource("classpath:mybatis-config.xml");

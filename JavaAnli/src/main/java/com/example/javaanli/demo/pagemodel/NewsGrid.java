@@ -1,14 +1,15 @@
-package boot.spring.pagemodel;
+package com.example.javaanli.demo.pagemodel;
 
-import boot.spring.po.City;
+
+import com.example.javaanli.demo.entity1.News;
 
 import java.util.List;
 
-public class CityGrid {
+public class NewsGrid {
 	private int current;//当前页面号
 	private int rowCount;//每页行数
 	private int total;//总行数
-	private List<City> rows;
+	private List<News> rows;
 	public int getCurrent() {
 		return current;
 	}
@@ -27,10 +28,10 @@ public class CityGrid {
 	public void setTotal(int total) {
 		this.total = total;
 	}
-	public List<City> getRows() {
+	public List<News> getRows() {
 		return rows;
 	}
-	public void setRows(List<City> rows) {
+	public void setRows(List<News> rows) {
 		this.rows = rows;
 	}
 
