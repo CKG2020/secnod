@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring_jpa</module>
+        <module>com.leak</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
