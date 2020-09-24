@@ -39,17 +39,14 @@ public class MyDataSource {
         datasource.setUrl(url);
         datasource.setUsername(username);
         datasource.setPassword(password);
-        datasource.setDriverClassName(driverClassName);
         return datasource;
-        //所数据源配置的时候使用
-//        return  DruidDataSourceBuilder.create().build();
     }
 
     @Bean
     public SqlSessionFactory sqlSessionFactory( ) throws Exception {
     	// 设置mapper的xml文件路径
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
-//        factoryBean.setDataSource(dataSource());
+        factoryBean.setDataSource(dataSource());
 //        Resource[] resources = new PathMatchingResourcePatternResolver()
 //                .getResources("classpath:mapper/*.xml");
 //        factoryBean.setMapperLocations(resources);
