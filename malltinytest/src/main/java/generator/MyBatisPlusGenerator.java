@@ -1,4 +1,4 @@
-package com.macro.mall.tiny.generator;
+package generator;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.setting.dialect.Props;
@@ -134,7 +134,7 @@ public class MyBatisPlusGenerator {
     /**
      * 初始化自定义配置
      */
-    private static InjectionConfig initInjectionConfig(String projectPath, String moduleName) {
+    private static InjectionConfig initInjectionConfig(final String projectPath, final String moduleName) {
         // 自定义配置
         InjectionConfig injectionConfig = new InjectionConfig() {
             @Override
