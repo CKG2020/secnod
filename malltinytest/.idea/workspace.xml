@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb1fa260-3c8a-4585-b62a-ea9772305a31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lock/StaticTEst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lock/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lock/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lock/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_python1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_python1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shell/demoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shell/demoTest/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,14 +54,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1039" />
+          <entry key="java" value="1407" />
           <entry key="properties" value="14" />
           <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1039" />
+          <entry key="JAVA" value="1407" />
           <entry key="Properties" value="14" />
           <entry key="XML" value="25" />
         </counts>
@@ -96,25 +94,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="-99">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="234">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lock/StaticTEst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="180">
               <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="e#186#187#0" expanded="true" />
@@ -213,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/java/builder/lombok/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/lock/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lock/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/lock/StaticTEst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lock/Test2.java" />
       </list>
     </option>
   </component>
@@ -307,7 +311,7 @@
     <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601651771503" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601655306502" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/可用安装包/jdk1.8.0_201/bin/javap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -339,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticTEst">
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="StaticTEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lock.StaticTEst" />
       <module name="malltinytest" />
@@ -415,8 +419,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticTEst" />
         <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.StaticTEst" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="JUnit.TestLombok" />
         <item itemvalue="Application.Test" />
@@ -445,7 +449,7 @@
       <workItem from="1601469682921" duration="1816000" />
       <workItem from="1601559112188" duration="3259000" />
       <workItem from="1601615356506" duration="5710000" />
-      <workItem from="1601650321425" duration="1120000" />
+      <workItem from="1601650321425" duration="4132000" />
     </task>
     <servers />
   </component>
@@ -470,10 +474,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31304000" />
+    <option name="totallyTimeSpent" value="34316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24918918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,13 +491,13 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49783784" visible="true" weight="0.69685537" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49783784" visible="true" weight="0.12578617" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945945" weight="0.51194966" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49675676" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49675676" weight="0.72075474" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50216216" side_tool="true" weight="0.8188679" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -592,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/builder/GenericBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -637,20 +635,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lock/StaticTEst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="180">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lock/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
           </folding>
         </state>
       </provider>
