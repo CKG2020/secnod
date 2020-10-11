@@ -2,6 +2,7 @@ package test;
 
 
 import SqlExplain.MySqlsession;
+import Users_in_using.UserMapper;
 import bean.User;
 
 public class TestMybatis {

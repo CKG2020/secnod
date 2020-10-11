@@ -68,6 +68,11 @@ public class MyConfiguration {
 
     }
 
+
+
+
+
+
     private String getValue(Element node){
         return node.hasContent()?node.getText():node.attributeValue("value");
     }
