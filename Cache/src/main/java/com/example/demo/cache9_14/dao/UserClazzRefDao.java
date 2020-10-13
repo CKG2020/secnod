@@ -20,7 +20,6 @@ public class UserClazzRefDao {
     private JdbcTemplate jdbcTemplate;
 
     @Cacheable(cacheNames = "userClazzRef", key = "#id")
-
     public UserClazzRef findByUserId(int id) {
         final UserClazzRef userClazzRef = new UserClazzRef();
         String sql = "SELECT user_id,clazz_id FROM t_clazz_user_ref WHERE user_id=?";

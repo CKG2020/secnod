@@ -99,6 +99,12 @@
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/define8.cpp">
 			<Option target="CppTest"/>
 		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/divide.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/divide.h">
+			<Option target="CppTest"/>
+		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/ClassLearn/opt7.cpp">
 			<Option target="CppTest"/>
 		</Unit>
@@ -118,6 +124,12 @@
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/Father.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/MySqlBulkLoaderDemo.cpp">
+			<Option target="CppTest"/>
+		</Unit>
+		<Unit filename="/home/ckg/secnod/secnod/CppTest/MySqlBulkLoaderDemo.h">
 			<Option target="CppTest"/>
 		</Unit>
 		<Unit filename="/home/ckg/secnod/secnod/CppTest/c516/Person.cpp">

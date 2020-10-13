@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ckg/secnod/secnod/algorithm/main.cpp
+iostream
+-
+
+/home/ckg/secnod/secnod/algorithm/test/divide.cpp
+divide.h
+/home/ckg/secnod/secnod/algorithm/test/divide.h
+iostream
+-
+
+/home/ckg/secnod/secnod/algorithm/test/divide.h
+

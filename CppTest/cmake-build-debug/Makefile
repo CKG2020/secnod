@@ -258,6 +258,33 @@ ClassLearn/define8.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/define8.cpp.s
 .PHONY : ClassLearn/define8.cpp.s
 
+ClassLearn/divide.o: ClassLearn/divide.cpp.o
+
+.PHONY : ClassLearn/divide.o
+
+# target to build an object file
+ClassLearn/divide.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o
+.PHONY : ClassLearn/divide.cpp.o
+
+ClassLearn/divide.i: ClassLearn/divide.cpp.i
+
+.PHONY : ClassLearn/divide.i
+
+# target to preprocess a source file
+ClassLearn/divide.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.i
+.PHONY : ClassLearn/divide.cpp.i
+
+ClassLearn/divide.s: ClassLearn/divide.cpp.s
+
+.PHONY : ClassLearn/divide.s
+
+# target to generate assembly for a file
+ClassLearn/divide.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.s
+.PHONY : ClassLearn/divide.cpp.s
+
 ClassLearn/opt7.o: ClassLearn/opt7.cpp.o
 
 .PHONY : ClassLearn/opt7.o
@@ -419,6 +446,33 @@ Father.s: Father.cpp.s
 Father.cpp.s:
 	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/Father.cpp.s
 .PHONY : Father.cpp.s
+
+MySqlBulkLoaderDemo.o: MySqlBulkLoaderDemo.cpp.o
+
+.PHONY : MySqlBulkLoaderDemo.o
+
+# target to build an object file
+MySqlBulkLoaderDemo.cpp.o:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o
+.PHONY : MySqlBulkLoaderDemo.cpp.o
+
+MySqlBulkLoaderDemo.i: MySqlBulkLoaderDemo.cpp.i
+
+.PHONY : MySqlBulkLoaderDemo.i
+
+# target to preprocess a source file
+MySqlBulkLoaderDemo.cpp.i:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.i
+.PHONY : MySqlBulkLoaderDemo.cpp.i
+
+MySqlBulkLoaderDemo.s: MySqlBulkLoaderDemo.cpp.s
+
+.PHONY : MySqlBulkLoaderDemo.s
+
+# target to generate assembly for a file
+MySqlBulkLoaderDemo.cpp.s:
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.s
+.PHONY : MySqlBulkLoaderDemo.cpp.s
 
 c516/Person.o: c516/Person.cpp.o
 
@@ -768,6 +822,9 @@ help:
 	@echo "... ClassLearn/define8.o"
 	@echo "... ClassLearn/define8.i"
 	@echo "... ClassLearn/define8.s"
+	@echo "... ClassLearn/divide.o"
+	@echo "... ClassLearn/divide.i"
+	@echo "... ClassLearn/divide.s"
 	@echo "... ClassLearn/opt7.o"
 	@echo "... ClassLearn/opt7.i"
 	@echo "... ClassLearn/opt7.s"
@@ -786,6 +843,9 @@ help:
 	@echo "... Father.o"
 	@echo "... Father.i"
 	@echo "... Father.s"
+	@echo "... MySqlBulkLoaderDemo.o"
+	@echo "... MySqlBulkLoaderDemo.i"
+	@echo "... MySqlBulkLoaderDemo.s"
 	@echo "... c516/Person.o"
 	@echo "... c516/Person.i"
 	@echo "... c516/Person.s"

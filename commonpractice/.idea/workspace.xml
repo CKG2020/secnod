@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fe42e1-5275-4237-b7f7-38dc6f90ebb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commonpractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/XX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_lottery/src/main/java/com/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/config/DataConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/config/DataConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/config/info/JdbcInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/config/info/JdbcInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" afterDir="false" />
@@ -780,8 +766,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/draw_lottery/src/main/java/com/CJStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="-47">
+              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -890,15 +876,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="commonpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="draw_lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -911,7 +888,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602548010318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602548937733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -962,17 +939,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602547204696</updated>
-      <workItem from="1602547206596" duration="1459000" />
+      <workItem from="1602547206596" duration="1728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1459000" />
+    <option name="totallyTimeSpent" value="1728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2545946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2545946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -982,12 +959,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4301887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2446406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14627995" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="1.0" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.54339623" />
@@ -1063,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/draw_lottery/src/main/java/com/CJStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="-47">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>

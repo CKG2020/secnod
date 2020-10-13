@@ -18,4 +18,7 @@ public class COMMANDCommand implements Command{
         System.out.println("redis-server is ready!!!");
         RedisEncode.writeString(os);
     }
+
+
+
 }

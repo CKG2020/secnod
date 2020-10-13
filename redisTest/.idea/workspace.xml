@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feabb535-b12c-4d17-9d6b-52d396e73b3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../my_leet_code/src/main/java/tree/Test669.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/BaseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/command/COMMANDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/virtualredis/test/TestRedis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppTest/cmake-build-debug/CMakeFiles/CppTest.dir/DependInfo.cmake" afterDir="false" />
@@ -591,12 +583,23 @@
       <change beforePath="$PROJECT_DIR$/../TrayBefore" beforeDir="false" afterPath="$PROJECT_DIR$/../TrayBefore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_leet_code/src/main/java/tree/Test669.java" beforeDir="false" afterPath="$PROJECT_DIR$/../my_leet_code/src/main/java/tree/Test669.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_python1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_python1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bloom/BloomFilterbyOthers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bloom/BloomFilterbyOthers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bloom/MyBloomFilter$SimpleHash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bloom/MyBloomFilter$SimpleHash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bloom/MyBloomFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bloom/MyBloomFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/MultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/virtualredis/MultiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/RedisDecode$AnalysisInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/RedisDecode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/RedisEncode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/RedisServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/virtualredis/RedisServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/SETCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/virtualredis/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/virtualredis/test/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shell/demoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shell/demoTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
@@ -649,34 +652,35 @@
     <session id="2010395506">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="3290" />
+          <entry key="java" value="4413" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3290" />
+          <entry key="JAVA" value="4413" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="4" />
         </counts>
@@ -686,19 +690,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bloom/MyBloomFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -706,15 +701,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="252">
+              <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/COMMANDCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/test/TestRedis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -723,43 +742,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -770,20 +754,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="353">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/BaseData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="108">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -792,8 +801,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="144">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -824,14 +833,17 @@
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/RedisEncode.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/BaseData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/SETCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/command/COMMANDCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/test/TestRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java" />
       </list>
     </option>
   </component>
@@ -853,9 +865,8 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="931" />
-    <option name="width" value="967" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1898" />
     <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -864,8 +875,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -899,36 +909,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="virtualredis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="redisTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="virtualredis" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redisTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="virtualredis" type="462c0819:PsiDirectoryNode" />
-              <item name="procotol" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602254569723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602292844330" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -988,14 +981,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="virtualredis.test.TestRedis" />
+      <module name="redisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="virtualredis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MyBloomFilter" />
       <item itemvalue="Application.BloomFilterbyOthers" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestRedis" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestRedis" />
         <item itemvalue="Application.BloomFilterbyOthers" />
         <item itemvalue="Application.MyBloomFilter" />
       </list>
@@ -1012,18 +1020,18 @@
       <option name="presentableId" value="Default" />
       <updated>1601885431118</updated>
       <workItem from="1601885436157" duration="4559000" />
-      <workItem from="1602231053609" duration="8262000" />
+      <workItem from="1602231053609" duration="12787000" />
+      <workItem from="1602290249362" duration="2582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12821000" />
+    <option name="totallyTimeSpent" value="19928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="931" y="0" width="967" height="1013" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.057971016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25783783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -1033,12 +1041,12 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16534391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32578617" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18113208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14088051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42989418" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.56226414" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -1061,6 +1069,30 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1095,10 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7668">
           <caret line="462" selection-start-line="462" selection-end-line="462" />
-          <folding>
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3400#3401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,9 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,58 +1151,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/BaseData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/RedisServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/test/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1187,30 +1203,58 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/constant/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisDecode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/procotol/RedisEncode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="216">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/MultiThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/SETCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="342">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/virtualredis/command/COMMANDCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

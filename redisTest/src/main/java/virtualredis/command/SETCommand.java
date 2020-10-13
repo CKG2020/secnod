@@ -13,7 +13,6 @@ public class SETCommand implements Command {
     @Override
     public void params(List<String> args) {
         this.params=args;
-
     }
 
     @Override

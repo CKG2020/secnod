@@ -44,6 +44,7 @@ public class RedisDecode {
         else {
             try{
                  command = (Command) cls.newInstance();
+                 command.params(list);
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             } catch (InstantiationException e) {

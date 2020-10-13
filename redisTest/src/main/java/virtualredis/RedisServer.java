@@ -9,7 +9,6 @@ import java.util.concurrent.Executors;
 public class RedisServer {
     private int port;
 
-
     public void init(int port) throws IOException {
         this.port=port;
         run();
@@ -24,8 +23,6 @@ public class RedisServer {
             Socket accept = serverSocket.accept();
             System.out.println("client connection successfully*******");
             executorService.execute(new MultiThread(accept));
-
-
         }
 
 

@@ -609,6 +609,54 @@ CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o.provides: CMakeFiles/CppTest.dir/Cla
 CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o.provides.build: CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o
 
 
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o: CMakeFiles/CppTest.dir/flags.make
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o: ../ClassLearn/divide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o -c /home/ckg/secnod/secnod/CppTest/ClassLearn/divide.cpp
+
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ckg/secnod/secnod/CppTest/ClassLearn/divide.cpp > CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.i
+
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ckg/secnod/secnod/CppTest/ClassLearn/divide.cpp -o CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.s
+
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.requires
+
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.provides: CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.provides.build
+.PHONY : CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.provides
+
+CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.provides.build: CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o
+
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o: CMakeFiles/CppTest.dir/flags.make
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o: ../MySqlBulkLoaderDemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o -c /home/ckg/secnod/secnod/CppTest/MySqlBulkLoaderDemo.cpp
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ckg/secnod/secnod/CppTest/MySqlBulkLoaderDemo.cpp > CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.i
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ckg/secnod/secnod/CppTest/MySqlBulkLoaderDemo.cpp -o CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.s
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.requires
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.provides: CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppTest.dir/build.make CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.provides.build
+.PHONY : CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.provides
+
+CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.provides.build: CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o
+
+
 # Object files for target CppTest
 CppTest_OBJECTS = \
 "CMakeFiles/CppTest.dir/main.cpp.o" \
@@ -633,7 +681,9 @@ CppTest_OBJECTS = \
 "CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o" \
 "CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o" \
 "CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o" \
-"CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o"
+"CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o" \
+"CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o" \
+"CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o"
 
 # External object files for target CppTest
 CppTest_EXTERNAL_OBJECTS =
@@ -661,9 +711,11 @@ CppTest: CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o
 CppTest: CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o
+CppTest: CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o
+CppTest: CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o
 CppTest: CMakeFiles/CppTest.dir/build.make
 CppTest: CMakeFiles/CppTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable CppTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable CppTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -694,6 +746,8 @@ CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/test.cpp.o.re
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o.requires
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o.requires
 CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o.requires
+CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o.requires
+CMakeFiles/CppTest.dir/requires: CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o.requires
 
 .PHONY : CMakeFiles/CppTest.dir/requires
 

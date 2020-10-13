@@ -25,8 +25,6 @@ public class RedisEncode {
 //        writer.flush();
 //    }
 
-
-
     public static void writeBulkString(BufferedWriter writer,String str) throws IOException {
         writer.write('$');
         writer.write(str.length());
@@ -50,18 +48,9 @@ public class RedisEncode {
                 writeBulkString(writer, (String) item);
             }else if (item instanceof List<?>){
                 writeArray(writer, (List<?>) item);
-
             }
-
         }
-
-
     }
-
-
-
-
-
     public static void writeError(BufferedWriter writer,String message) throws IOException {
         writer.write('-');
 //        writer.write("(error)");

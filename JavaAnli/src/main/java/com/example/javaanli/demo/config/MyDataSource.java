@@ -51,9 +51,9 @@ public class MyDataSource {
 //                .getResources("classpath:mapper/*.xml");
 //        factoryBean.setMapperLocations(resources);
         // 设置mybatis-config.xml的路径
-        Resource config = new PathMatchingResourcePatternResolver()
-                .getResource("classpath:mybatis-config.xml");
-        factoryBean.setConfigLocation(config);
+//        Resource config = new PathMatchingResourcePatternResolver()
+//                .getResource("classpath:mybatis-config.xml");
+//        factoryBean.setConfigLocation(config);
         return factoryBean.getObject();
     }
 

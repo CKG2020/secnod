@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppTest.dir/ClassLearn/opt7.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/opt8.cpp.o"
   "CMakeFiles/CppTest.dir/ClassLearn/yyy.cpp.o"
+  "CMakeFiles/CppTest.dir/ClassLearn/divide.cpp.o"
+  "CMakeFiles/CppTest.dir/MySqlBulkLoaderDemo.cpp.o"
   "CppTest.pdb"
   "CppTest"
 )

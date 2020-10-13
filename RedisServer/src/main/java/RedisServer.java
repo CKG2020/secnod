@@ -18,16 +18,16 @@ public class RedisServer {
         this.port=port;
         run();
     }
-    
+
     private void run() throws IOException{
         ServerSocket  serverSocket=new ServerSocket(port);
         LOGGER.info("wait connection>>>>"+serverSocket.getInetAddress());
         ExecutorService service= Executors.newSingleThreadExecutor();
+
         while(true){
             Socket client=serverSocket.accept();
             LOGGER.info("client connection successfully>>>>"+client.getRemoteSocketAddress());
             service.execute(new MultiThread(client));
-            
         }
     }
 }

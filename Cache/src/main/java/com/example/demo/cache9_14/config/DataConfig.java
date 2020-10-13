@@ -29,7 +29,7 @@ public class DataConfig {
         dataSource.setPassword(jdbcInfo.getPassword());
         dataSource.setDriverClassName(jdbcInfo.getDriver());
         dataSource.setFilters(jdbcInfo.getFilters());
-        dataSource.setConnectionProperties(jdbcInfo.getConnectionProperties());
+//        dataSource.setConnectionProperties(jdbcInfo.getConnectionProperties());
         return dataSource;
     }
 
