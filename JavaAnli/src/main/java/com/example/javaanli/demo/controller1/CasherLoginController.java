@@ -1,6 +1,7 @@
 package com.example.javaanli.demo.controller1;
 
 //import javax.servlet.http.HttpSession;
+import com.example.javaanli.demo.annotation.LogRecord;
 import com.example.javaanli.demo.entity1.Casher;
 import com.example.javaanli.demo.service1.CasherServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +20,13 @@ public class CasherLoginController {
 
 
     @RequestMapping(value = "casher_login", method = RequestMethod.GET)
+//    @LogRecord(operation = "收银员登录", type = "测试")
     public String login(){
 
         return "casherlogin";
     }
 
     @RequestMapping(value = "casher_check", method = RequestMethod.POST)
-
     public String casher_login(@RequestParam String name1,@RequestParam String password1) {
 
         if(name1==null)

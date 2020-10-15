@@ -1,5 +1,6 @@
 package com.example.javaanli.demo.controller1;
 
+import com.example.javaanli.demo.annotation.LogRecord;
 import com.example.javaanli.demo.dao1.mapper.MemberMapper;
 import com.example.javaanli.demo.entity1.Member;
 import com.example.javaanli.demo.service1.MemberServiceImpl;
@@ -17,6 +18,7 @@ public class MemberController {
 
     @RequestMapping(value = "/addmember", method = RequestMethod.POST)
     @ResponseBody
+//    @LogRecord(operation = "添加会员", type = "收银员操作")
     public String addRecord(@RequestParam String mname, String phone, String email, String adress
                             ) {
         System.out.println("xxxxx");

@@ -1,5 +1,6 @@
 package com.example.javaanli.demo.controller1;
 
+import com.example.javaanli.demo.annotation.LogRecord;
 import com.example.javaanli.demo.service1.GoodsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +17,7 @@ public class GoodsController {
 
     @RequestMapping(value = "/price", method = RequestMethod.POST)
     @ResponseBody
+//    @LogRecord(operation = "查询商品价格", type = "收银员操作")
     public int addRecord(@RequestParam int productID)
      {
         System.out.println("xxxxx");

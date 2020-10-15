@@ -4,8 +4,9 @@ package com.example.javaanli.demo.service1;
 import com.example.javaanli.demo.dao1.mapper.GoodsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-@Repository
+@Service
 public class GoodsServiceImpl {
 
 
