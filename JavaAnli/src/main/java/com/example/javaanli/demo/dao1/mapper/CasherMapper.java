@@ -3,6 +3,7 @@ package com.example.javaanli.demo.dao1.mapper;
 import com.example.javaanli.demo.entity1.Casher;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Repository;
 
 @Repository

@@ -18,7 +18,7 @@ public class MemberController {
 
     @RequestMapping(value = "/addmember", method = RequestMethod.POST)
     @ResponseBody
-//    @LogRecord(operation = "添加会员", type = "收银员操作")
+    @LogRecord(operation = "添加会员", type = "收银员操作")
     public String addRecord(@RequestParam String mname, String phone, String email, String adress
                             ) {
         System.out.println("xxxxx");

@@ -3,6 +3,8 @@ package com.example.javaanli.demo.service1;
 
 import com.example.javaanli.demo.dao1.mapper.GoodsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
@@ -13,11 +15,13 @@ public class GoodsServiceImpl {
     @Autowired
     private GoodsMapper goodsMapperr;
 
-
+    @Cacheable(cacheNames = "findprice", key = "#productID")
     public   int findPrice( int productID){
         return goodsMapperr.findPrice(productID);
     }
 
+
+    @Cacheable(cacheNames = "findQuantity", key = "#productID")
     public  int  findQuantity(int productID){
 
         return goodsMapperr.findQuantity(productID);

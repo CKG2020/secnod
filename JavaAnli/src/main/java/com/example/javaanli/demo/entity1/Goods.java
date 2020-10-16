@@ -1,6 +1,10 @@
 package com.example.javaanli.demo.entity1;
 
-public class Goods {
+import java.io.Serializable;
+
+public class Goods implements Serializable {
+    private static final long serialVersionUID = -2934025795937513885L;
+
     private  String  productID;
     private  String  productname;
     private  int price;

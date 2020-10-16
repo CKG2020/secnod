@@ -1,6 +1,9 @@
 package com.example.javaanli.demo.entity1;
 
-public class Casher {
+import java.io.Serializable;
+
+public class Casher implements Serializable {
+    private static final long serialVersionUID = 7083089860447078010L;
     private  int id;
     private  String  name;
     private  String email;
