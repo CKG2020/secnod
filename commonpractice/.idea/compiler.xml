@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="draw_lottery" />
+        <module name="mq" />
+        <module name="mybatisTest" />
+        <module name="push" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="draw_lottery" target="1.5" />
+      <module name="mq" target="8" />
+      <module name="mybatisTest" target="1.5" />
+      <module name="push" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -30,34 +30,18 @@ public class LCS {
 //    }
 
 //java 递归只是实现了求出最长公共子序列的长度　
-//    public static int compare(int m, int n) {
-//        if (m <0 || n <0) {
-//            return 0;
-//        }
-//        if (x[m] == y[n]) {
-//            return compare(m - 1, n - 1) + 1;
-//        } else {
-//            return Math.max(compare(m - 1, n), compare(m, n - 1));
-//        }
-// }
-
-
-    public static void compare(int m, int n) {
-        if (m < 0 || n < 0) {
-            return ;
+    public static int compare(int m, int n) {
+        if (m <0 || n <0) {
+            return 0;
         }
         if (x[m] == y[n]) {
-               max++;
-             compare(m - 1, n - 1);
+            return compare(m - 1, n - 1) + 1;
         } else {
-
-            compare(m-1,n);
-            compare(m,n-1);
-//            return Math.max(compare(m - 1, n), compare(m, n - 1));
+            return Math.max(compare(m - 1, n), compare(m, n - 1));
         }
-        System.out.println(x[m]);
+ }
 
-    }
+
 
     public static void main(String[] args) {
 //        String a ="xxxxx";
