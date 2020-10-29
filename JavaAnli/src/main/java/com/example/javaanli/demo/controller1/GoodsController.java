@@ -18,6 +18,7 @@ public class GoodsController {
     @RequestMapping(value = "/price", method = RequestMethod.POST)
     @ResponseBody
     @LogRecord(operation = "查询商品价格", type = "收银员操作")
+
     public int addRecord(@RequestParam int productID)
      {
         System.out.println("xxxxx");

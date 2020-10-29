@@ -2,6 +2,7 @@ package com.example.javaanli.demo.support;
 
 
 import com.example.javaanli.demo.annotation.LogRecord;
+import com.example.javaanli.demo.dao1.mapper.LoginfoDao;
 import com.example.javaanli.demo.entity1.LogInfo;
 import com.example.javaanli.demo.service1.LogInfoServiceImpl;
 import org.apache.commons.lang3.StringUtils;
@@ -24,8 +25,12 @@ import java.util.Date;
 @Aspect
 public class LogAopImpl {
 
+//    @Autowired
+//    private LogInfoServiceImpl logInfoService;
     @Autowired
-    private LogInfoServiceImpl logInfoService;
+    private LoginfoDao loginfoDao;
+
+
 /*
 	    标识这个方法是个前置通知,  切点表达式表示执行任意类的任意方法.
 	    第一个 * 代表匹配任意修饰符及任意返回值,
@@ -36,7 +41,7 @@ public class LogAopImpl {
 
 
     //    @Pointcut("@annotation(com.example.javaanli.demo.annotation.LogRecord)","execution(public * com.didispace.web..*.*(..))")
-    @Pointcut("execution(public * com.example.javaanli.demo..*.*(..))")
+    @Pointcut("@annotation(com.example.javaanli.demo.annotation.LogRecord)")
     public void controllerLog() {
 
     }
@@ -74,9 +79,9 @@ public class LogAopImpl {
 //                logInfo.setUserId(user.getId());
                 logInfo.setUrl(httpServletRequest.getRequestURI());
                 logInfo.setCreateTime(new Date());
-
-                logInfoService.insertLog(logInfo);
-
+                System.out.println("进入AOP日志了　哈哈哈");
+//                logInfoService.insertLog(logInfo);
+                  loginfoDao.insert(logInfo);
             }
             return proceed;
         }
