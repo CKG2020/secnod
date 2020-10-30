@@ -77,29 +77,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feabb535-b12c-4d17-9d6b-52d396e73b3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/MailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/service1/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/PipeLineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/TestMulti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/TestPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/TestRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/TestShard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/pubsub/TestPub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redis/pubsub/TestSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/MethodCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/NSyncClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/NSyncServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/SyncClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/SyncServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/idl/CommonRet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/idl/IProtocalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/idl/MsgObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/thrift/idl/impl/ProtocalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/source/gen-java/org/thrift/idl/CommonRet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/source/gen-java/org/thrift/idl/IProtocalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/source/gen-java/org/thrift/idl/MsgObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/source/rtserver.thrift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/artifacts/Cache_9_13_Web_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/encodings.xml" beforeDir="false" />
@@ -108,7 +85,7 @@
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/Cache_9_13.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/CyclicBarrier/ContainerTest2.java" beforeDir="false" />
@@ -149,18 +126,19 @@
       <change beforePath="$PROJECT_DIR$/../FirstGradle/build/classes/java/main/com/ckg/gradleFirst/transanctionTest/service/OrdersService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/build/classes/java/main/com/ckg/gradleFirst/transanctionTest/service/OrdersService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstGradle/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstGradle/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/JavaAnliApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/JavaAnliApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/LogRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/LogRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/Syslog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/Syslog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/CasherLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/CasherLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/entity1/LogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/entity1/LogInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/support/LogAopImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/support/LogAopImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/src/main/java/com/ckg/keshe/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/src/test/java/com/ckg/keshe/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keshe/web/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_leet_code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_leet_code/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../陈凯歌.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +194,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602292844330" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaAnli/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -290,17 +268,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MyBloomFilter" />
       <item itemvalue="Application.BloomFilterbyOthers" />
@@ -330,7 +297,8 @@
       <workItem from="1601885436157" duration="4559000" />
       <workItem from="1602231053609" duration="12787000" />
       <workItem from="1602290249362" duration="2582000" />
-      <workItem from="1603981993502" duration="2129000" />
+      <workItem from="1603981993502" duration="3261000" />
+      <workItem from="1604015522658" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -347,8 +315,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl" timestamp="1603986836029">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl/0.0.1920.1013@0.0.1920.1013" timestamp="1603986836029" />
     <state x="262" y="0" width="1388" height="1013" key="Maven.ArtifactSearchDialog" timestamp="1603983523637">
       <screen x="0" y="0" width="1920" height="1013" />
     </state>
