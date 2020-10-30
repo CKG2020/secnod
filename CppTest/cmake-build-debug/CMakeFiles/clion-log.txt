@@ -1,4 +1,0 @@
-/usr/share/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ckg/secnod/secnod/CppTest
--- Configuring done
--- Generating done
--- Build files have been written to: /home/ckg/secnod/secnod/CppTest/cmake-build-debug

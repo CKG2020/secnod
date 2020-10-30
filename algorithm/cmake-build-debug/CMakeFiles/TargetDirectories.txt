@@ -1,3 +1,0 @@
-/home/ckg/secnod/secnod/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ckg/secnod/secnod/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ckg/secnod/secnod/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir
