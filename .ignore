@@ -1,6 +1,9 @@
 .idea　　　　
 .mvn　　　　
 .iml
+.css
+.html
+.js
 mvnw
 mvnw.cmd
 logs/

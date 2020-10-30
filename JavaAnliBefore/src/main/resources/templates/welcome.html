@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
+    <!--<link rel="stylesheet" href="../static/css/regist.css">-->
+</head>
+<body>
+<div  class="reg_user">
+    <div id="header">
+        <h2>TUTE考勤管理系统</h2>
+        <div id="app" style="margin-top:60px">
+            <i-form style="...">
+                <form-item>
+                    <i-button type="primary"  @click="func1()" style="...">我是学生</i-button>
+                </form-item>
+                <form-item>
+                    <i-button type="primary"  @click="func2()"  style="...">我是老师</i-button>
+                </form-item>
+            </i-form>
+        </div>
+    </div>
+</div>
+<script>
+    var  Main ={
+        methods: {
+            func1(){
+                $.ajax({
+                    url:'/student',
+                    type:'post',
+                    success(res){
+                        if (res==='student') {
+                            window.location.href = "students";
+                        }
+
+                        else{
+                            alert("登录失败!!!")
+                        }
+                    }
+
+                });
+            },
+            func2(){
+                $.ajax({
+                    url:'/teacher',
+                    type:'post',
+                    success(res){
+                        if (res==='teacher') {
+                            window.location.href = "teachers";
+                        }
+
+                        else{
+                            alert("登录失败!!!")
+                        }
+                    }
+                });
+
+                // window.location.href="teacher.html";
+
+            }
+        }
+    };
+    var Component = Vue.extend(Main);
+    new Component().$mount('#app');
+
+</script>
+
+
+<!--<a href="askforleave.html" class="forget">我要请假</a>-->
+<!--<br>-->
+<!--<a href="querrystatus.html" class="forget">查询请假状态</a>-->
+</body>
+
+
+
+
+
+
+
+

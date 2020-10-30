@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62fe42e1-5275-4237-b7f7-38dc6f90ebb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache/src/main/java/com/example/demo/cache9_14/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/src/main/java/com/example/demo/cache9_14/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/draw_lottery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/XX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/CJTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/Registry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/src/main/java/com/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/XX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/CJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/CJStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/CJTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/Registry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_lottery/target/classes/com/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/java/com/DirectReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/DirectReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/java/com/DirectSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/DirectSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/java/com/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/java/com/TestDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/TestDirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/src/main/resources/springapplicatin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/resources/springapplicatin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisTest/src/main/java/com/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisTest/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/push/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push/push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/push/push.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push/src/main/java/com/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/push/src/main/java/com/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design_patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="1e5d6034-e90c-466c-bae1-617452f28c8c" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/localMaven" />
+        <option name="mavenHome" value="$USER_HOME$/source/maven" />
+        <option name="userSettingsFile" value="$USER_HOME$/source/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="199" />
+    <option name="y" value="45" />
+    <option name="width" value="1487" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectId" id="1j6SlAqpCzEAxa38V6pl0x5XBMu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603040111712" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../demo/build.gradle" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestDirect">
+    <configuration name="CJTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CJTest" />
+      <module name="draw_lottery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.TestDirect" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CJTest" />
+      <item itemvalue="JUnit.TestDirect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDirect" />
+        <item itemvalue="Application.CJTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62fe42e1-5275-4237-b7f7-38dc6f90ebb7" name="Default Changelist" comment="" />
+      <created>1602547204696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602547204696</updated>
+      <workItem from="1602547206596" duration="2096000" />
+      <workItem from="1602738961231" duration="4647000" />
+      <workItem from="1603020553507" duration="1422000" />
+      <workItem from="1603069406238" duration="1121000" />
+      <workItem from="1603094048494" duration="1026000" />
+      <workItem from="1603118060181" duration="859000" />
+      <workItem from="1603120150804" duration="596000" />
+      <workItem from="1603123205516" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestDirect - 2020.10.15 at 14h 34m 20s.xml">
+      <configuration name="TestDirect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDirect - 2020.10.15 at 14h 41m 17s.xml">
+      <configuration name="TestDirect" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatisTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.boot:spring-boot-starter-amqp:unknown</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

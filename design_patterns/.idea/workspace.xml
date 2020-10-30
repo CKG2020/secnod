@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1ca7071-9347-4bb9-94de-8ddd5a5cf0b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../commonpractice/mq/mq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commonpractice/mybatisTest/mybatisTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/XX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter02交给子类/XX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/factory/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/factory/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/factory/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/factory/Tray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/listfactory/ListFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/listfactory/ListLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/listfactory/ListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/listfactory/ListTray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/abstractFactory关联零件组成产品/xxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/builder组装复杂实例/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/builder组装复杂实例/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/builder组装复杂实例/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/builder组装复杂实例/TextBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/prototype复制生成实例/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/prototype复制生成实例/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/prototype复制生成实例/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/prototype复制生成实例/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03生成实例/xx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/factory/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/factory/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/factory/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/factory/Tray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/file/LinkPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/listFactory/ListFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/listFactory/ListLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/listFactory/ListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/listFactory/ListTray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/tableFactory/TableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/tableFactory/TableLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/tableFactory/TablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/abstractFactory/tableFactory/TableTray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/builder/HtmlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/builder/TextBilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/prototype/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/prototype/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/prototype/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/prototype/UnderlinePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chapter03/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/out/artifacts/demo_war_exploded/WEB-INF/classes/com/example/demo/cache9_14/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache/src/main/java/com/example/demo/cache9_14/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache/src/main/java/com/example/demo/cache9_14/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/draw_lottery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/XX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/CJ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/CJStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/CJTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/Registry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/src/main/java/com/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/XX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/CJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/CJStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/CJTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/Registry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/draw_lottery/target/classes/com/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/DirectReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/DirectReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/DirectSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/DirectSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/TestDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/src/main/java/com/TestDirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mq/src/main/resources/springapplicatin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mq/src/main/resources/springapplicatin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mybatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mybatisTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/mybatisTest/src/main/java/com/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/mybatisTest/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/push/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/push/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/push/push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/push/push.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commonpractice/push/src/main/java/com/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commonpractice/push/src/main/java/com/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template_Method/AbstractDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/Template_Method具体处理交给子类/AbstractDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template_Method/CharDisPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/Template_Method具体处理交给子类/CharDisPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template_Method/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/Template_Method具体处理交给子类/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Mian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/Mian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/another/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/another/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/another/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/another/print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/adapter加入适配器以便服用/print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory_method/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/factory_method实例生成交给子类/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory_method/IDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/factory_method实例生成交给子类/IDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory_method/IDCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/factory_method实例生成交给子类/IDCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory_method/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/factory_method实例生成交给子类/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory_method/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02交给子类/factory_method实例生成交给子类/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/BookShelfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/BookShelfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01适应设计模式/iterator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../malltinytest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_leet_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/TestService1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/XXX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/config/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/config/DataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/config/info/JDBCinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/controller/Trancation1Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/dao/OrdersDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/resources/mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/main/test/Test1Service.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="1e5d6034-e90c-466c-bae1-617452f28c8c" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jD7mu9KHKV4mSrNfU4Mont672t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602915261521" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_leet_code/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/abstractFactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (5)">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builder.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03生成实例.abstractFactory关联零件组成产品.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter03生成实例.abstractFactory关联零件组成产品.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter03.abstractFactory.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chapter03.abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03生成实例.prototype复制生成实例.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter03生成实例.prototype复制生成实例.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03生成实例.builder组装复杂实例.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter03生成实例.builder组装复杂实例.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory.Mian" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Mian" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Mian" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1ca7071-9347-4bb9-94de-8ddd5a5cf0b0" name="Default Changelist" comment="" />
+      <created>1595594701501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595594701501</updated>
+      <workItem from="1595594704294" duration="5764000" />
+      <workItem from="1595650020519" duration="551000" />
+      <workItem from="1602906575417" duration="4530000" />
+      <workItem from="1602948631991" duration="673000" />
+      <workItem from="1603326973629" duration="9623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="82" width="563" height="852" key="#com.intellij.ide.util.MemberChooser" timestamp="1603334558359">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="674" y="82" width="563" height="852" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1013@0.0.1920.1013" timestamp="1603334558359" />
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl" timestamp="1603339509127">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl/0.0.1920.1013@0.0.1920.1013" timestamp="1603339509127" />
+    <state width="1850" height="69" key="GridCell.Tab.0.bottom" timestamp="1603339511305">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="69" key="GridCell.Tab.0.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603339511305" />
+    <state width="1850" height="69" key="GridCell.Tab.0.center" timestamp="1603339511304">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="69" key="GridCell.Tab.0.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603339511304" />
+    <state width="1850" height="69" key="GridCell.Tab.0.left" timestamp="1603339511304">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="69" key="GridCell.Tab.0.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603339511304" />
+    <state width="1850" height="69" key="GridCell.Tab.0.right" timestamp="1603339511305">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="69" key="GridCell.Tab.0.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603339511305" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design_patterns</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

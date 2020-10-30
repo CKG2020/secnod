@@ -1,0 +1,3 @@
+/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ckg/secnod/secnod/CppTest/cmake-build-debug/CMakeFiles/CppTest.dir
