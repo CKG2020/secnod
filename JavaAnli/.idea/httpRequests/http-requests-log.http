@@ -1,0 +1,40 @@
+GET http://localhost:8080/testAnnotation
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-28T085140.200.txt
+
+###
+
+GET http://localhost:8080/casher_login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-28T120233.200.html
+
+###
+
+GET http://localhost:8080/cacher_login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-28T120201.404.json
+
+###
+
+GET http://localhost:8080/testAnnotation
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-27T115849.200.txt
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-27T115442.404.json
+
+###
+

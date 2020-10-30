@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:HomeWork" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:HomeWork" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:MyBatisDIY" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:JavaAnli" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5290992f-c468-4838-bd85-780b6f00872a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-cfg.xml" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>users</find>
+      <find>value4</find>
+      <find>for</find>
+      <find>Record</find>
+      <find>NewsSecvice</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userList</replace>
+      <replace>News</replace>
+      <replace>newsService</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="1e5d6034-e90c-466c-bae1-617452f28c8c" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jAgHihH9GdIb98SusCrJHx0dwT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602780431853" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5917367" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/dataTable" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/javaanli/demo" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.javaanli.demo.service1" />
+      <recent name="com.example.javaanli.demo.controller1" />
+      <recent name="com.example.javaanli.demo.support" />
+      <recent name="com.example.javaanli.demo" />
+      <recent name="com.example.javaanli.demo.config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.javaanli.demo.support" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/testAnnotation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/casher_login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cacher_login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JavaAnliApplication">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javaanli.demo.mapper.Test" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaanli.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javaanli.demo.component.Test" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaanli.demo.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaanli.demo.controller1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaanli.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaanli.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.findall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javaanli.demo.controller1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javaanli.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javaanli.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="findall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaAnliApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.javaanli.demo.JavaAnliApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.DemoApplicationTests.findall" />
+      <item itemvalue="Spring Boot.JavaAnliApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.findall" />
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5290992f-c468-4838-bd85-780b6f00872a" name="Default Changelist" comment="" />
+      <created>1591805996222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591805996222</updated>
+      <workItem from="1591805999949" duration="2518000" />
+      <workItem from="1591835576471" duration="20815000" />
+      <workItem from="1591864959413" duration="19585000" />
+      <workItem from="1591895334465" duration="4283000" />
+      <workItem from="1591927105759" duration="6884000" />
+      <workItem from="1592049762730" duration="6303000" />
+      <workItem from="1598239601360" duration="561000" />
+      <workItem from="1598248728137" duration="1857000" />
+      <workItem from="1598252614422" duration="1273000" />
+      <workItem from="1598254403503" duration="1147000" />
+      <workItem from="1598260452610" duration="1177000" />
+      <workItem from="1598282358614" duration="2412000" />
+      <workItem from="1598314387113" duration="4618000" />
+      <workItem from="1598330344065" duration="6560000" />
+      <workItem from="1598346751706" duration="9835000" />
+      <workItem from="1598372861674" duration="1241000" />
+      <workItem from="1598400271669" duration="5453000" />
+      <workItem from="1598429453528" duration="3491000" />
+      <workItem from="1598444719512" duration="2587000" />
+      <workItem from="1598450908231" duration="3548000" />
+      <workItem from="1598455133053" duration="13045000" />
+      <workItem from="1598493803182" duration="13897000" />
+      <workItem from="1598552648880" duration="10000" />
+      <workItem from="1598572402681" duration="3455000" />
+      <workItem from="1598585350769" duration="273000" />
+      <workItem from="1598615862231" duration="609000" />
+      <workItem from="1598755800005" duration="3695000" />
+      <workItem from="1598836866663" duration="142000" />
+      <workItem from="1598961421571" duration="2353000" />
+      <workItem from="1599007734401" duration="2507000" />
+      <workItem from="1599045363406" duration="211000" />
+      <workItem from="1600149550023" duration="6054000" />
+      <workItem from="1600261668578" duration="8253000" />
+      <workItem from="1600320669025" duration="16909000" />
+      <workItem from="1600414818447" duration="466000" />
+      <workItem from="1600569081869" duration="1538000" />
+      <workItem from="1600874554662" duration="2509000" />
+      <workItem from="1602039251623" duration="3210000" />
+      <workItem from="1602067384244" duration="591000" />
+      <workItem from="1602115864696" duration="587000" />
+      <workItem from="1602129016374" duration="386000" />
+      <workItem from="1602129490507" duration="1630000" />
+      <workItem from="1602392509913" duration="681000" />
+      <workItem from="1602752378091" duration="1222000" />
+      <workItem from="1602760805977" duration="11350000" />
+      <workItem from="1602826128544" duration="5248000" />
+      <workItem from="1602863684490" duration="393000" />
+      <workItem from="1603252230733" duration="630000" />
+      <workItem from="1603255992500" duration="26000" />
+      <workItem from="1603634794114" duration="70000" />
+      <workItem from="1603811923637" duration="2793000" />
+      <workItem from="1603855960862" duration="5194000" />
+      <workItem from="1603885107710" duration="4268000" />
+      <workItem from="1603951423120" duration="2031000" />
+      <workItem from="1603986843795" duration="711000" />
+      <workItem from="1604015533584" duration="1197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DemoApplicationTests_contextLoads - 2020.06.12 at 02h 00m 18s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_findall - 2020.06.12 at 02h 01m 03s.xml">
+      <configuration name="DemoApplicationTests.findall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_findall - 2020.06.12 at 02h 02m 16s.xml">
+      <configuration name="DemoApplicationTests.findall" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="155" width="1112" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603812855422">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="555" y="155" width="1112" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1603812855422" />
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl" timestamp="1603955791040">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl/0.0.1920.1013@0.0.1920.1013" timestamp="1603955791040" />
+    <state width="1850" height="319" key="GridCell.Tab.0.bottom" timestamp="1603889490295">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490295" />
+    <state width="1850" height="319" key="GridCell.Tab.0.center" timestamp="1603889490295">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.0.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490295" />
+    <state width="1850" height="319" key="GridCell.Tab.0.left" timestamp="1603889490295">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.0.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490295" />
+    <state width="1850" height="319" key="GridCell.Tab.0.right" timestamp="1603889490295">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.0.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490295" />
+    <state width="1850" height="319" key="GridCell.Tab.1.bottom" timestamp="1603889490296">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490296" />
+    <state width="1850" height="319" key="GridCell.Tab.1.center" timestamp="1603889490296">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.1.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490296" />
+    <state width="1850" height="319" key="GridCell.Tab.1.left" timestamp="1603889490296">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.1.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490296" />
+    <state width="1850" height="319" key="GridCell.Tab.1.right" timestamp="1603889490296">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="319" key="GridCell.Tab.1.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603889490296" />
+    <state width="1850" height="441" key="GridCell.Tab.2.bottom" timestamp="1603814717808">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="441" key="GridCell.Tab.2.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603814717808" />
+    <state width="1850" height="441" key="GridCell.Tab.2.center" timestamp="1603814717807">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="441" key="GridCell.Tab.2.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603814717807" />
+    <state width="1850" height="441" key="GridCell.Tab.2.left" timestamp="1603814717807">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="441" key="GridCell.Tab.2.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603814717807" />
+    <state width="1850" height="441" key="GridCell.Tab.2.right" timestamp="1603814717808">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="441" key="GridCell.Tab.2.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603814717808" />
+    <state width="476" height="771" key="HiddenNamespacesPopup" timestamp="1603812869442">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="476" height="771" key="HiddenNamespacesPopup/0.0.1920.1013@0.0.1920.1013" timestamp="1603812869442" />
+    <state x="262" y="0" width="1388" height="1013" key="Maven.ArtifactSearchDialog" timestamp="1603954398324">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="262" y="0" width="1388" height="1013" key="Maven.ArtifactSearchDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1603954398324" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5917367" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5917367" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5917367" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5917367" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.074929975" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5917367" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

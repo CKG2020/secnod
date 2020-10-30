@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="359.0" style="-fx-background-color: #169ADA;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.easyArch.client.ui.controller.ChoiceController">
+	<children>
+		<ImageView fitWidth="141.0" layoutX="4.0" layoutY="20.0" onMouseEntered="#headEn" onMouseExited="#headEx">
+			<image>
+				<Image url="@../../login/img/logo.png" />
+			</image>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+		</ImageView>
+
+
+
+
+		<ImageView fx:id="min" fitHeight="30.0" fitWidth="30.0" layoutX="273.0" layoutY="5.0" onMouseClicked="#min" onMouseEntered="#minEntered" onMouseExited="#minExited" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../login/img/min.png" />
+			</image>
+		</ImageView>
+		<ImageView fx:id="close" fitHeight="30.0" fitWidth="30.0" layoutX="315.0" layoutY="5.0" onMouseClicked="#close" onMouseEntered="#closeEntered" onMouseExited="#closeExited" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../login/img/close.png" />
+			</image>
+		</ImageView>
+		<Label fx:id="signature" alignment="CENTER_RIGHT" layoutX="95.0" layoutY="66.0" onMouseEntered="#autograph_entered" onMouseExited="#autograph_exited" prefHeight="22.0" prefWidth="231.0" text="    EasyArch" textFill="WHITE" wrapText="true">
+			<font>
+				<Font size="17.0" />
+			</font>
+			<padding>
+				<Insets bottom="-1.0" left="5.0" right="5.0" top="-1.0" />
+			</padding>
+		</Label>
+      <ImageView fitHeight="136.0" fitWidth="164.0" layoutX="112.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Choice/img/dui.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="164.0" layoutX="115.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Choice/img/dianhua.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="123.0" layoutY="414.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="125.0" text="Choice1" />
+
+
+		<Button fx:id="choice1" layoutX="123.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#choice1" onMouseEntered="#choice1_en" onMouseExited="#choice1_ex" prefHeight="28.0" prefWidth="125.0" text="Choice1" textFill="BLUE">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Button>
+      <Button fx:id="choice2" layoutX="123.0" layoutY="625.0" mnemonicParsing="false" onMouseClicked="#choice2" onMouseEntered="#choice2_en" onMouseExited="#choice2_ex" prefHeight="28.0" prefWidth="125.0" text="Choice2" textFill="BLUE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+	</children>
+</Pane>

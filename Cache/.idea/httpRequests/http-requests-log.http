@@ -1,0 +1,540 @@
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "男",
+  "password": "123",
+  "age": 24
+}
+
+<> 2020-10-13T015755.415.html
+
+###
+
+POST http://localhost:8080/registry
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":1711,"age":22,"name":"ghgh","password": "456"}
+
+<> 2020-10-13T014550.415.html
+
+###
+
+GET http://localhost:8080/find_name?username=a
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+GET http://localhost:8080/find_name?username=aaa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+<> 2020-10-13T014420.200.txt
+
+###
+
+GET http://localhost:8080/find_id?id=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+<> 2020-10-13T014251.200.txt
+
+###
+
+GET http://localhost:8080/find_id?id=123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+###
+GET http://localhost:8080/find_name?username=a
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+
+
+
+
+
+###
+GET http://localhost:8080/hello/find_id?id=123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+<> 2020-10-13T014221.404.html
+
+###
+
+
+GET http://localhost:8080/find_id?id=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+
+
+###
+POST http://localhost:8080/registry
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":1711,"age":22,"name":"ghgh","password": "456"}
+
+<> 2020-10-13T091821.415.html
+
+###
+
+POST http://localhost:8080/hello/registry
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":1711,"age":22,"name":"ghgh","password": "456"}
+
+<> 2020-10-13T091811.404.html
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+username=aaa&password=aaa
+
+<> 2020-10-13T091652.200.txt
+
+###
+
+POST http://localhost:8080/hello/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+username=aaa&password=aaa
+
+<> 2020-10-13T091638.404.html
+
+###
+
+GET http://localhost:8080/hello/find_id?id=123
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+<> 2020-10-13T091236.404.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "男",
+  "password": "123",
+  "age": 24
+}
+
+<> 2020-10-13T090055.415.html
+
+###
+
+GET http://localhost:8080/userInfo
+Accept: */*
+
+<> 2020-10-13T090047.200.txt
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "男",
+  "password": "123",
+  "age": 24
+}
+
+###
+GET http://localhost:8080/userInfo
+Accept: */*
+
+###
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+username=aaa&password=aaa
+
+###
+POST http://localhost:8080/registry
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id":1711,"age":22,"name":"ghgh","password": "456"}
+
+
+
+
+
+
+<> 2020-10-12T024908.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "男",
+  "password": "123",
+  "age": 24
+}
+
+<> 2020-10-12T024539.415.html
+
+###
+
+GET http://localhost:8080/hello2/1/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T024443.200.txt
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+
+
+
+
+
+
+GET http://localhost:8080/hello2/1/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T024235.200.txt
+
+###
+
+GET localhost:8080/http://localhost:8080/hello2/1/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "男",
+  "password": "123",
+  "age": 24
+}
+
+<> 2020-10-12T024021.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": 1,
+"age": 24
+}
+
+<> 2020-10-12T024010.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": 1,
+"age": 24
+}
+
+
+
+
+
+
+
+
+
+<> 2020-10-12T023850.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": "xxx",
+"age": 24
+}
+
+<> 2020-10-12T023718.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": "xxx",
+"age": 24
+}
+
+<> 2020-10-12T023711.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "name":"yy"
+}
+
+<> 2020-10-12T023607.415.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+
+{"password": "123",
+"name": "男",
+"id": "xxx",
+"age": 24
+}:
+
+<> 2020-10-12T023523.415.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T023506.200.txt
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T022721.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T022442.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-12T021822.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-21T083137.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-21T083124.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-21T083030.500.html
+
+###
+
+GET http://localhost:8080/hello?a=1&b=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-21T083021.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "name":"yy"
+
+}
+
+<> 2020-09-21T082801.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "name":"yy"
+
+}
+
+<> 2020-09-21T082119.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+"name": "xx"
+}
+
+<> 2020-09-21T082003.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": "xxx",
+"age": 24
+}
+
+<> 2020-09-21T081912.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+"name": "xx"
+}
+
+<> 2020-09-21T081742.500.html
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{
+  "name":"yy"
+}
+
+
+
+
+
+
+
+
+
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+Content-Type: application/json
+
+{"password": "123",
+"name": "男",
+"id": "xxx",
+"age": 24
+}
+
+<> 2020-09-15T051914.400.html
+
+###
+
+
+
+###
+
+POST http://localhost:8080/hello3
+Accept: */*
+{id=1, age=11, name='abc', password='123456'}:
+
+<> 2020-09-15T041716.400.html
+
+###
+
+GET http://localhost:8080/hello2/1/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-15T034914.200.txt
+
+###
+
+GET localhost:8080/http://localhost:8080//userInfo
+
+###
+
+

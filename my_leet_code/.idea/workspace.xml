@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:HomeWork" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:HomeWork" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:MyBatisDIY" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:JavaAnli" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="434a8ff1-5d54-4c91-be24-044542109938" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/artifacts/Cache_9_13_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/Cache_9_13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/CyclicBarrier/ContainerTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/CyclicBarrier/CyclicBarrierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/Xxx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/aqs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/aqs/SelfAbstractQueueSynchronizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/future/TEst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/future/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/src/main/java/com/threadlocal/ThreadLocalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/CyclicBarrier/ContainerTest2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/CyclicBarrier/ContainerTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/CyclicBarrier/CyclicBarrierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/Xxx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/Main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/SelfAbstractQueueSynchronizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/SelfAbstractQueueSynchronizer$Syn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/aqs/SelfAbstractQueueSynchronizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/BumThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/ColdDishThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/TEst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/future/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/target/classes/com/threadlocal/ThreadLocalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cache_9_13_ＪＧ项目跟踪/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/build/classes/java/main/com/ckg/gradleFirst/transanctionTest/service/OrdersService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/build/classes/java/main/com/ckg/gradleFirst/transanctionTest/service/OrdersService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstGradle/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstGradle/src/main/java/com/ckg/gradleFirst/transanctionTest/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/LogRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/LogRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/Syslog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/annotation/Syslog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/CasherLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/CasherLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/controller1/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/entity1/LogInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/entity1/LogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/support/LogAopImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnli/src/main/java/com/example/javaanli/demo/support/LogAopImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../陈凯歌.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="1e5d6034-e90c-466c-bae1-617452f28c8c" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/localMaven" />
+        <option name="mavenHome" value="$USER_HOME$/source/maven" />
+        <option name="userSettingsFile" value="$USER_HOME$/source/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1j6SjAAvbkspaH7ziqBf41aXppS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603112163916" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Mergeort1">
+    <configuration name="BeiBao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algri.BeiBao" />
+      <module name="my_leet_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Firstfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jizhuangbox.Firstfit" />
+      <module name="my_leet_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jizhuangbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.MergeSort" />
+      <module name="my_leet_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mergeort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Mergeort1" />
+      <module name="my_leet_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.QuickSort" />
+      <module name="my_leet_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BeiBao" />
+      <item itemvalue="Application.Firstfit" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.Mergeort1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mergeort1" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Firstfit" />
+        <item itemvalue="Application.BeiBao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="434a8ff1-5d54-4c91-be24-044542109938" name="Default Changelist" comment="" />
+      <created>1601889973750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601889973750</updated>
+      <workItem from="1601889977740" duration="3732000" />
+      <workItem from="1601900342815" duration="1860000" />
+      <workItem from="1601962187619" duration="1014000" />
+      <workItem from="1601975415126" duration="139000" />
+      <workItem from="1601994688645" duration="5777000" />
+      <workItem from="1602039124448" duration="700000" />
+      <workItem from="1602067373008" duration="1059000" />
+      <workItem from="1602115859383" duration="6034000" />
+      <workItem from="1602161937779" duration="10371000" />
+      <workItem from="1602222337273" duration="2333000" />
+      <workItem from="1602290240000" duration="2436000" />
+      <workItem from="1602335555337" duration="4003000" />
+      <workItem from="1602381181979" duration="625000" />
+      <workItem from="1603069943853" duration="1007000" />
+      <workItem from="1603094049382" duration="10293000" />
+      <workItem from="1603121388315" duration="645000" />
+      <workItem from="1603123195328" duration="919000" />
+      <workItem from="1603153473439" duration="44000" />
+      <workItem from="1603169728943" duration="588000" />
+      <workItem from="1603339513321" duration="7684000" />
+      <workItem from="1603694129090" duration="6902000" />
+      <workItem from="1603726333525" duration="720000" />
+      <workItem from="1603864358220" duration="1678000" />
+      <workItem from="1603880090678" duration="2969000" />
+      <workItem from="1603898913390" duration="607000" />
+      <workItem from="1603899941526" duration="1239000" />
+      <workItem from="1603951404314" duration="871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="183" y="0" width="1538" height="1013" key="#Project_Structure" timestamp="1603726777709">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="183" y="0" width="1538" height="1013" key="#Project_Structure/0.0.1920.1013@0.0.1920.1013" timestamp="1603726777709" />
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl" timestamp="1603885097298">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="637" y="150" width="638" height="715" key="FileChooserDialogImpl/0.0.1920.1013@0.0.1920.1013" timestamp="1603885097298" />
+    <state width="925" height="371" key="GridCell.Tab.0.bottom" timestamp="1603899521089">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="925" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603899521089" />
+    <state width="925" height="371" key="GridCell.Tab.0.center" timestamp="1603899521088">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="925" height="371" key="GridCell.Tab.0.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603899521088" />
+    <state width="925" height="371" key="GridCell.Tab.0.left" timestamp="1603899521087">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="925" height="371" key="GridCell.Tab.0.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603899521087" />
+    <state width="925" height="371" key="GridCell.Tab.0.right" timestamp="1603899521088">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="925" height="371" key="GridCell.Tab.0.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603899521088" />
+    <state width="1850" height="213" key="GridCell.Tab.1.bottom" timestamp="1603866932932">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="213" key="GridCell.Tab.1.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1603866932932" />
+    <state width="1850" height="213" key="GridCell.Tab.1.center" timestamp="1603866932931">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="213" key="GridCell.Tab.1.center/0.0.1920.1013@0.0.1920.1013" timestamp="1603866932931" />
+    <state width="1850" height="213" key="GridCell.Tab.1.left" timestamp="1603866932931">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="213" key="GridCell.Tab.1.left/0.0.1920.1013@0.0.1920.1013" timestamp="1603866932931" />
+    <state width="1850" height="213" key="GridCell.Tab.1.right" timestamp="1603866932932">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state width="1850" height="213" key="GridCell.Tab.1.right/0.0.1920.1013@0.0.1920.1013" timestamp="1603866932932" />
+    <state x="262" y="0" width="1388" height="1013" key="Maven.ArtifactSearchDialog" timestamp="1603866479488">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="262" y="0" width="1388" height="1013" key="Maven.ArtifactSearchDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1603866479488" />
+    <state x="255" y="0" width="1394" height="1013" key="SettingsEditor" timestamp="1603700140975">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="255" y="0" width="1394" height="1013" key="SettingsEditor/0.0.1920.1013@0.0.1920.1013" timestamp="1603700140975" />
+    <state x="450" y="221" key="run.anything.popup" timestamp="1603700350668">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="450" y="221" key="run.anything.popup/0.0.1920.1013@0.0.1920.1013" timestamp="1603700350668" />
+    <state x="449" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1603700120984">
+      <screen x="0" y="0" width="1920" height="1013" />
+    </state>
+    <state x="449" y="0" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1013@0.0.1920.1013" timestamp="1603700120984" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tree/Test617.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algri/LCSTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algri/BeiBao.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jizhuangbox/Firstfit.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
